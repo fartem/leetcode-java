@@ -5,32 +5,37 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class RemoveDuplicatesFromSortedListTest {
+public class DeleteNodeInALinkedListTest {
 
     @Test
     public void defaultTest() {
-        ListNode validList = new ListNode(
-                1,
-                new ListNode(2)
-        );
         ListNode head = new ListNode(
-                1,
+                4,
+                new ListNode(
+                        5,
+                        new ListNode(
+                                1,
+                                new ListNode(9)
+                        )
+                )
+        );
+        ListNode validList = new ListNode(
+                4,
                 new ListNode(
                         1,
-                        new ListNode(2)
+                        new ListNode(9)
                 )
         );
 
+        new DeleteNodeInALinkedList(head.next).solution();
+
         ListNode pointer = validList;
-        ListNode result = new RemoveDuplicatesFromSortedList(
-                head
-        ).solution();
         while (pointer != null) {
             assertEquals(
                     pointer.val,
-                    result.val
+                    head.val
             );
-            result = result.next;
+            head = head.next;
             pointer = pointer.next;
         }
     }

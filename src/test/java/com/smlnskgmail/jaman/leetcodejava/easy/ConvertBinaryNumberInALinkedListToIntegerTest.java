@@ -1,18 +1,19 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class ConvertBinaryNumberInALinkedListToIntegerTest {
 
     @Test
     public void defaultTest() {
-        ConvertBinaryNumberInALinkedListToInteger.ListNode head = new ConvertBinaryNumberInALinkedListToInteger.ListNode(
+        ListNode head = new ListNode(
                 1,
-                new ConvertBinaryNumberInALinkedListToInteger.ListNode(
+                new ListNode(
                         0,
-                        new ConvertBinaryNumberInALinkedListToInteger.ListNode(1)
+                        new ListNode(1)
                 )
         );
         assertEquals(

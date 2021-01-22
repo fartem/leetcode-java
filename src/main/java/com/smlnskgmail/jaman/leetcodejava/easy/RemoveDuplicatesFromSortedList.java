@@ -1,5 +1,7 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
+
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list
 public class RemoveDuplicatesFromSortedList {
 
@@ -19,26 +21,6 @@ public class RemoveDuplicatesFromSortedList {
             }
         }
         return head;
-    }
-
-    public static class ListNode {
-
-        int val;
-        ListNode next;
-
-        public ListNode() {
-
-        }
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-
     }
 
 }
