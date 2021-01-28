@@ -9,7 +9,6 @@ public class SortListTest {
 
     @Test
     public void defaultTest() {
-        // 4213
         ListNode validList = new ListNode(
                 1,
                 new ListNode(
