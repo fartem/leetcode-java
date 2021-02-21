@@ -12,11 +12,11 @@ public class ShuffleString {
     }
 
     public String solution() {
-//        StringBuilder result = new StringBuilder(" ".repeat(indices.length));
-//        for (int i = 0; i < indices.length; i++) {
-//            result.setCharAt(indices[i], string.charAt(i));
-//        }
-//        return result.toString();
+        StringBuilder result = new StringBuilder(" ".repeat(indices.length));
+        for (int i = 0; i < indices.length; i++) {
+            result.setCharAt(indices[i], string.charAt(i));
+        }
+        return result.toString();
         return "";
     }
 
