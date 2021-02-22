@@ -4,14 +4,14 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class FindNumbersWithEvenNumberOfDigitsTest {
+public class GoalParserInterpretationTest {
 
     @Test
     public void defaultTest() {
         assertEquals(
-                2,
-                new FindNumbersWithEvenNumberOfDigits(
-                        new int[]{12, 345, 2, 6, 7896}
+                "Goal",
+                new GoalParserInterpretation(
+                        "G()(al)"
                 ).solution()
         );
     }

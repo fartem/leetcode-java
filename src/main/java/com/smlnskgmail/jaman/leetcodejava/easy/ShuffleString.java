@@ -17,7 +17,6 @@ public class ShuffleString {
             result.setCharAt(indices[i], string.charAt(i));
         }
         return result.toString();
-        return "";
     }
 
 }
