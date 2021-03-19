@@ -15,7 +15,7 @@ public class MergeStringsAlternately {
         char[] result = new char[firstString.length() + secondString.length()];
         int firstPointer = 0;
         int secondPointer = 0;
-        for (int i = 0; i < result.length;) {
+        for (int i = 0; i < result.length; ) {
             if (firstString.length() > firstPointer) {
                 result[i] = firstString.charAt(firstPointer);
                 firstPointer++;
