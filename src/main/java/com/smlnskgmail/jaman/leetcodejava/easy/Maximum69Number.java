@@ -14,7 +14,7 @@ public class Maximum69Number {
         int mul = 10;
         int temp = input;
         while (temp > 0) {
-            int n = temp % 10 == 6 ? 3 : - 3;
+            int n = temp % 10 == 6 ? 3 : -3;
             int m = mul + n * mul / 10;
             int candidate = input - mul + m;
             if (candidate > max) {
