@@ -8,18 +8,11 @@ public class AddBinaryTest {
 
     @Test
     public void defaultTest() {
-//        assertEquals(
-//                "100",
-//                new AddBinary(
-//                        "11",
-//                        "1"
-//                ).solution()
-//        );
         assertEquals(
-                "11110",
+                "100",
                 new AddBinary(
-                        "1111",
-                        "1111"
+                        "11",
+                        "1"
                 ).solution()
         );
     }
