@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class IncreasingOrderSearchTreeTest {
 
