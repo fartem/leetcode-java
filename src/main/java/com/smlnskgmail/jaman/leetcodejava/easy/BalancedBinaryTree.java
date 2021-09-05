@@ -21,7 +21,7 @@ public class BalancedBinaryTree {
         }
         int left = maxHeight(root.left);
         int right = maxHeight(root.right);
-        return Math.abs(left - right) > 2
+        return Math.abs(left - right) < 2
                 && isBalanced(root.left)
                 && isBalanced(root.right);
     }
