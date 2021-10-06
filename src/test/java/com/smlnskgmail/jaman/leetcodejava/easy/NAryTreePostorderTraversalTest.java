@@ -20,12 +20,12 @@ public class NAryTreePostorderTraversalTest {
                                         new Node(
                                                 3,
                                                 Arrays.asList(
-                                                        new Node(5, null),
-                                                        new Node(6, null)
+                                                        new Node(5),
+                                                        new Node(6)
                                                 )
                                         ),
-                                        new Node(2, null),
-                                        new Node(4, null)
+                                        new Node(2),
+                                        new Node(4)
                                 )
                         )
                 ).solution()
