@@ -19,20 +19,17 @@ public class MergeInBetweenLinkedListsTest {
                                         3,
                                         new ListNode(
                                                 4,
-                                                new ListNode(
-                                                        5,
-                                                        new ListNode(6)
-                                                )
+                                                new ListNode(5)
                                         )
                                 )
                         )
                 )
         );
         ListNode list2 = new ListNode(
-                1000000,
+                100000,
                 new ListNode(
-                        1000001,
-                        new ListNode(1000002)
+                        100001,
+                        new ListNode(100002)
                 )
         );
         ListNode correct = new ListNode(
@@ -42,11 +39,11 @@ public class MergeInBetweenLinkedListsTest {
                         new ListNode(
                                 2,
                                 new ListNode(
-                                        1000000,
+                                        100000,
                                         new ListNode(
-                                                1000001,
+                                                100001,
                                                 new ListNode(
-                                                        1000002,
+                                                        100002,
                                                         new ListNode(5)
                                                 )
                                         )

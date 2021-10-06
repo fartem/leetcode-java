@@ -30,9 +30,9 @@ public class MergeInBetweenLinkedLists {
         a--;
         b++;
         while (pointer != null) {
-            if (count == a - 1) {
+            if (count == a) {
                 nodeA = pointer;
-            } else if (count == b + 1) {
+            } else if (count == b) {
                 nodeB = pointer;
             }
             count++;
