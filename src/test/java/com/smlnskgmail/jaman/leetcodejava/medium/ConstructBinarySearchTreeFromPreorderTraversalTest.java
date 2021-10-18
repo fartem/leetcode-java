@@ -25,14 +25,14 @@ public class ConstructBinarySearchTreeFromPreorderTraversalTest {
         TreeNode solution = new ConstructBinarySearchTreeFromPreorderTraversal(
                 new int[]{8, 5, 1, 7, 10, 12}
         ).solution();
-        assertTrue(areEquals(correct, solution));
+        assertTrue(areEqual(correct, solution));
     }
 
-    private boolean areEquals(TreeNode f, TreeNode s) {
+    private boolean areEqual(TreeNode f, TreeNode s) {
         if (f != null && s != null) {
             return f.val == s.val
-                    && areEquals(f.left, s.left)
-                    && areEquals(f.right, s.right);
+                    && areEqual(f.left, s.left)
+                    && areEqual(f.right, s.right);
         }
         return f == null && s == null;
     }
