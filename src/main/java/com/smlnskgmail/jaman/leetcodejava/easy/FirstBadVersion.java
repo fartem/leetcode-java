@@ -27,8 +27,9 @@ public class FirstBadVersion {
     private boolean isBadVersion(int version) {
         if (badVersion == Integer.MIN_VALUE) {
             badVersion = version;
+            return false;
         }
-        return badVersion != Integer.MIN_VALUE;
+        return true;
     }
 
 }
