@@ -4,13 +4,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class DayOfTheYearTest {
+public class DayOfTheWeekTest {
 
     @Test
     public void defaultTest() {
         assertEquals(
-                9,
-                new DayOfTheYear("2019-01-09").solution()
+                "Saturday",
+                new DayOfTheWeek(31, 8, 2019).solution()
         );
     }
 
