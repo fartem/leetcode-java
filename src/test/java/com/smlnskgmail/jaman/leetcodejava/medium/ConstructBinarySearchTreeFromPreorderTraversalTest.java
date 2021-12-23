@@ -3,6 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import org.junit.Test;
 
+import static com.smlnskgmail.jaman.leetcodejava.support.TreeNode.areEqual;
 import static org.junit.Assert.assertTrue;
 
 public class ConstructBinarySearchTreeFromPreorderTraversalTest {
@@ -26,15 +27,6 @@ public class ConstructBinarySearchTreeFromPreorderTraversalTest {
                 new int[]{8, 5, 1, 7, 10, 12}
         ).solution();
         assertTrue(areEqual(correct, solution));
-    }
-
-    private boolean areEqual(TreeNode f, TreeNode s) {
-        if (f != null && s != null) {
-            return f.val == s.val
-                    && areEqual(f.left, s.left)
-                    && areEqual(f.right, s.right);
-        }
-        return f == null && s == null;
     }
 
 }
