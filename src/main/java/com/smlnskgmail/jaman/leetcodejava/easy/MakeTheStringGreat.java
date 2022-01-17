@@ -27,5 +27,4 @@ public class MakeTheStringGreat {
         }
         return new String(result);
     }
-
 }

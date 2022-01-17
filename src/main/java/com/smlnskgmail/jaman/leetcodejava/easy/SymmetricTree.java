@@ -20,10 +20,8 @@ public class SymmetricTree {
             return true;
         }
         if (left != null && right != null && left.val == right.val) {
-            return isMirror(left.left, right.right)
-                    && isMirror(left.right, right.left);
+            return isMirror(left.left, right.right) && isMirror(left.right, right.left);
         }
         return false;
     }
-
 }

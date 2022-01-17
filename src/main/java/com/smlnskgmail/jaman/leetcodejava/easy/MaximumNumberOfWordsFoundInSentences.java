@@ -22,5 +22,4 @@ public class MaximumNumberOfWordsFoundInSentences {
         }
         return result + 1;
     }
-
 }

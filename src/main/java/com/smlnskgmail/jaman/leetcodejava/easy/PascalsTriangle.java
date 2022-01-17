@@ -31,5 +31,4 @@ public class PascalsTriangle {
         }
         return result;
     }
-
 }

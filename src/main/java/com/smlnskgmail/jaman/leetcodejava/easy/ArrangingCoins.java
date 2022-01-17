@@ -17,5 +17,4 @@ public class ArrangingCoins {
         }
         return stairs - (input == 0 ? 1 : 2);
     }
-
 }

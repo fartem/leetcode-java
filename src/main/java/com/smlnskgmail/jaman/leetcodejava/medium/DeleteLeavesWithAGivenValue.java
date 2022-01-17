@@ -8,10 +8,7 @@ public class DeleteLeavesWithAGivenValue {
     private final TreeNode input;
     private final int target;
 
-    public DeleteLeavesWithAGivenValue(
-            TreeNode input,
-            int target
-    ) {
+    public DeleteLeavesWithAGivenValue(TreeNode input, int target) {
         this.input = input;
         this.target = target;
     }
@@ -31,5 +28,4 @@ public class DeleteLeavesWithAGivenValue {
         }
         return null;
     }
-
 }

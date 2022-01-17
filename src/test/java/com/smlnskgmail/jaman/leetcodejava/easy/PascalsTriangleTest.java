@@ -1,10 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class PascalsTriangleTest {
 
@@ -16,10 +15,7 @@ public class PascalsTriangleTest {
                         Arrays.asList(1, 1),
                         Arrays.asList(1, 2, 1),
                         Arrays.asList(1, 3, 3, 1),
-                        Arrays.asList(1, 4, 6, 4, 1)
-                ),
-                new PascalsTriangle(5).solution()
-        );
+                        Arrays.asList(1, 4, 6, 4, 1)),
+                new PascalsTriangle(5).solution());
     }
-
 }

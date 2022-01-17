@@ -43,5 +43,4 @@ public class ReformatPhoneNumber {
         }
         return result.toString();
     }
-
 }

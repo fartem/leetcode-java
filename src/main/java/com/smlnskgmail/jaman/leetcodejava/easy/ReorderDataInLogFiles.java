@@ -32,8 +32,7 @@ public class ReorderDataInLogFiles {
                     } else {
                         return o1IsLet ? -1 : 1;
                     }
-                }
-        );
+                });
         return input;
     }
 
@@ -45,5 +44,4 @@ public class ReorderDataInLogFiles {
         }
         return true;
     }
-
 }

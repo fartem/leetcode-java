@@ -9,10 +9,7 @@ public class WordPattern {
     private final String pattern;
     private final String string;
 
-    public WordPattern(
-            String pattern,
-            String string
-    ) {
+    public WordPattern(String pattern, String string) {
         this.pattern = pattern;
         this.string = string;
     }
@@ -38,5 +35,4 @@ public class WordPattern {
         }
         return true;
     }
-
 }

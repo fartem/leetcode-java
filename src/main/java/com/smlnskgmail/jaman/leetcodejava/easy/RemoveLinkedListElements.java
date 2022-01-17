@@ -27,5 +27,4 @@ public class RemoveLinkedListElements {
         }
         return head;
     }
-
 }

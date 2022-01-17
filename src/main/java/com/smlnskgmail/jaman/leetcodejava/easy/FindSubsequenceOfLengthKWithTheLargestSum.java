@@ -19,7 +19,7 @@ public class FindSubsequenceOfLengthKWithTheLargestSum {
         }
         Queue<int[]> queue = new PriorityQueue<>(Comparator.comparingInt(a -> a[1]));
         for (int i = 0; i < nums.length; i++) {
-            queue.add(new int[]{i, nums[i]});
+            queue.add(new int[] {i, nums[i]});
             if (queue.size() > k) {
                 queue.remove();
             }
@@ -32,5 +32,4 @@ public class FindSubsequenceOfLengthKWithTheLargestSum {
         }
         return result;
     }
-
 }

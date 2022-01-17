@@ -9,7 +9,6 @@ public class RunningSumOf1DArray {
         this.input = input;
     }
 
-
     public int[] solution() {
         int sum = 0;
         for (int i = 0; i < input.length; i++) {
@@ -18,5 +17,4 @@ public class RunningSumOf1DArray {
         }
         return input;
     }
-
 }

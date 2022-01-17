@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class AverageSalaryExcludingTheMinimumAndMaximumSalaryTest {
 
@@ -11,10 +11,8 @@ public class AverageSalaryExcludingTheMinimumAndMaximumSalaryTest {
         assertEquals(
                 2500.00000,
                 new AverageSalaryExcludingTheMinimumAndMaximumSalary(
-                        new int[]{4000, 3000, 1000, 2000}
-                ).solution(),
-                0
-        );
+                                new int[] {4000, 3000, 1000, 2000})
+                        .solution(),
+                0);
     }
-
 }

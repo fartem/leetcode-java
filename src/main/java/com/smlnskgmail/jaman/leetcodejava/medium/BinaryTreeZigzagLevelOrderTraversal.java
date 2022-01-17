@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.*;
 
 // https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal
@@ -44,5 +43,4 @@ public class BinaryTreeZigzagLevelOrderTraversal {
         }
         return result;
     }
-
 }

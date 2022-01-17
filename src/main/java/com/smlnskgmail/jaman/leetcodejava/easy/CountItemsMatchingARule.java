@@ -9,11 +9,7 @@ public class CountItemsMatchingARule {
     private final String ruleKey;
     private final String ruleValue;
 
-    public CountItemsMatchingARule(
-            List<List<String>> items,
-            String ruleKey,
-            String ruleValue
-    ) {
+    public CountItemsMatchingARule(List<List<String>> items, String ruleKey, String ruleValue) {
         this.items = items;
         this.ruleKey = ruleKey;
         this.ruleValue = ruleValue;
@@ -37,5 +33,4 @@ public class CountItemsMatchingARule {
         }
         return matches;
     }
-
 }

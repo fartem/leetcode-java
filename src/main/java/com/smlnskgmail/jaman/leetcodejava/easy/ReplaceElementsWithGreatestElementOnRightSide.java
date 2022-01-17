@@ -31,5 +31,4 @@ public class ReplaceElementsWithGreatestElementOnRightSide {
         input[length - 1] = -1;
         return input;
     }
-
 }

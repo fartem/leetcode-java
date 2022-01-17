@@ -19,5 +19,4 @@ public class ArrayPartitionI {
         }
         return result;
     }
-
 }

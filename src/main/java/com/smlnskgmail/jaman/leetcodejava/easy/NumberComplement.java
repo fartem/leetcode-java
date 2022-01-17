@@ -16,5 +16,4 @@ public class NumberComplement {
         }
         return input;
     }
-
 }

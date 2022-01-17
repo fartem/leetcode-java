@@ -39,5 +39,4 @@ public class SmallestSubtreeWithAllTheDeepestNodes {
         }
         return null;
     }
-
 }

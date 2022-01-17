@@ -24,5 +24,4 @@ public class LongestContinuousIncreasingSubsequence {
         }
         return Math.max(result, max);
     }
-
 }

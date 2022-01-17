@@ -31,5 +31,4 @@ public class DetermineIfStringHalvesAreAlike {
         }
         return vowels == 0;
     }
-
 }

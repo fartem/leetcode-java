@@ -31,5 +31,4 @@ public class PartitionList {
         fP.next = s.next;
         return f.next;
     }
-
 }

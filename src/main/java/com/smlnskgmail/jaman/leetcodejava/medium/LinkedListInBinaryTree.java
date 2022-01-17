@@ -2,7 +2,6 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -49,5 +48,4 @@ public class LinkedListInBinaryTree {
         boolean right = dfs(head.next, root.right);
         return left || right;
     }
-
 }

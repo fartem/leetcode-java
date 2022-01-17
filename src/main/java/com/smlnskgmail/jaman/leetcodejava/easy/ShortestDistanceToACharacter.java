@@ -9,10 +9,7 @@ public class ShortestDistanceToACharacter {
     private final String string;
     private final char character;
 
-    public ShortestDistanceToACharacter(
-            String string,
-            char character
-    ) {
+    public ShortestDistanceToACharacter(String string, char character) {
         this.string = string;
         this.character = character;
     }
@@ -42,5 +39,4 @@ public class ShortestDistanceToACharacter {
         }
         return result;
     }
-
 }

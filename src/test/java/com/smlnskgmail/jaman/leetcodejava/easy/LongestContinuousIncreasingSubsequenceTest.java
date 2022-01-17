@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class LongestContinuousIncreasingSubsequenceTest {
 
@@ -10,10 +10,6 @@ public class LongestContinuousIncreasingSubsequenceTest {
     public void defaultTest() {
         assertEquals(
                 3,
-                new LongestContinuousIncreasingSubsequence(
-                        new int[]{1, 3, 5, 4, 7}
-                ).solution()
-        );
+                new LongestContinuousIncreasingSubsequence(new int[] {1, 3, 5, 4, 7}).solution());
     }
-
 }

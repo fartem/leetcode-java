@@ -15,5 +15,4 @@ public class CountOddNumbersInAnIntervalRange {
         int additional = low % 2 == 0 && high % 2 == 0 ? 0 : 1;
         return (high - low) / 2 + additional;
     }
-
 }

@@ -6,10 +6,7 @@ public class MaximumNumberOfWordsYouCanType {
     private final String text;
     private final String brokenLetters;
 
-    public MaximumNumberOfWordsYouCanType(
-            String text,
-            String brokenLetters
-    ) {
+    public MaximumNumberOfWordsYouCanType(String text, String brokenLetters) {
         this.text = text;
         this.brokenLetters = brokenLetters;
     }
@@ -31,5 +28,4 @@ public class MaximumNumberOfWordsYouCanType {
         }
         return result;
     }
-
 }

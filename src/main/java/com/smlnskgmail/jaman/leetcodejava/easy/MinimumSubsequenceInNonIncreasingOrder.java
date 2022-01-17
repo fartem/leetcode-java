@@ -30,5 +30,4 @@ public class MinimumSubsequenceInNonIncreasingOrder {
         }
         return result;
     }
-
 }

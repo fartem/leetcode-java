@@ -18,5 +18,4 @@ public class ReplaceAllDigitsWithCharacters {
         }
         return String.valueOf(chars);
     }
-
 }

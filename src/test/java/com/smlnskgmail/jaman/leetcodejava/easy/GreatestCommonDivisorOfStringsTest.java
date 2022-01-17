@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class GreatestCommonDivisorOfStringsTest {
 
@@ -11,10 +11,8 @@ public class GreatestCommonDivisorOfStringsTest {
         assertEquals(
                 "TAUXX",
                 new GreatestCommonDivisorOfStrings(
-                        "TAUXXTAUXXTAUXXTAUXXTAUXX",
-                        "TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX"
-                ).solution()
-        );
+                                "TAUXXTAUXXTAUXXTAUXXTAUXX",
+                                "TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX")
+                        .solution());
     }
-
 }

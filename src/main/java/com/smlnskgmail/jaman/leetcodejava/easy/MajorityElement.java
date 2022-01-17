@@ -15,5 +15,4 @@ public class MajorityElement {
         Arrays.sort(input);
         return input[input.length / 2];
     }
-
 }

@@ -22,5 +22,4 @@ public class RemoveAllAdjacentDuplicatesInString {
         }
         return result.toString();
     }
-
 }

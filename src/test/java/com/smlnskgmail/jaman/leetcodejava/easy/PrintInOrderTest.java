@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class PrintInOrderTest {
 
@@ -16,10 +16,6 @@ public class PrintInOrderTest {
         printInOrder.first(first);
         printInOrder.second(second);
         printInOrder.third(third);
-        assertEquals(
-                "firstsecondthird",
-                output.toString()
-        );
+        assertEquals("firstsecondthird", output.toString());
     }
-
 }

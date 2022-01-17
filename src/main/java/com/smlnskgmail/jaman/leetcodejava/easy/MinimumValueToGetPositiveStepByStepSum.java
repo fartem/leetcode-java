@@ -24,5 +24,4 @@ public class MinimumValueToGetPositiveStepByStepSum {
         }
         return result;
     }
-
 }

@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class MinimumDifferenceBetweenHighestAndLowestOfKScoresTest {
 
@@ -10,11 +10,7 @@ public class MinimumDifferenceBetweenHighestAndLowestOfKScoresTest {
     public void defaultTest() {
         assertEquals(
                 0,
-                new MinimumDifferenceBetweenHighestAndLowestOfKScores(
-                        new int[]{90},
-                        1
-                ).solution()
-        );
+                new MinimumDifferenceBetweenHighestAndLowestOfKScores(new int[] {90}, 1)
+                        .solution());
     }
-
 }

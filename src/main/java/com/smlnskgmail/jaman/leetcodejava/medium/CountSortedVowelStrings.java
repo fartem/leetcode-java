@@ -12,5 +12,4 @@ public class CountSortedVowelStrings {
     public int solution() {
         return (input + 4) * (input + 3) * (input + 2) * (input + 1) / 24;
     }
-
 }

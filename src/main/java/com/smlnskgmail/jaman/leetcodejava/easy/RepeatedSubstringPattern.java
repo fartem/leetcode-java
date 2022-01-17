@@ -21,5 +21,4 @@ public class RepeatedSubstringPattern {
         }
         return false;
     }
-
 }

@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -53,5 +52,4 @@ public class AddOneRowToTree {
         }
         return root;
     }
-
 }

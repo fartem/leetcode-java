@@ -8,10 +8,7 @@ public class NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold {
     private final int threshold;
 
     public NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold(
-            int[] arr,
-            int k,
-            int threshold
-    ) {
+            int[] arr, int k, int threshold) {
         this.arr = arr;
         this.k = k;
         this.threshold = threshold;
@@ -35,5 +32,4 @@ public class NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold {
         }
         return result;
     }
-
 }

@@ -1,18 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class ValidPalindromeIITest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new ValidPalindromeII(
-                        "aba"
-                ).solution()
-        );
+        assertTrue(new ValidPalindromeII("aba").solution());
     }
-
 }

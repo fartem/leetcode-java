@@ -16,10 +16,7 @@ public class BinaryTreeTilt {
         return tilt.val;
     }
 
-    private int calcTilt(
-            TreeNode node,
-            Tilt tilt
-    ) {
+    private int calcTilt(TreeNode node, Tilt tilt) {
         if (node == null) {
             return 0;
         }
@@ -32,5 +29,4 @@ public class BinaryTreeTilt {
     private static class Tilt {
         int val;
     }
-
 }

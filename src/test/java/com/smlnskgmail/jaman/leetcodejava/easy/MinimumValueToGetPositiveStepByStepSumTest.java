@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class MinimumValueToGetPositiveStepByStepSumTest {
 
@@ -10,10 +10,6 @@ public class MinimumValueToGetPositiveStepByStepSumTest {
     public void defaultTest() {
         assertEquals(
                 5,
-                new MinimumValueToGetPositiveStepByStepSum(
-                        new int[]{-3, 2, -3, 4, 2}
-                ).solution()
-        );
+                new MinimumValueToGetPositiveStepByStepSum(new int[] {-3, 2, -3, 4, 2}).solution());
     }
-
 }

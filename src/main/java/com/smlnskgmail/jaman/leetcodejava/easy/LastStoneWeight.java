@@ -14,10 +14,7 @@ public class LastStoneWeight {
     }
 
     public int solution() {
-        Queue<Integer> weights = new PriorityQueue<>(
-                input.length,
-                Collections.reverseOrder()
-        );
+        Queue<Integer> weights = new PriorityQueue<>(input.length, Collections.reverseOrder());
         for (int stone : input) {
             weights.add(stone);
         }
@@ -34,5 +31,4 @@ public class LastStoneWeight {
         }
         return 0;
     }
-
 }

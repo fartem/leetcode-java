@@ -21,5 +21,4 @@ public class RemoveElement {
         }
         return index;
     }
-
 }

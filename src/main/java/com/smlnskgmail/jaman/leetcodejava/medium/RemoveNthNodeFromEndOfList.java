@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,10 +10,7 @@ public class RemoveNthNodeFromEndOfList {
     private ListNode head;
     private final int n;
 
-    public RemoveNthNodeFromEndOfList(
-            ListNode head,
-            int n
-    ) {
+    public RemoveNthNodeFromEndOfList(ListNode head, int n) {
         this.head = head;
         this.n = n;
     }
@@ -36,5 +32,4 @@ public class RemoveNthNodeFromEndOfList {
         }
         return head;
     }
-
 }

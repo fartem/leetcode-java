@@ -22,5 +22,4 @@ public class RemoveDuplicatesFromSortedArray {
         }
         return newLength + 1;
     }
-
 }

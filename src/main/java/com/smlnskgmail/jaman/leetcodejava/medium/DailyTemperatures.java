@@ -23,5 +23,4 @@ public class DailyTemperatures {
         }
         return result;
     }
-
 }

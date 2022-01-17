@@ -52,5 +52,4 @@ public class FindCommonCharacters {
         }
         return result;
     }
-
 }

@@ -22,9 +22,8 @@ public class TopKFrequentElements {
             }
             values.put(num, ++count);
         }
-        Queue<Map.Entry<Integer, Integer>> queue = new PriorityQueue<>(
-                Comparator.comparingInt(Map.Entry::getValue)
-        );
+        Queue<Map.Entry<Integer, Integer>> queue =
+                new PriorityQueue<>(Comparator.comparingInt(Map.Entry::getValue));
         for (var entry : values.entrySet()) {
             queue.add(entry);
             if (queue.size() > k) {
@@ -38,5 +37,4 @@ public class TopKFrequentElements {
         }
         return result;
     }
-
 }

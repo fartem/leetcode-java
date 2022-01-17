@@ -1,10 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class MinimumSubsequenceInNonIncreasingOrderTest {
 
@@ -12,10 +11,6 @@ public class MinimumSubsequenceInNonIncreasingOrderTest {
     public void defaultTest() {
         assertEquals(
                 Arrays.asList(10, 9),
-                new MinimumSubsequenceInNonIncreasingOrder(
-                        new int[]{4, 3, 10, 9, 8}
-                ).solution()
-        );
+                new MinimumSubsequenceInNonIncreasingOrder(new int[] {4, 3, 10, 9, 8}).solution());
     }
-
 }

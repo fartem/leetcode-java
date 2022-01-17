@@ -23,5 +23,4 @@ public class PascalsTriangleII {
         }
         return result;
     }
-
 }

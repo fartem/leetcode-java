@@ -30,5 +30,4 @@ public class FindTheDifference {
         }
         return tChars[tChars.length - 1];
     }
-
 }

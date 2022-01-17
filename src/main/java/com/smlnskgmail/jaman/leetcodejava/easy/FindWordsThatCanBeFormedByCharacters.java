@@ -6,10 +6,7 @@ public class FindWordsThatCanBeFormedByCharacters {
     private final String[] words;
     private final String chars;
 
-    public FindWordsThatCanBeFormedByCharacters(
-            String[] words,
-            String chars
-    ) {
+    public FindWordsThatCanBeFormedByCharacters(String[] words, String chars) {
         this.words = words;
         this.chars = chars;
     }
@@ -45,5 +42,4 @@ public class FindWordsThatCanBeFormedByCharacters {
         }
         return result;
     }
-
 }

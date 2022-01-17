@@ -22,5 +22,4 @@ public class ImplementStackUsingQueues {
     public boolean empty() {
         return queue.isEmpty();
     }
-
 }

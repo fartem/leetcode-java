@@ -21,5 +21,4 @@ public class ThreeDivisors {
         }
         return divisors == 3;
     }
-
 }

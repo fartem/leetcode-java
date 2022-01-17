@@ -26,5 +26,4 @@ public class BinarySearchTreeToGreaterSumTree {
             transformTree(node.left);
         }
     }
-
 }

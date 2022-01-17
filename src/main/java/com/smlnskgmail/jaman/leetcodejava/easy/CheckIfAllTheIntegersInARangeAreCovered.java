@@ -7,11 +7,7 @@ public class CheckIfAllTheIntegersInARangeAreCovered {
     private final int left;
     private final int right;
 
-    public CheckIfAllTheIntegersInARangeAreCovered(
-            int[][] ranges,
-            int left,
-            int right
-    ) {
+    public CheckIfAllTheIntegersInARangeAreCovered(int[][] ranges, int left, int right) {
         this.ranges = ranges;
         this.left = left;
         this.right = right;
@@ -31,5 +27,4 @@ public class CheckIfAllTheIntegersInARangeAreCovered {
         }
         return true;
     }
-
 }

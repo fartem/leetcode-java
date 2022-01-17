@@ -28,5 +28,4 @@ public class LargestSubstringBetweenTwoEqualCharacters {
         }
         return max;
     }
-
 }

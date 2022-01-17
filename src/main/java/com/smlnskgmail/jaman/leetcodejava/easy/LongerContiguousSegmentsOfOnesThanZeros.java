@@ -36,5 +36,4 @@ public class LongerContiguousSegmentsOfOnesThanZeros {
         }
         return Math.max(ones, onesTemp) > Math.max(zeros, zerosTemp);
     }
-
 }

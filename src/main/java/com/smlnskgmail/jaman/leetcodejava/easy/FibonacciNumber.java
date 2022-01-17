@@ -23,5 +23,4 @@ public class FibonacciNumber {
         }
         return first + second;
     }
-
 }

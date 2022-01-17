@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class EvaluateReversePolishNotationTest {
 
@@ -10,10 +10,7 @@ public class EvaluateReversePolishNotationTest {
     public void defaultTest() {
         assertEquals(
                 9,
-                new EvaluateReversePolishNotation(
-                        new String[]{"2", "1", "+", "3", "*"}
-                ).solution()
-        );
+                new EvaluateReversePolishNotation(new String[] {"2", "1", "+", "3", "*"})
+                        .solution());
     }
-
 }

@@ -30,5 +30,4 @@ public class CountTheNumberOfConsistentStrings {
         }
         return result;
     }
-
 }

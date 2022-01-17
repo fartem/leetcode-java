@@ -29,28 +29,11 @@ public class ReformatDate {
     public String solution() {
         int length = input.length();
         StringBuilder result = new StringBuilder();
-        result.append(
-                input.substring(
-                        length - 4,
-                        length
-                )
-        );
+        result.append(input.substring(length - 4, length));
         result.append("-");
-        result.append(
-                MONTHS.get(
-                        input.substring(
-                                length - 8,
-                                length - 5
-                        )
-                )
-        );
+        result.append(MONTHS.get(input.substring(length - 8, length - 5)));
         result.append("-");
-        result.append(
-                input.indexOf(" ") == 4
-                        ? input.substring(0, 2)
-                        : "0" + input.charAt(0)
-        );
+        result.append(input.indexOf(" ") == 4 ? input.substring(0, 2) : "0" + input.charAt(0));
         return result.toString();
     }
-
 }

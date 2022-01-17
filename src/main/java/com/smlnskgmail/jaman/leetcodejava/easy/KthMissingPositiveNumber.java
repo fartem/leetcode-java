@@ -31,5 +31,4 @@ public class KthMissingPositiveNumber {
         }
         return 0;
     }
-
 }

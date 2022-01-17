@@ -6,10 +6,7 @@ public class CheckIfAWordOccursAsAPrefixOfAnyWordInASentence {
     private final String sentence;
     private final String searchWord;
 
-    public CheckIfAWordOccursAsAPrefixOfAnyWordInASentence(
-            String sentence,
-            String searchWord
-    ) {
+    public CheckIfAWordOccursAsAPrefixOfAnyWordInASentence(String sentence, String searchWord) {
         this.sentence = sentence;
         this.searchWord = searchWord;
     }
@@ -31,5 +28,4 @@ public class CheckIfAWordOccursAsAPrefixOfAnyWordInASentence {
         }
         return -1;
     }
-
 }

@@ -45,5 +45,4 @@ public class SummaryRanges {
         }
         return result;
     }
-
 }

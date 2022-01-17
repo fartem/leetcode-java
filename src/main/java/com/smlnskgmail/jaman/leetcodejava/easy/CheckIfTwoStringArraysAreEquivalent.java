@@ -6,10 +6,7 @@ public class CheckIfTwoStringArraysAreEquivalent {
     private final String[] firstWordArray;
     private final String[] secondWordArray;
 
-    public CheckIfTwoStringArraysAreEquivalent(
-            String[] firstWordArray,
-            String[] secondWordArray
-    ) {
+    public CheckIfTwoStringArraysAreEquivalent(String[] firstWordArray, String[] secondWordArray) {
         this.firstWordArray = firstWordArray;
         this.secondWordArray = secondWordArray;
     }
@@ -25,5 +22,4 @@ public class CheckIfTwoStringArraysAreEquivalent {
         }
         return firstWord.toString().equals(secondWord.toString());
     }
-
 }

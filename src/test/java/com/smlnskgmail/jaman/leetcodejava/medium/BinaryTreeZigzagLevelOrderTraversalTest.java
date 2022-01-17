@@ -1,12 +1,11 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
+import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.Arrays;
 import java.util.Collections;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class BinaryTreeZigzagLevelOrderTraversalTest {
 
@@ -14,22 +13,12 @@ public class BinaryTreeZigzagLevelOrderTraversalTest {
     public void defaultTest() {
         assertEquals(
                 Arrays.asList(
-                        Collections.singletonList(3),
-                        Arrays.asList(20, 9),
-                        Arrays.asList(15, 7)
-                ),
+                        Collections.singletonList(3), Arrays.asList(20, 9), Arrays.asList(15, 7)),
                 new BinaryTreeZigzagLevelOrderTraversal(
-                        new TreeNode(
-                                3,
-                                new TreeNode(9),
                                 new TreeNode(
-                                        20,
-                                        new TreeNode(15),
-                                        new TreeNode(7)
-                                )
-                        )
-                ).solution()
-        );
+                                        3,
+                                        new TreeNode(9),
+                                        new TreeNode(20, new TreeNode(15), new TreeNode(7))))
+                        .solution());
     }
-
 }

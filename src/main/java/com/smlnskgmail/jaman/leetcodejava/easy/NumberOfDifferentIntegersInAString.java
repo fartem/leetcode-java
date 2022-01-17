@@ -37,5 +37,4 @@ public class NumberOfDifferentIntegersInAString {
         }
         return uniq.size();
     }
-
 }

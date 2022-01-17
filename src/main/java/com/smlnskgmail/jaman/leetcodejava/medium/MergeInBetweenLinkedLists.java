@@ -10,12 +10,7 @@ public class MergeInBetweenLinkedLists {
     private int b;
     private final ListNode list2;
 
-    public MergeInBetweenLinkedLists(
-            ListNode list1,
-            int a,
-            int b,
-            ListNode list2
-    ) {
+    public MergeInBetweenLinkedLists(ListNode list1, int a, int b, ListNode list2) {
         this.list1 = list1;
         this.a = a;
         this.b = b;
@@ -51,5 +46,4 @@ public class MergeInBetweenLinkedLists {
         }
         return list1;
     }
-
 }

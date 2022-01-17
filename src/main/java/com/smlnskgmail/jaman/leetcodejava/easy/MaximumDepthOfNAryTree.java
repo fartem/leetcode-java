@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.Node;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -32,5 +31,4 @@ public class MaximumDepthOfNAryTree {
         }
         return result;
     }
-
 }

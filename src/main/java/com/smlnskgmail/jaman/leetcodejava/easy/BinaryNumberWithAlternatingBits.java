@@ -21,5 +21,4 @@ public class BinaryNumberWithAlternatingBits {
         }
         return true;
     }
-
 }

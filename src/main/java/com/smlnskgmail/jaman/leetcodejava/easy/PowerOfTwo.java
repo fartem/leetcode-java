@@ -18,5 +18,4 @@ public class PowerOfTwo {
         }
         return Math.pow(2, pow) == input;
     }
-
 }

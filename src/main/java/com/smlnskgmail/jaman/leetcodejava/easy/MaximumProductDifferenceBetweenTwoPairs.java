@@ -16,5 +16,4 @@ public class MaximumProductDifferenceBetweenTwoPairs {
         int length = input.length;
         return (input[length - 1] * input[length - 2]) - (input[0] * input[1]);
     }
-
 }

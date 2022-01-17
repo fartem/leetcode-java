@@ -6,10 +6,7 @@ public class RansomNote {
     private final String ransomNote;
     private final String magazine;
 
-    public RansomNote(
-            String ransomNote,
-            String magazine
-    ) {
+    public RansomNote(String ransomNote, String magazine) {
         this.ransomNote = ransomNote;
         this.magazine = magazine;
     }
@@ -30,5 +27,4 @@ public class RansomNote {
         }
         return true;
     }
-
 }

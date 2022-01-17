@@ -26,5 +26,4 @@ public class DistributeCoinsInBinaryTree {
         }
         return 0;
     }
-
 }

@@ -20,13 +20,9 @@ public class LongestHarmoniousSubsequence {
         int result = 0;
         for (int num : count.keySet()) {
             if (count.containsKey(num + 1)) {
-                result = Math.max(
-                        result,
-                        count.get(num) + count.get(num + 1)
-                );
+                result = Math.max(result, count.get(num) + count.get(num + 1));
             }
         }
         return result;
     }
-
 }

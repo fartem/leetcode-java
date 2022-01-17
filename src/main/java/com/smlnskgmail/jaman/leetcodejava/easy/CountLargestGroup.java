@@ -35,5 +35,4 @@ public class CountLargestGroup {
         }
         return sum;
     }
-
 }

@@ -8,12 +8,7 @@ public class CountGoodTriplets {
     private final int b;
     private final int c;
 
-    public CountGoodTriplets(
-            int[] arr,
-            int a,
-            int b,
-            int c
-    ) {
+    public CountGoodTriplets(int[] arr, int a, int b, int c) {
         this.arr = arr;
         this.a = a;
         this.b = b;
@@ -40,5 +35,4 @@ public class CountGoodTriplets {
         }
         return result;
     }
-
 }

@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,5 +47,4 @@ public class LeafSimilarTrees {
     private boolean isLeaf(TreeNode node) {
         return node.left == null && node.right == null;
     }
-
 }

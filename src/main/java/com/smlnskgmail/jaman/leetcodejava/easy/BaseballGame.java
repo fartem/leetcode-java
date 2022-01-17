@@ -38,5 +38,4 @@ public class BaseballGame {
         }
         return result;
     }
-
 }

@@ -32,5 +32,4 @@ public class LatestTimeByReplacingHiddenDigits {
         result.append(sMinute == '?' ? '9' : sMinute);
         return result.toString();
     }
-
 }

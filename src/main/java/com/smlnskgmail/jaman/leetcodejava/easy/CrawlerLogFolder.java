@@ -24,5 +24,4 @@ public class CrawlerLogFolder {
         }
         return stack.size();
     }
-
 }

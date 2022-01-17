@@ -33,5 +33,4 @@ public class LongestPalindrome {
         }
         return result + middle;
     }
-
 }

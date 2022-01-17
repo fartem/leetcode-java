@@ -37,12 +37,10 @@ public class SortArrayByIncreasingFrequency {
                         return Integer.compare(i1Freq, i2Freq);
                     }
                     return -i1.compareTo(i2);
-                }
-        );
+                });
         for (int i = 0; i < input.length; i++) {
             input[i] = castedNums[i];
         }
         return input;
     }
-
 }

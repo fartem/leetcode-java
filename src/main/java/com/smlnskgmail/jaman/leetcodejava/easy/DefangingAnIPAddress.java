@@ -26,5 +26,4 @@ public class DefangingAnIPAddress {
         }
         return String.valueOf(result);
     }
-
 }

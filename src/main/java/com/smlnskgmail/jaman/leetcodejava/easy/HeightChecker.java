@@ -22,5 +22,4 @@ public class HeightChecker {
         }
         return result;
     }
-
 }

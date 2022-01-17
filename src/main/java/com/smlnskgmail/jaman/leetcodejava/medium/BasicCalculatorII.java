@@ -20,24 +20,12 @@ public class BasicCalculatorII {
             if (Character.isDigit(c)) {
                 curr = curr * 10 + c - '0';
             } else if (c != ' ') {
-                stack.push(
-                        performOperation(
-                                stack,
-                                op,
-                                curr
-                        )
-                );
+                stack.push(performOperation(stack, op, curr));
                 curr = 0;
                 op = c;
             }
         }
-        stack.push(
-                performOperation(
-                        stack,
-                        op,
-                        curr
-                )
-        );
+        stack.push(performOperation(stack, op, curr));
         int result = 0;
         for (int num : stack) {
             result += num;
@@ -45,11 +33,7 @@ public class BasicCalculatorII {
         return result;
     }
 
-    private int performOperation(
-            Stack<Integer> stack,
-            char op,
-            int num
-    ) {
+    private int performOperation(Stack<Integer> stack, char op, int num) {
         switch (op) {
             case '+':
                 return num;
@@ -62,5 +46,4 @@ public class BasicCalculatorII {
         }
         return -1;
     }
-
 }

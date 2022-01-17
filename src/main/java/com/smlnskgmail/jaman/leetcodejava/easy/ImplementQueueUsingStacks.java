@@ -30,5 +30,4 @@ public class ImplementQueueUsingStacks {
     public boolean empty() {
         return stack.isEmpty();
     }
-
 }

@@ -41,5 +41,4 @@ public class IncreasingDecreasingString {
         }
         return String.valueOf(result);
     }
-
 }

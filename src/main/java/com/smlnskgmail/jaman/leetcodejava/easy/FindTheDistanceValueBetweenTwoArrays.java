@@ -7,11 +7,7 @@ public class FindTheDistanceValueBetweenTwoArrays {
     private final int[] arr2;
     private final int d;
 
-    public FindTheDistanceValueBetweenTwoArrays(
-            int[] arr1,
-            int[] arr2,
-            int d
-    ) {
+    public FindTheDistanceValueBetweenTwoArrays(int[] arr1, int[] arr2, int d) {
         this.arr1 = arr1;
         this.arr2 = arr2;
         this.d = d;
@@ -29,5 +25,4 @@ public class FindTheDistanceValueBetweenTwoArrays {
         }
         return arr1.length - count;
     }
-
 }

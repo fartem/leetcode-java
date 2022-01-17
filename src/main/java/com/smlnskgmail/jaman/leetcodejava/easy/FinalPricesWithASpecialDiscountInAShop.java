@@ -22,5 +22,4 @@ public class FinalPricesWithASpecialDiscountInAShop {
         }
         return input;
     }
-
 }

@@ -37,5 +37,4 @@ public class ConvertIntegerToTheSumOfTwoNoZeroIntegers {
         }
         return false;
     }
-
 }

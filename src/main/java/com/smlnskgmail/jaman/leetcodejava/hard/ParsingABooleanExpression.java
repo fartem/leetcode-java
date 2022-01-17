@@ -45,5 +45,4 @@ public class ParsingABooleanExpression {
         }
         return result;
     }
-
 }

@@ -6,10 +6,7 @@ public class NumberOfStringsThatAppearAsSubstringsInWord {
     private final String[] patterns;
     private final String word;
 
-    public NumberOfStringsThatAppearAsSubstringsInWord(
-            String[] patterns,
-            String word
-    ) {
+    public NumberOfStringsThatAppearAsSubstringsInWord(String[] patterns, String word) {
         this.patterns = patterns;
         this.word = word;
     }
@@ -23,5 +20,4 @@ public class NumberOfStringsThatAppearAsSubstringsInWord {
         }
         return result;
     }
-
 }

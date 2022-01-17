@@ -25,5 +25,4 @@ public class MaximumNestingDepthOfTheParentheses {
         }
         return max;
     }
-
 }

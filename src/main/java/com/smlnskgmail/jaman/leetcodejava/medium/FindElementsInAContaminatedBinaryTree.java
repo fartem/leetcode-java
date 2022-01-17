@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -32,5 +31,4 @@ public class FindElementsInAContaminatedBinaryTree {
     public boolean find(int target) {
         return values.contains(target);
     }
-
 }

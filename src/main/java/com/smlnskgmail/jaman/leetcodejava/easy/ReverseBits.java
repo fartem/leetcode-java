@@ -12,5 +12,4 @@ public class ReverseBits {
     public int solution() {
         return Integer.reverse(input);
     }
-
 }

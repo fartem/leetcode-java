@@ -1,10 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class DestinationCityTest {
 
@@ -13,13 +12,10 @@ public class DestinationCityTest {
         assertEquals(
                 "Sao Paulo",
                 new DestinationCity(
-                        Arrays.asList(
-                                Arrays.asList("London", "New York"),
-                                Arrays.asList("New York", "Lima"),
-                                Arrays.asList("Lima", "Sao Paulo")
-                        )
-                ).solution()
-        );
+                                Arrays.asList(
+                                        Arrays.asList("London", "New York"),
+                                        Arrays.asList("New York", "Lima"),
+                                        Arrays.asList("Lima", "Sao Paulo")))
+                        .solution());
     }
-
 }

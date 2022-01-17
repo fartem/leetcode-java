@@ -19,5 +19,4 @@ public class ShuffleTheArray {
         }
         return solution;
     }
-
 }

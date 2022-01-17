@@ -12,5 +12,4 @@ public class SqrtX {
     public int solution() {
         return (int) Math.sqrt(input);
     }
-
 }

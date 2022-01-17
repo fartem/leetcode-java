@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.Node;
-
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -34,5 +33,4 @@ public class NAryTreePostorderTraversal {
         }
         return result;
     }
-
 }

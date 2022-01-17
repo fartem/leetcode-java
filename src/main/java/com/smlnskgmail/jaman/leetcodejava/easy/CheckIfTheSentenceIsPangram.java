@@ -19,5 +19,4 @@ public class CheckIfTheSentenceIsPangram {
         }
         return letters.size() == 26;
     }
-
 }

@@ -1,20 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class LongestUncommonSubsequenceITest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                3,
-                new LongestUncommonSubsequenceI(
-                        "aba",
-                        "cdc"
-                ).solution()
-        );
+        assertEquals(3, new LongestUncommonSubsequenceI("aba", "cdc").solution());
     }
-
 }

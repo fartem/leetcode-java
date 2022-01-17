@@ -21,5 +21,4 @@ public class SignOfTheProductOfAnArray {
         }
         return (input.length - positive) % 2 == 0 ? 1 : -1;
     }
-
 }

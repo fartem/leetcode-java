@@ -9,10 +9,7 @@ public class UncommonWordsFromTwoSentences {
     private final String firstString;
     private final String secondString;
 
-    public UncommonWordsFromTwoSentences(
-            String firstString,
-            String secondString
-    ) {
+    public UncommonWordsFromTwoSentences(String firstString, String secondString) {
         this.firstString = firstString;
         this.secondString = secondString;
     }
@@ -48,5 +45,4 @@ public class UncommonWordsFromTwoSentences {
         }
         return result;
     }
-
 }

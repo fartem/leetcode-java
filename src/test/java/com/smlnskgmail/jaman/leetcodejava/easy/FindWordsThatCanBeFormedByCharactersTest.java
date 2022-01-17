@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class FindWordsThatCanBeFormedByCharactersTest {
 
@@ -11,10 +11,7 @@ public class FindWordsThatCanBeFormedByCharactersTest {
         assertEquals(
                 6,
                 new FindWordsThatCanBeFormedByCharacters(
-                        new String[]{"cat", "bt", "hat", "tree"},
-                        "atach"
-                ).solution()
-        );
+                                new String[] {"cat", "bt", "hat", "tree"}, "atach")
+                        .solution());
     }
-
 }

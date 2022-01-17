@@ -17,5 +17,4 @@ public class Node {
         this.val = val;
         this.children = children;
     }
-
 }

@@ -20,5 +20,4 @@ public class XOROperationInAnArray {
         }
         return result;
     }
-
 }

@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class LongestCommonPrefixTest {
 
@@ -10,10 +10,6 @@ public class LongestCommonPrefixTest {
     public void defaultTest() {
         assertEquals(
                 "fl",
-                new LongestCommonPrefix(
-                        new String[]{"flower", "flow", "flight"}
-                ).solution()
-        );
+                new LongestCommonPrefix(new String[] {"flower", "flow", "flight"}).solution());
     }
-
 }

@@ -24,5 +24,4 @@ public class FindGreatestCommonDivisorOfArray {
         }
         return gcd(b, a % b);
     }
-
 }

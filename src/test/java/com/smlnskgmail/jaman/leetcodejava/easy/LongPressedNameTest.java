@@ -1,19 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class LongPressedNameTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new LongPressedName(
-                        "alex",
-                        "aaleex"
-                ).solution()
-        );
+        assertTrue(new LongPressedName("alex", "aaleex").solution());
     }
-
 }

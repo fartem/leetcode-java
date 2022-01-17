@@ -24,5 +24,4 @@ public class ThousandSeparator {
         }
         return result.toString();
     }
-
 }

@@ -16,9 +16,7 @@ public class SortCharactersByFrequency {
             char c = input.charAt(i);
             chars[c] = chars[c] + 1;
         }
-        Map<Integer, List<Character>> sortedChars = new TreeMap<>(
-                Collections.reverseOrder()
-        );
+        Map<Integer, List<Character>> sortedChars = new TreeMap<>(Collections.reverseOrder());
         for (int i = 0; i < chars.length; i++) {
             int count = chars[i];
             if (count != 0) {
@@ -44,5 +42,4 @@ public class SortCharactersByFrequency {
         }
         return result.toString();
     }
-
 }

@@ -7,11 +7,7 @@ public class FindNearestPointThatHasTheSameXOrYCoordinate {
     private final int y;
     private final int[][] points;
 
-    public FindNearestPointThatHasTheSameXOrYCoordinate(
-            int x,
-            int y,
-            int[][] points
-    ) {
+    public FindNearestPointThatHasTheSameXOrYCoordinate(int x, int y, int[][] points) {
         this.x = x;
         this.y = y;
         this.points = points;
@@ -34,5 +30,4 @@ public class FindNearestPointThatHasTheSameXOrYCoordinate {
         }
         return result;
     }
-
 }

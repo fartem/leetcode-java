@@ -6,10 +6,7 @@ public class GreatestCommonDivisorOfStrings {
     private final String first;
     private final String second;
 
-    public GreatestCommonDivisorOfStrings(
-            String first,
-            String second
-    ) {
+    public GreatestCommonDivisorOfStrings(String first, String second) {
         this.first = first;
         this.second = second;
     }
@@ -32,5 +29,4 @@ public class GreatestCommonDivisorOfStrings {
         }
         return "";
     }
-
 }

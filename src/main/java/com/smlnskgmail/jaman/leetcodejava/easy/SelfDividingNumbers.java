@@ -38,5 +38,4 @@ public class SelfDividingNumbers {
         }
         return result;
     }
-
 }

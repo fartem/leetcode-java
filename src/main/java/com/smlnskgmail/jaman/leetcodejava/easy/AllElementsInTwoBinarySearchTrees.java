@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,10 +10,7 @@ public class AllElementsInTwoBinarySearchTrees {
     private final TreeNode root1;
     private final TreeNode root2;
 
-    public AllElementsInTwoBinarySearchTrees(
-            TreeNode root1,
-            TreeNode root2
-    ) {
+    public AllElementsInTwoBinarySearchTrees(TreeNode root1, TreeNode root2) {
         this.root1 = root1;
         this.root2 = root2;
     }
@@ -61,5 +57,4 @@ public class AllElementsInTwoBinarySearchTrees {
         }
         return result;
     }
-
 }

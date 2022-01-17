@@ -23,5 +23,4 @@ public class MaximumProductOfTwoElementsInAnArray {
         }
         return (firstMax - 1) * (secondMax - 1);
     }
-
 }

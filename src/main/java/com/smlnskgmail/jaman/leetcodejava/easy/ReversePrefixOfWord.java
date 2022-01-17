@@ -28,5 +28,4 @@ public class ReversePrefixOfWord {
         }
         return result.toString();
     }
-
 }

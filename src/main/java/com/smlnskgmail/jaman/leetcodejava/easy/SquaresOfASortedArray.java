@@ -18,5 +18,4 @@ public class SquaresOfASortedArray {
         Arrays.sort(input);
         return input;
     }
-
 }

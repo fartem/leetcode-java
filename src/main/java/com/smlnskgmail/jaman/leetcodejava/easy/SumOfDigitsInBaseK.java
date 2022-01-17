@@ -15,11 +15,8 @@ public class SumOfDigitsInBaseK {
         int sum = 0;
         String num = Integer.toString(n, k);
         for (int i = 0; i < num.length(); i++) {
-            sum += Character.getNumericValue(
-                    num.charAt(i)
-            );
+            sum += Character.getNumericValue(num.charAt(i));
         }
         return sum;
     }
-
 }

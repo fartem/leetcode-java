@@ -34,5 +34,4 @@ public class LongestUnivaluePath {
         }
         return 0;
     }
-
 }

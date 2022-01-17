@@ -15,10 +15,7 @@ public class SwapNodesInPairs {
         if (input == null || input.next == null) {
             return input;
         }
-        ListNode start = new ListNode(
-                0,
-                input
-        );
+        ListNode start = new ListNode(0, input);
         ListNode pointer = start;
         while (pointer.next != null && pointer.next.next != null) {
             ListNode post = pointer.next.next.next;
@@ -30,5 +27,4 @@ public class SwapNodesInPairs {
         }
         return start.next;
     }
-
 }

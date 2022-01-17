@@ -31,5 +31,4 @@ public class SecondMinimumNodeInABinaryTree {
             apply(node.right);
         }
     }
-
 }

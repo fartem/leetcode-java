@@ -10,11 +10,7 @@ public class OccurrencesAfterBigram {
     private final String first;
     private final String second;
 
-    public OccurrencesAfterBigram(
-            String text,
-            String first,
-            String second
-    ) {
+    public OccurrencesAfterBigram(String text, String first, String second) {
         this.text = text;
         this.first = first;
         this.second = second;
@@ -30,5 +26,4 @@ public class OccurrencesAfterBigram {
         }
         return result.toArray(new String[0]);
     }
-
 }

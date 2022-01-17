@@ -18,5 +18,4 @@ public class PowerOfFour {
         }
         return Math.pow(4, pow) == input;
     }
-
 }

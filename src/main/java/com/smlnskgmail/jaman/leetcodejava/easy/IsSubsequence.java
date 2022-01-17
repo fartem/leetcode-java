@@ -6,10 +6,7 @@ public class IsSubsequence {
     private final String s;
     private final String t;
 
-    public IsSubsequence(
-            String s,
-            String t
-    ) {
+    public IsSubsequence(String s, String t) {
         this.s = s;
         this.t = t;
     }
@@ -25,5 +22,4 @@ public class IsSubsequence {
         }
         return sPointer == s.length();
     }
-
 }

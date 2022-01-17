@@ -20,5 +20,4 @@ public class ExcelSheetColumnTitle {
         result.reverse();
         return result.toString();
     }
-
 }

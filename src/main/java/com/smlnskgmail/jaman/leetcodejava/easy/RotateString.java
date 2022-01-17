@@ -14,5 +14,4 @@ public class RotateString {
     public boolean solution() {
         return a.length() == b.length() && (a + a).contains(b);
     }
-
 }

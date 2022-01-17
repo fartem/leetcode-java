@@ -11,7 +11,7 @@ public class FindNUniqueIntegersSumUpToZero {
 
     public int[] solution() {
         if (input == 1) {
-            return new int[]{0};
+            return new int[] {0};
         }
         int[] result = new int[input];
         int middle = input / 2;
@@ -26,5 +26,4 @@ public class FindNUniqueIntegersSumUpToZero {
         }
         return result;
     }
-
 }

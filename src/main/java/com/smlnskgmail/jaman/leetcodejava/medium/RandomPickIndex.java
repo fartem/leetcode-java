@@ -25,15 +25,11 @@ public class RandomPickIndex {
                 } else {
                     List<Integer> values = new ArrayList<>();
                     values.add(i);
-                    indices.put(
-                            num,
-                            values
-                    );
+                    indices.put(num, values);
                 }
             }
         }
         List<Integer> picks = indices.get(target);
         return picks.get(random.nextInt(picks.size()));
     }
-
 }

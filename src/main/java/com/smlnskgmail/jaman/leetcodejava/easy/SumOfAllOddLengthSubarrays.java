@@ -26,5 +26,4 @@ public class SumOfAllOddLengthSubarrays {
         }
         return result;
     }
-
 }

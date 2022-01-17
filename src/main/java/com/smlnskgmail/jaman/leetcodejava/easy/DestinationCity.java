@@ -24,5 +24,4 @@ public class DestinationCity {
         }
         return cities.iterator().next();
     }
-
 }

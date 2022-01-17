@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,17 +19,11 @@ public class BinaryTreePaths {
         return result;
     }
 
-    private void fillPaths(
-            TreeNode node,
-            String path,
-            List<String> paths
-    ) {
+    private void fillPaths(TreeNode node, String path, List<String> paths) {
         if (node == null) {
             return;
         }
-        String curr = path.length() > 0
-                ? path + "->" + node.val
-                : String.valueOf(node.val);
+        String curr = path.length() > 0 ? path + "->" + node.val : String.valueOf(node.val);
         if (node.left == null && node.right == null) {
             paths.add(curr);
         } else {
@@ -38,5 +31,4 @@ public class BinaryTreePaths {
             fillPaths(node.right, curr, paths);
         }
     }
-
 }

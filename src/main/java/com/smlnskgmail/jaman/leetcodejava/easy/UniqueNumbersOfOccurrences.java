@@ -25,5 +25,4 @@ public class UniqueNumbersOfOccurrences {
         }
         return numsAndCount.size() == uniqueCount.size();
     }
-
 }

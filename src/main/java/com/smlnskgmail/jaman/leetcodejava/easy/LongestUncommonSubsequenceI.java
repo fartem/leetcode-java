@@ -9,10 +9,7 @@ public class LongestUncommonSubsequenceI {
     private final String a;
     private final String b;
 
-    public LongestUncommonSubsequenceI(
-            String a,
-            String b
-    ) {
+    public LongestUncommonSubsequenceI(String a, String b) {
         this.a = a;
         this.b = b;
     }
@@ -34,5 +31,4 @@ public class LongestUncommonSubsequenceI {
         }
         return hasDiff ? Math.max(a.length(), b.length()) : -1;
     }
-
 }

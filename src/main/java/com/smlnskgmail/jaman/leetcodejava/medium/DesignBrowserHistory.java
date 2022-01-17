@@ -41,5 +41,4 @@ public class DesignBrowserHistory {
         }
         return history.get(current);
     }
-
 }

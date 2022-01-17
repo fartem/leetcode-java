@@ -19,5 +19,4 @@ public class AverageSalaryExcludingTheMinimumAndMaximumSalary {
         }
         return sum / (input.length - 2);
     }
-
 }

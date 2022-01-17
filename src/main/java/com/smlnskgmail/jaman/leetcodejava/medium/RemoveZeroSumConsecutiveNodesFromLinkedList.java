@@ -51,5 +51,4 @@ public class RemoveZeroSumConsecutiveNodesFromLinkedList {
         }
         return result;
     }
-
 }

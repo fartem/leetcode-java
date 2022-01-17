@@ -32,5 +32,4 @@ public class PrintInOrder {
         s2.acquire();
         printThird.run();
     }
-
 }

@@ -12,5 +12,4 @@ public class ConvertANumberToHexadecimal {
     public String solution() {
         return Integer.toHexString(input);
     }
-
 }

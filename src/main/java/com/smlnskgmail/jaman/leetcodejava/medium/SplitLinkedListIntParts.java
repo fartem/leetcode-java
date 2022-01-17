@@ -37,5 +37,4 @@ public class SplitLinkedListIntParts {
         }
         return result;
     }
-
 }

@@ -15,11 +15,7 @@ public class ConvertSortedArrayToBinarySearchTree {
         return toBST(input, 0, input.length - 1);
     }
 
-    private TreeNode toBST(
-            int[] nums,
-            int start,
-            int end
-    ) {
+    private TreeNode toBST(int[] nums, int start, int end) {
         if (start > end) {
             return null;
         }
@@ -29,5 +25,4 @@ public class ConvertSortedArrayToBinarySearchTree {
         node.right = toBST(nums, middle + 1, end);
         return node;
     }
-
 }

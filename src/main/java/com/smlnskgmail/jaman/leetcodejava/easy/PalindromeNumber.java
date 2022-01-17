@@ -22,5 +22,4 @@ public class PalindromeNumber {
         }
         return rev == input;
     }
-
 }

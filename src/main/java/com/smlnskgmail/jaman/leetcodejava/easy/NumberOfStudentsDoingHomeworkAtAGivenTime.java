@@ -8,10 +8,7 @@ public class NumberOfStudentsDoingHomeworkAtAGivenTime {
     private final int queryTime;
 
     public NumberOfStudentsDoingHomeworkAtAGivenTime(
-            int[] startTime,
-            int[] endTime,
-            int queryTime
-    ) {
+            int[] startTime, int[] endTime, int queryTime) {
         this.startTime = startTime;
         this.endTime = endTime;
         this.queryTime = queryTime;
@@ -26,5 +23,4 @@ public class NumberOfStudentsDoingHomeworkAtAGivenTime {
         }
         return result;
     }
-
 }

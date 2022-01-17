@@ -8,12 +8,7 @@ public class MergeSortedArray {
     private final int[] nums2;
     private final int n;
 
-    public MergeSortedArray(
-            int[] nums1,
-            int m,
-            int[] nums2,
-            int n
-    ) {
+    public MergeSortedArray(int[] nums1, int m, int[] nums2, int n) {
         this.nums1 = nums1;
         this.m = m;
         this.nums2 = nums2;
@@ -32,5 +27,4 @@ public class MergeSortedArray {
             }
         }
     }
-
 }

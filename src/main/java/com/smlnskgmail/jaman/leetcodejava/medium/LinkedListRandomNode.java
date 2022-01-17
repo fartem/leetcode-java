@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -28,5 +27,4 @@ public class LinkedListRandomNode {
         int index = random.nextInt(nodes.size());
         return nodes.get(index).val;
     }
-
 }

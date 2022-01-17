@@ -19,7 +19,8 @@ public class ImplementStrStr {
         char needleFirst = needle.charAt(0);
         char needleLast = needle.charAt(needleLength - 1);
         for (int i = 0; i < haystack.length() - needleLength + 1; i++) {
-            if (haystack.charAt(i) == needleFirst && haystack.charAt(i + needleLength - 1) == needleLast) {
+            if (haystack.charAt(i) == needleFirst
+                    && haystack.charAt(i + needleLength - 1) == needleLast) {
                 String sub = haystack.substring(i, i + needleLength);
                 if (sub.equals(needle)) {
                     return i;
@@ -28,5 +29,4 @@ public class ImplementStrStr {
         }
         return -1;
     }
-
 }

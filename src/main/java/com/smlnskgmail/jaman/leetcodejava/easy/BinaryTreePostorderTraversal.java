@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,5 +27,4 @@ public class BinaryTreePostorderTraversal {
         apply(node.right, nums);
         nums.add(node.val);
     }
-
 }

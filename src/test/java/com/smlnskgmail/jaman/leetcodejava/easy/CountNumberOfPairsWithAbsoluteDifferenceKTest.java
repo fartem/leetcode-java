@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class CountNumberOfPairsWithAbsoluteDifferenceKTest {
 
@@ -10,11 +10,7 @@ public class CountNumberOfPairsWithAbsoluteDifferenceKTest {
     public void defaultTest() {
         assertEquals(
                 4,
-                new CountNumberOfPairsWithAbsoluteDifferenceK(
-                        new int[]{1, 2, 2, 1},
-                        1
-                ).solution()
-        );
+                new CountNumberOfPairsWithAbsoluteDifferenceK(new int[] {1, 2, 2, 1}, 1)
+                        .solution());
     }
-
 }

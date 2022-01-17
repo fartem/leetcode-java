@@ -33,5 +33,4 @@ public class LinkedListCycleII {
         }
         return tort;
     }
-
 }

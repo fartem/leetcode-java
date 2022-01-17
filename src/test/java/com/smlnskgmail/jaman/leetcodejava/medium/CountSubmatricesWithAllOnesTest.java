@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class CountSubmatricesWithAllOnesTest {
 
@@ -11,13 +11,11 @@ public class CountSubmatricesWithAllOnesTest {
         assertEquals(
                 13,
                 new CountSubmatricesWithAllOnes(
-                        new int[][]{
-                                {1, 0, 1},
-                                {1, 1, 0},
-                                {1, 1, 0}
-                        }
-                ).solution()
-        );
+                                new int[][] {
+                                    {1, 0, 1},
+                                    {1, 1, 0},
+                                    {1, 1, 0}
+                                })
+                        .solution());
     }
-
 }

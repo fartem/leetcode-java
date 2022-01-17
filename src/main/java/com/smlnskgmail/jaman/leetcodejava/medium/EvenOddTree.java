@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -45,5 +44,4 @@ public class EvenOddTree {
         }
         return true;
     }
-
 }

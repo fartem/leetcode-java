@@ -6,10 +6,7 @@ public class MakeTwoArraysEqualByReversingSubArrays {
     private final int[] target;
     private final int[] arr;
 
-    public MakeTwoArraysEqualByReversingSubArrays(
-            int[] target,
-            int[] arr
-    ) {
+    public MakeTwoArraysEqualByReversingSubArrays(int[] target, int[] arr) {
         this.target = target;
         this.arr = arr;
     }
@@ -28,5 +25,4 @@ public class MakeTwoArraysEqualByReversingSubArrays {
         }
         return true;
     }
-
 }

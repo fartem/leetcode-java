@@ -6,10 +6,7 @@ public class MaximumRepeatingSubstring {
     private final String sequence;
     private final String word;
 
-    public MaximumRepeatingSubstring(
-            String sequence,
-            String word
-    ) {
+    public MaximumRepeatingSubstring(String sequence, String word) {
         this.sequence = sequence;
         this.word = word;
     }
@@ -23,7 +20,8 @@ public class MaximumRepeatingSubstring {
                 if (substring.equals(word)) {
                     counter++;
                     int tempPointer = i + word.length();
-                    while (tempPointer + word.length() <= sequence.length() && sequence.startsWith(word, tempPointer)) {
+                    while (tempPointer + word.length() <= sequence.length()
+                            && sequence.startsWith(word, tempPointer)) {
                         tempPointer += word.length();
                         counter++;
                     }
@@ -33,5 +31,4 @@ public class MaximumRepeatingSubstring {
         }
         return result;
     }
-
 }

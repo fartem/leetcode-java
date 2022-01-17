@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,5 +29,4 @@ public class KthSmallestElementInABST {
         nums.add(node.val);
         apply(node.right, nums);
     }
-
 }

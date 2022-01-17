@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'com.diffplug.spotless' version '5.15.1'
 }
 
 repositories {
@@ -8,4 +9,19 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+spotless {
+    java {
+        encoding 'UTF-8'
+        target fileTree(projectDir) {
+            include '**/*.java'
+            exclude '**/build/**'
+        }
+        importOrder '\\#', '', '*'
+        removeUnusedImports()
+        googleJavaFormat('1.7').aosp()
+        toggleOffOn()
+        endWithNewline()
+    }
 }

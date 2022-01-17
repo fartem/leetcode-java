@@ -25,5 +25,4 @@ public class TruncateSentence {
         }
         return index == 0 ? string : string.substring(0, index);
     }
-
 }

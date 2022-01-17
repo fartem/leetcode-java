@@ -12,5 +12,4 @@ public class DivisorGame {
     public boolean solution() {
         return input % 2 == 0;
     }
-
 }

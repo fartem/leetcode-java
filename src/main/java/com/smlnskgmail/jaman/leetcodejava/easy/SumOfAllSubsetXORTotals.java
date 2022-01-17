@@ -16,5 +16,4 @@ public class SumOfAllSubsetXORTotals {
         }
         return bits * (int) Math.pow(2, input.length - 1);
     }
-
 }

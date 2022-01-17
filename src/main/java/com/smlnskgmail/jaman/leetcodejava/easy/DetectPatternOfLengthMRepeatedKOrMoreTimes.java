@@ -7,11 +7,7 @@ public class DetectPatternOfLengthMRepeatedKOrMoreTimes {
     private final int m;
     private final int k;
 
-    public DetectPatternOfLengthMRepeatedKOrMoreTimes(
-            int[] arr,
-            int m,
-            int k
-    ) {
+    public DetectPatternOfLengthMRepeatedKOrMoreTimes(int[] arr, int m, int k) {
         this.arr = arr;
         this.m = m;
         this.k = k;
@@ -47,5 +43,4 @@ public class DetectPatternOfLengthMRepeatedKOrMoreTimes {
         }
         return false;
     }
-
 }

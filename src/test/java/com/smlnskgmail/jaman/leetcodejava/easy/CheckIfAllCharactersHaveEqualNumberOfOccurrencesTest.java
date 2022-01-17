@@ -1,18 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class CheckIfAllCharactersHaveEqualNumberOfOccurrencesTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new CheckIfAllCharactersHaveEqualNumberOfOccurrences(
-                        "abcabc"
-                ).solution()
-        );
+        assertTrue(new CheckIfAllCharactersHaveEqualNumberOfOccurrences("abcabc").solution());
     }
-
 }

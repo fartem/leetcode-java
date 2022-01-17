@@ -8,10 +8,7 @@ public class MinimumNumberOfMovesToSeatEveryone {
     private final int[] seats;
     private final int[] students;
 
-    public MinimumNumberOfMovesToSeatEveryone(
-            int[] seats,
-            int[] students
-    ) {
+    public MinimumNumberOfMovesToSeatEveryone(int[] seats, int[] students) {
         this.seats = seats;
         this.students = students;
     }
@@ -25,5 +22,4 @@ public class MinimumNumberOfMovesToSeatEveryone {
         }
         return result;
     }
-
 }

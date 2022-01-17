@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class ANumberAfterADoubleReversalTest {
 
@@ -10,5 +10,4 @@ public class ANumberAfterADoubleReversalTest {
     public void defaultTest() {
         assertTrue(new ANumberAfterADoubleReversal(526).solution());
     }
-
 }

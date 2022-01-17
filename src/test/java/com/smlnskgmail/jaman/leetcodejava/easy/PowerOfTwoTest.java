@@ -1,16 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class PowerOfTwoTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new PowerOfTwo(16).solution()
-        );
+        assertTrue(new PowerOfTwo(16).solution());
     }
-
 }

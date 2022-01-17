@@ -1,23 +1,14 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Collections;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class FizzBuzzTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                Collections.singletonList(
-                        "1"
-                ),
-                new FizzBuzz(
-                        1
-                ).solution()
-        );
+        assertEquals(Collections.singletonList("1"), new FizzBuzz(1).solution());
     }
-
 }

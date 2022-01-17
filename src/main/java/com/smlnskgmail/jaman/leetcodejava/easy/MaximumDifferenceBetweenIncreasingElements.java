@@ -21,5 +21,4 @@ public class MaximumDifferenceBetweenIncreasingElements {
         }
         return diff == 0 ? -1 : diff;
     }
-
 }

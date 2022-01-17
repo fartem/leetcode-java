@@ -30,5 +30,4 @@ public class FindAllNumbersDisappearedInAnArray {
         }
         return missed;
     }
-
 }

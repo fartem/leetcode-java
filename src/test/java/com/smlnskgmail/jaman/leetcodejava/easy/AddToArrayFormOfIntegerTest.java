@@ -1,10 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class AddToArrayFormOfIntegerTest {
 
@@ -12,11 +11,6 @@ public class AddToArrayFormOfIntegerTest {
     public void defaultTest() {
         assertEquals(
                 Arrays.asList(1, 2, 3, 4),
-                new AddToArrayFormOfInteger(
-                        new int[]{1, 2, 0, 0},
-                        34
-                ).solution()
-        );
+                new AddToArrayFormOfInteger(new int[] {1, 2, 0, 0}, 34).solution());
     }
-
 }

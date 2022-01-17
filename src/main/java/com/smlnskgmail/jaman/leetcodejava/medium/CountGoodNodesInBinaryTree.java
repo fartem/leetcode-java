@@ -23,5 +23,4 @@ public class CountGoodNodesInBinaryTree {
         }
         return 0;
     }
-
 }

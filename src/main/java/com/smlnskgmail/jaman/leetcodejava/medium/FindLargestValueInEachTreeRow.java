@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.*;
 
 // https://leetcode.com/problems/find-largest-value-in-each-tree-row
@@ -39,5 +38,4 @@ public class FindLargestValueInEachTreeRow {
         }
         return result;
     }
-
 }

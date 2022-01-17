@@ -8,9 +8,7 @@ import java.util.Stack;
 // https://leetcode.com/problems/evaluate-reverse-polish-notation
 public class EvaluateReversePolishNotation {
 
-    private static final Set<String> OPS = new HashSet<>(
-            Arrays.asList("+", "-", "*", "/")
-    );
+    private static final Set<String> OPS = new HashSet<>(Arrays.asList("+", "-", "*", "/"));
 
     private final String[] input;
 
@@ -44,5 +42,4 @@ public class EvaluateReversePolishNotation {
         }
         return s.pop();
     }
-
 }

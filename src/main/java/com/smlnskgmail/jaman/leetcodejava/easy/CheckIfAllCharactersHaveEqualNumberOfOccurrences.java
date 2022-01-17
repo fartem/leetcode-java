@@ -27,5 +27,4 @@ public class CheckIfAllCharactersHaveEqualNumberOfOccurrences {
         }
         return true;
     }
-
 }

@@ -72,7 +72,5 @@ public class LRUCache {
 
         Node previous;
         Node next;
-
     }
-
 }

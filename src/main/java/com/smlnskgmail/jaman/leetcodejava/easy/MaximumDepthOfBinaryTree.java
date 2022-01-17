@@ -26,5 +26,4 @@ public class MaximumDepthOfBinaryTree {
         }
         return right + 1;
     }
-
 }

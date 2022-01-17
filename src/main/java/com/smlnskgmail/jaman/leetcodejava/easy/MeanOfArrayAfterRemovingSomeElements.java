@@ -20,5 +20,4 @@ public class MeanOfArrayAfterRemovingSomeElements {
         }
         return (double) result / (input.length - fivePercent * 2);
     }
-
 }

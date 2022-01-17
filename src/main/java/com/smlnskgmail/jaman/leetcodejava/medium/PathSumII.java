@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,12 +28,7 @@ public class PathSumII {
         return result;
     }
 
-    private void dfs(
-            TreeNode node,
-            List<List<Integer>> paths,
-            List<Integer> path,
-            int sum
-    ) {
+    private void dfs(TreeNode node, List<List<Integer>> paths, List<Integer> path, int sum) {
         if (sum == 0 && node.left == null && node.right == null) {
             List<Integer> targetPath = new ArrayList<>(path);
             paths.add(targetPath);
@@ -50,5 +44,4 @@ public class PathSumII {
             path.remove(path.size() - 1);
         }
     }
-
 }

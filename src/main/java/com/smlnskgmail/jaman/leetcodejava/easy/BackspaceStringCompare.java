@@ -8,10 +8,7 @@ public class BackspaceStringCompare {
     private final String s;
     private final String t;
 
-    public BackspaceStringCompare(
-            String s,
-            String t
-    ) {
+    public BackspaceStringCompare(String s, String t) {
         this.s = s;
         this.t = t;
     }
@@ -46,5 +43,4 @@ public class BackspaceStringCompare {
         }
         return stack;
     }
-
 }

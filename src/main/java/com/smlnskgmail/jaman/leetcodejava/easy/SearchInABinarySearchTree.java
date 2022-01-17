@@ -8,10 +8,7 @@ public class SearchInABinarySearchTree {
     private final TreeNode root;
     private final int val;
 
-    public SearchInABinarySearchTree(
-            TreeNode root,
-            int val
-    ) {
+    public SearchInABinarySearchTree(TreeNode root, int val) {
         this.root = root;
         this.val = val;
     }
@@ -34,5 +31,4 @@ public class SearchInABinarySearchTree {
         }
         return right;
     }
-
 }

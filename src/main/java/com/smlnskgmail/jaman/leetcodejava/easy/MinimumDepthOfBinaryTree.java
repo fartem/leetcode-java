@@ -26,10 +26,6 @@ public class MinimumDepthOfBinaryTree {
         } else if (node.right == null) {
             return minDepth(node.left) + 1;
         }
-        return Math.min(
-                minDepth(node.left) + 1,
-                minDepth(node.right) + 1
-        );
+        return Math.min(minDepth(node.left) + 1, minDepth(node.right) + 1);
     }
-
 }

@@ -23,5 +23,4 @@ public class DesignHashSet {
     public boolean contains(int key) {
         return table.containsKey(key);
     }
-
 }

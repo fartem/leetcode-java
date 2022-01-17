@@ -51,5 +51,4 @@ public class RearrangeSpacesBetweenWords {
         }
         return result.toString();
     }
-
 }

@@ -28,5 +28,4 @@ public class BinaryGap {
         }
         return distance;
     }
-
 }

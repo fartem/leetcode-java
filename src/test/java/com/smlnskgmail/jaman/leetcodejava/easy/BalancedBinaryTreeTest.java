@@ -1,9 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+import static org.junit.Assert.assertTrue;
+
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import org.junit.Test;
-
-import static org.junit.Assert.assertTrue;
 
 public class BalancedBinaryTreeTest {
 
@@ -11,17 +11,10 @@ public class BalancedBinaryTreeTest {
     public void defaultTest() {
         assertTrue(
                 new BalancedBinaryTree(
-                        new TreeNode(
-                                3,
-                                new TreeNode(9),
                                 new TreeNode(
-                                        20,
-                                        new TreeNode(15),
-                                        new TreeNode(7)
-                                )
-                        )
-                ).solution()
-        );
+                                        3,
+                                        new TreeNode(9),
+                                        new TreeNode(20, new TreeNode(15), new TreeNode(7))))
+                        .solution());
     }
-
 }

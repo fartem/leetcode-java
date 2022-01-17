@@ -30,5 +30,4 @@ public class RobotReturnToOrigin {
         }
         return horizontal == 0 && vertical == 0;
     }
-
 }

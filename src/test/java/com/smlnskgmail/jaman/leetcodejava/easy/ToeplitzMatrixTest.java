@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class ToeplitzMatrixTest {
 
@@ -10,13 +10,11 @@ public class ToeplitzMatrixTest {
     public void defaultTest() {
         assertTrue(
                 new ToeplitzMatrix(
-                        new int[][]{
-                                {1, 2, 3, 4},
-                                {5, 1, 2, 3},
-                                {9, 5, 1, 2}
-                        }
-                ).solution()
-        );
+                                new int[][] {
+                                    {1, 2, 3, 4},
+                                    {5, 1, 2, 3},
+                                    {9, 5, 1, 2}
+                                })
+                        .solution());
     }
-
 }

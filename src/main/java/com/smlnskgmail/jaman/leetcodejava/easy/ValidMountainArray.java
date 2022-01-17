@@ -22,5 +22,4 @@ public class ValidMountainArray {
         }
         return i == input.length - 1;
     }
-
 }

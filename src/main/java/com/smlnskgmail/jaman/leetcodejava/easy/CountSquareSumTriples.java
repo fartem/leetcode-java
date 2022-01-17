@@ -23,5 +23,4 @@ public class CountSquareSumTriples {
         }
         return result;
     }
-
 }

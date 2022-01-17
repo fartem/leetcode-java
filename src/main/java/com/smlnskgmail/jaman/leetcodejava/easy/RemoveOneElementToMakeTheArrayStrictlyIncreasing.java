@@ -33,5 +33,4 @@ public class RemoveOneElementToMakeTheArrayStrictlyIncreasing {
         }
         return true;
     }
-
 }

@@ -26,5 +26,4 @@ public class MatrixDiagonalSum {
         }
         return result;
     }
-
 }

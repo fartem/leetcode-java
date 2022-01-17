@@ -15,7 +15,9 @@ public class DecryptStringFromAlphabetToIntegerMapping {
         int length = input.length();
         while (pointer < length) {
             char c = input.charAt(pointer);
-            if ((c == '1' || c == '2') && pointer + 2 < length && input.charAt(pointer + 2) == '#') {
+            if ((c == '1' || c == '2')
+                    && pointer + 2 < length
+                    && input.charAt(pointer + 2) == '#') {
                 int num = Integer.parseInt(input.substring(pointer, pointer + 2));
                 result.append((char) (num + 96));
                 pointer += 3;
@@ -26,5 +28,4 @@ public class DecryptStringFromAlphabetToIntegerMapping {
         }
         return result.toString();
     }
-
 }

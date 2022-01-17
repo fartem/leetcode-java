@@ -23,5 +23,4 @@ public class FindPivotIndex {
         }
         return -1;
     }
-
 }

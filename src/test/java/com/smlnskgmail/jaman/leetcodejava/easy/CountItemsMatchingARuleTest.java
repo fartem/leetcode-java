@@ -1,10 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class CountItemsMatchingARuleTest {
 
@@ -13,21 +12,12 @@ public class CountItemsMatchingARuleTest {
         assertEquals(
                 1,
                 new CountItemsMatchingARule(
-                        Arrays.asList(
                                 Arrays.asList(
-                                        "phone", "Blue", "pixel"
-                                ),
-                                Arrays.asList(
-                                        "computer", "silver", "lenovo"
-                                ),
-                                Arrays.asList(
-                                        "phone", "gold", "iphone"
-                                )
-                        ),
-                        "color",
-                        "silver"
-                ).solution()
-        );
+                                        Arrays.asList("phone", "Blue", "pixel"),
+                                        Arrays.asList("computer", "silver", "lenovo"),
+                                        Arrays.asList("phone", "gold", "iphone")),
+                                "color",
+                                "silver")
+                        .solution());
     }
-
 }

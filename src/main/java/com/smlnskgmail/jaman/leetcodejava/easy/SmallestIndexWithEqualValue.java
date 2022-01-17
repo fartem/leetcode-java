@@ -17,5 +17,4 @@ public class SmallestIndexWithEqualValue {
         }
         return -1;
     }
-
 }

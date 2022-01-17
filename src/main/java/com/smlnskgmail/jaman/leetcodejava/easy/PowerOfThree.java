@@ -18,5 +18,4 @@ public class PowerOfThree {
         }
         return Math.pow(3, pow) == input;
     }
-
 }

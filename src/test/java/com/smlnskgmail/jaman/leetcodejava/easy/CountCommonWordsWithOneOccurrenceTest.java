@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class CountCommonWordsWithOneOccurrenceTest {
 
@@ -11,10 +11,8 @@ public class CountCommonWordsWithOneOccurrenceTest {
         assertEquals(
                 2,
                 new CountCommonWordsWithOneOccurrence(
-                        new String[]{"leetcode", "is", "amazing", "as", "is"},
-                        new String[]{"amazing", "leetcode", "is"}
-                ).solution()
-        );
+                                new String[] {"leetcode", "is", "amazing", "as", "is"},
+                                new String[] {"amazing", "leetcode", "is"})
+                        .solution());
     }
-
 }

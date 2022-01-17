@@ -29,5 +29,4 @@ public class MergeStringsAlternately {
         }
         return String.valueOf(result);
     }
-
 }

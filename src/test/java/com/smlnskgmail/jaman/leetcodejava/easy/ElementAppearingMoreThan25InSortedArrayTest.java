@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class ElementAppearingMoreThan25InSortedArrayTest {
 
@@ -10,10 +10,7 @@ public class ElementAppearingMoreThan25InSortedArrayTest {
     public void defaultTest() {
         assertEquals(
                 6,
-                new ElementAppearingMoreThan25InSortedArray(
-                        new int[]{1, 2, 2, 6, 6, 6, 6, 7, 10}
-                ).solution()
-        );
+                new ElementAppearingMoreThan25InSortedArray(new int[] {1, 2, 2, 6, 6, 6, 6, 7, 10})
+                        .solution());
     }
-
 }

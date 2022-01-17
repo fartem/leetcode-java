@@ -21,5 +21,4 @@ public class SubstringsOfSizeThreeWithDistinctCharacters {
         }
         return result;
     }
-
 }

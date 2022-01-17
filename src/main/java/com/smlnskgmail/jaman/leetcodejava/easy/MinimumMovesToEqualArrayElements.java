@@ -20,5 +20,4 @@ public class MinimumMovesToEqualArrayElements {
         }
         return sum - input.length * min;
     }
-
 }

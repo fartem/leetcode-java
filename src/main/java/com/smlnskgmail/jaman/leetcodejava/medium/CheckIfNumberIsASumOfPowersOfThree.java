@@ -12,5 +12,4 @@ public class CheckIfNumberIsASumOfPowersOfThree {
     public boolean solution() {
         return Integer.toString(input, 3).indexOf('2') == -1;
     }
-
 }

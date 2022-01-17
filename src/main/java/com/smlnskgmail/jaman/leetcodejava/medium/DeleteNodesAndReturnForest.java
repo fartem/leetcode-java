@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -31,11 +30,7 @@ public class DeleteNodesAndReturnForest {
         return result;
     }
 
-    private TreeNode collectNodes(
-            TreeNode node,
-            List<TreeNode> nodes,
-            Set<Integer> deleteValues
-    ) {
+    private TreeNode collectNodes(TreeNode node, List<TreeNode> nodes, Set<Integer> deleteValues) {
         if (node != null) {
             node.left = collectNodes(node.left, nodes, deleteValues);
             node.right = collectNodes(node.right, nodes, deleteValues);
@@ -52,5 +47,4 @@ public class DeleteNodesAndReturnForest {
         }
         return null;
     }
-
 }

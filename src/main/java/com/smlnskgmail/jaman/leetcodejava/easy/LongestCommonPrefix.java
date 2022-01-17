@@ -34,5 +34,4 @@ public class LongestCommonPrefix {
         }
         return result.toString();
     }
-
 }

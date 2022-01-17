@@ -7,11 +7,7 @@ public class MinimumDistanceToTheTargetElement {
     private final int target;
     private final int start;
 
-    public MinimumDistanceToTheTargetElement(
-            int[] input,
-            int target,
-            int start
-    ) {
+    public MinimumDistanceToTheTargetElement(int[] input, int target, int start) {
         this.nums = input;
         this.target = target;
         this.start = start;
@@ -31,5 +27,4 @@ public class MinimumDistanceToTheTargetElement {
         }
         return result;
     }
-
 }

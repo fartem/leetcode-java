@@ -23,5 +23,4 @@ public class MaximumAverageSubarrayI {
         }
         return result * 1.0 / k;
     }
-
 }

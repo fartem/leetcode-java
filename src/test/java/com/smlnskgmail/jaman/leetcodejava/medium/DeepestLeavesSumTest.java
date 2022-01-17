@@ -1,9 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
+import static org.junit.Assert.assertEquals;
+
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 public class DeepestLeavesSumTest {
 
@@ -12,29 +12,14 @@ public class DeepestLeavesSumTest {
         assertEquals(
                 15,
                 new DeepestLeavesSum(
-                        new TreeNode(
-                                1,
                                 new TreeNode(
-                                        2,
+                                        1,
                                         new TreeNode(
-                                                4,
-                                                new TreeNode(7),
-                                                null
-                                        ),
-                                        new TreeNode(5)
-                                ),
-                                new TreeNode(
-                                        3,
-                                        null,
+                                                2,
+                                                new TreeNode(4, new TreeNode(7), null),
+                                                new TreeNode(5)),
                                         new TreeNode(
-                                                6,
-                                                null,
-                                                new TreeNode(8)
-                                        )
-                                )
-                        )
-                ).solution()
-        );
+                                                3, null, new TreeNode(6, null, new TreeNode(8)))))
+                        .solution());
     }
-
 }

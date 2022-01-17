@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -44,5 +43,4 @@ public class MostFrequentSubtreeSum {
         }
         return 0;
     }
-
 }

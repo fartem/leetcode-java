@@ -1,19 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class WordPatternTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new WordPattern(
-                        "abba",
-                        "dog cat cat dog"
-                ).solution()
-        );
+        assertTrue(new WordPattern("abba", "dog cat cat dog").solution());
     }
-
 }

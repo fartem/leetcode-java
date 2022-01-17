@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.Node;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -30,5 +29,4 @@ public class NAryTreePreorderTraversal {
             apply(node.children.get(i), nums);
         }
     }
-
 }

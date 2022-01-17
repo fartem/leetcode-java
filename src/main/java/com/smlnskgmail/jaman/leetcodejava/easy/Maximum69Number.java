@@ -25,5 +25,4 @@ public class Maximum69Number {
         }
         return max;
     }
-
 }

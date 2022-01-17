@@ -9,10 +9,7 @@ public class IsomorphicStrings {
     private final String s;
     private final String t;
 
-    public IsomorphicStrings(
-            String s,
-            String t
-    ) {
+    public IsomorphicStrings(String s, String t) {
         this.s = s;
         this.t = t;
     }
@@ -38,5 +35,4 @@ public class IsomorphicStrings {
         }
         return true;
     }
-
 }

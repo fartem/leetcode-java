@@ -36,5 +36,4 @@ public class FlattenBinaryTreeToLinkedList {
         }
         fillValues(root.right);
     }
-
 }

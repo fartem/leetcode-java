@@ -1,50 +1,28 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+import static org.junit.Assert.assertEquals;
+
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 public class ReverseLinkedListTest {
 
     @Test
     public void defaultTest() {
-        ListNode validList = new ListNode(
-                5,
-                new ListNode(
-                        4,
-                        new ListNode(
-                                3,
+        ListNode validList =
+                new ListNode(5, new ListNode(4, new ListNode(3, new ListNode(2, new ListNode(1)))));
+        ListNode reversedList =
+                new ReverseLinkedList(
                                 new ListNode(
-                                        2,
-                                        new ListNode(1)
-                                )
-                        )
-                )
-        );
-        ListNode reversedList = new ReverseLinkedList(
-                new ListNode(
-                        1,
-                        new ListNode(
-                                2,
-                                new ListNode(
-                                        3,
+                                        1,
                                         new ListNode(
-                                                4,
-                                                new ListNode(5)
-                                        )
-                                )
-                        )
-                )
-        ).solution();
+                                                2,
+                                                new ListNode(3, new ListNode(4, new ListNode(5))))))
+                        .solution();
         while (validList != null) {
-            assertEquals(
-                    validList.val,
-                    reversedList.val
-            );
+            assertEquals(validList.val, reversedList.val);
             validList = validList.next;
             reversedList = reversedList.next;
         }
     }
-
 }

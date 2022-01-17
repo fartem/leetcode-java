@@ -36,10 +36,8 @@ public class RelativeRanks {
                 default:
                     result[i] = String.valueOf(value);
                     break;
-
             }
         }
         return result;
     }
-
 }

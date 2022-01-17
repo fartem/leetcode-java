@@ -23,5 +23,4 @@ public class FindTheDuplicateNumber {
         }
         return hare;
     }
-
 }

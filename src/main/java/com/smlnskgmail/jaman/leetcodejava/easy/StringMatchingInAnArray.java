@@ -27,5 +27,4 @@ public class StringMatchingInAnArray {
         }
         return new ArrayList<>(matches);
     }
-
 }

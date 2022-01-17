@@ -25,5 +25,4 @@ public class MaximumAscendingSubarraySum {
         }
         return Math.max(result, sum);
     }
-
 }

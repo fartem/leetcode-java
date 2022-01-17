@@ -14,12 +14,8 @@ public class MinimumTimeVisitingAllPoints {
         for (int i = 1; i < input.length; i++) {
             int[] curr = input[i - 1];
             int[] next = input[i];
-            result += Math.max(
-                    Math.abs(curr[0] - next[0]),
-                    Math.abs(curr[1] - next[1])
-            );
+            result += Math.max(Math.abs(curr[0] - next[0]), Math.abs(curr[1] - next[1]));
         }
         return result;
     }
-
 }

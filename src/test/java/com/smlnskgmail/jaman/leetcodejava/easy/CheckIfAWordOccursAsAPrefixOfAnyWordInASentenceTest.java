@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class CheckIfAWordOccursAsAPrefixOfAnyWordInASentenceTest {
 
@@ -10,11 +10,7 @@ public class CheckIfAWordOccursAsAPrefixOfAnyWordInASentenceTest {
     public void defaultTest() {
         assertEquals(
                 4,
-                new CheckIfAWordOccursAsAPrefixOfAnyWordInASentence(
-                        "i love eating burger",
-                        "burg"
-                ).solution()
-        );
+                new CheckIfAWordOccursAsAPrefixOfAnyWordInASentence("i love eating burger", "burg")
+                        .solution());
     }
-
 }

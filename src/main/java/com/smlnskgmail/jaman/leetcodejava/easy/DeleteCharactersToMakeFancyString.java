@@ -28,5 +28,4 @@ public class DeleteCharactersToMakeFancyString {
         }
         return result.toString();
     }
-
 }

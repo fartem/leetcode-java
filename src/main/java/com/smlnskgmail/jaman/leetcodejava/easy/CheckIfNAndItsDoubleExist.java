@@ -15,8 +15,7 @@ public class CheckIfNAndItsDoubleExist {
     public boolean solution() {
         Set<Integer> nums = new HashSet<>();
         for (int num : input) {
-            if (nums.contains(num * 2)
-                    || (num % 2 == 0 && nums.contains(num / 2))) {
+            if (nums.contains(num * 2) || (num % 2 == 0 && nums.contains(num / 2))) {
                 return true;
             } else {
                 nums.add(num);
@@ -24,5 +23,4 @@ public class CheckIfNAndItsDoubleExist {
         }
         return false;
     }
-
 }

@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class FindSmallestLetterGreaterThanTargetTest {
 
@@ -10,11 +10,7 @@ public class FindSmallestLetterGreaterThanTargetTest {
     public void defaultTest() {
         assertEquals(
                 'c',
-                new FindSmallestLetterGreaterThanTarget(
-                        new char[]{'c', 'f', 'j'},
-                        'a'
-                ).solution()
-        );
+                new FindSmallestLetterGreaterThanTarget(new char[] {'c', 'f', 'j'}, 'a')
+                        .solution());
     }
-
 }

@@ -31,5 +31,4 @@ public class KthLargestElementInAStream {
         }
         return heap.peek();
     }
-
 }

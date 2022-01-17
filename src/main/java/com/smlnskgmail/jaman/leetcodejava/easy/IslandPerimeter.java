@@ -29,5 +29,4 @@ public class IslandPerimeter {
         }
         return result;
     }
-
 }

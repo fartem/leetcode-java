@@ -12,5 +12,4 @@ public class GenerateAStringWithCharactersThatHaveOddCounts {
     public String solution() {
         return input % 2 == 0 ? "a".repeat(input - 1) + "b" : "a".repeat(input);
     }
-
 }

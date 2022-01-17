@@ -27,5 +27,4 @@ public class RemoveDuplicatesFromSortedListII {
         }
         return result.next;
     }
-
 }

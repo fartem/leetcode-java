@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.*;
 
 // https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree
@@ -13,11 +12,7 @@ public class AllNodesDistanceKInBinaryTree {
     private final TreeNode target;
     private final int k;
 
-    public AllNodesDistanceKInBinaryTree(
-            TreeNode root,
-            TreeNode target,
-            int k
-    ) {
+    public AllNodesDistanceKInBinaryTree(TreeNode root, TreeNode target, int k) {
         this.root = root;
         this.target = target;
         this.k = k;

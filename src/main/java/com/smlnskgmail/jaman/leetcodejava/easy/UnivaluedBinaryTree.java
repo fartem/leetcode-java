@@ -19,9 +19,6 @@ public class UnivaluedBinaryTree {
         if (root == null) {
             return true;
         }
-        return root.val == num
-                && isUniValued(root.left, num)
-                && isUniValued(root.right, num);
+        return root.val == num && isUniValued(root.left, num) && isUniValued(root.right, num);
     }
-
 }

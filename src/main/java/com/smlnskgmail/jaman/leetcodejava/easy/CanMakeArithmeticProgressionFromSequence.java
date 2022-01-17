@@ -24,5 +24,4 @@ public class CanMakeArithmeticProgressionFromSequence {
         }
         return true;
     }
-
 }

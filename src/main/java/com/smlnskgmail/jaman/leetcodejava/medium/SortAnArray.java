@@ -15,5 +15,4 @@ public class SortAnArray {
         Arrays.sort(input);
         return input;
     }
-
 }

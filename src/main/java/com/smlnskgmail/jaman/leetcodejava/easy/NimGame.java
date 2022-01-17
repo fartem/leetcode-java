@@ -12,5 +12,4 @@ public class NimGame {
     public boolean solution() {
         return input % 4 != 0;
     }
-
 }

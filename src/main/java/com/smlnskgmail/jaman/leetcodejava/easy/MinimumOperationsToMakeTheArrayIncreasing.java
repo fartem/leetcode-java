@@ -23,5 +23,4 @@ public class MinimumOperationsToMakeTheArrayIncreasing {
         }
         return result;
     }
-
 }

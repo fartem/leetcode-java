@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -51,5 +50,4 @@ public class CousinsInBinaryTree {
         }
         return false;
     }
-
 }

@@ -27,5 +27,4 @@ public class MinStack {
     public int getMin() {
         return orderedQueue.peek();
     }
-
 }

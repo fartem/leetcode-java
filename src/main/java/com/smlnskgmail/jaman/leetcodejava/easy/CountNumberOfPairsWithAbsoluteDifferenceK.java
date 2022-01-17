@@ -5,10 +5,7 @@ public class CountNumberOfPairsWithAbsoluteDifferenceK {
     private final int[] nums;
     private final int k;
 
-    public CountNumberOfPairsWithAbsoluteDifferenceK(
-            int[] nums,
-            int k
-    ) {
+    public CountNumberOfPairsWithAbsoluteDifferenceK(int[] nums, int k) {
         this.nums = nums;
         this.k = k;
     }
@@ -24,5 +21,4 @@ public class CountNumberOfPairsWithAbsoluteDifferenceK {
         }
         return result;
     }
-
 }

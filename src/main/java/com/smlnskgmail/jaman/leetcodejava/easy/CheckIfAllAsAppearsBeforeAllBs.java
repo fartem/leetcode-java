@@ -12,5 +12,4 @@ public class CheckIfAllAsAppearsBeforeAllBs {
     public boolean solution() {
         return !input.contains("ba");
     }
-
 }

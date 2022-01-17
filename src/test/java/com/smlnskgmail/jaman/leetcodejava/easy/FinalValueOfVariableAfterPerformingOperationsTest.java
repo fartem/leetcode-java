@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class FinalValueOfVariableAfterPerformingOperationsTest {
 
@@ -11,9 +11,7 @@ public class FinalValueOfVariableAfterPerformingOperationsTest {
         assertEquals(
                 1,
                 new FinalValueOfVariableAfterPerformingOperations(
-                        new String[]{"--X", "X++", "X++"}
-                ).solution()
-        );
+                                new String[] {"--X", "X++", "X++"})
+                        .solution());
     }
-
 }

@@ -27,5 +27,4 @@ public class PathSum {
         return sum(node.left, targetSum, node.val + count)
                 || sum(node.right, targetSum, node.val + count);
     }
-
 }

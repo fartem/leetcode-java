@@ -20,5 +20,4 @@ public class MaximumSubarray {
         }
         return globalMax;
     }
-
 }

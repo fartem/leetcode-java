@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class TruncateSentenceTest {
 
@@ -10,11 +10,6 @@ public class TruncateSentenceTest {
     public void defaultTest() {
         assertEquals(
                 "Hello how are you",
-                new TruncateSentence(
-                        "Hello how are you Contestant",
-                        4
-                ).solution()
-        );
+                new TruncateSentence("Hello how are you Contestant", 4).solution());
     }
-
 }

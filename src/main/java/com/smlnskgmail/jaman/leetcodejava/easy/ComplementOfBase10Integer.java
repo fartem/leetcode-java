@@ -22,5 +22,4 @@ public class ComplementOfBase10Integer {
         }
         return rev;
     }
-
 }

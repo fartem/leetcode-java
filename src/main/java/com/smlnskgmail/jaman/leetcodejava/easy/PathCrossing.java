@@ -40,5 +40,4 @@ public class PathCrossing {
         }
         return false;
     }
-
 }

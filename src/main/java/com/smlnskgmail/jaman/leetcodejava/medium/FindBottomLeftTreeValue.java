@@ -30,5 +30,4 @@ public class FindBottomLeftTreeValue {
         apply(node.left, curr + 1);
         apply(node.right, curr + 1);
     }
-
 }

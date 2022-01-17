@@ -24,5 +24,4 @@ public class NextGreaterElementII {
         }
         return result;
     }
-
 }

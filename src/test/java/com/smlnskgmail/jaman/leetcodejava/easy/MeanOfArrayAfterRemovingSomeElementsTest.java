@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class MeanOfArrayAfterRemovingSomeElementsTest {
 
@@ -11,10 +11,10 @@ public class MeanOfArrayAfterRemovingSomeElementsTest {
         assertEquals(
                 2.00000,
                 new MeanOfArrayAfterRemovingSomeElements(
-                        new int[]{1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3}
-                ).solution(),
-                0
-        );
+                                new int[] {
+                                    1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3
+                                })
+                        .solution(),
+                0);
     }
-
 }

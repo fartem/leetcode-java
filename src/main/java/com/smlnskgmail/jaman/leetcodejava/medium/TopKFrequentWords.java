@@ -26,18 +26,18 @@ public class TopKFrequentWords {
             values.put(word, ++count);
         }
         List<Map.Entry<String, Integer>> toSort = new ArrayList<>(values.entrySet());
-        toSort.sort((a, b) -> {
-            int diff = b.getValue() - a.getValue();
-            if (diff == 0) {
-                return a.getKey().compareTo(b.getKey());
-            }
-            return diff;
-        });
+        toSort.sort(
+                (a, b) -> {
+                    int diff = b.getValue() - a.getValue();
+                    if (diff == 0) {
+                        return a.getKey().compareTo(b.getKey());
+                    }
+                    return diff;
+                });
         List<String> result = new ArrayList<>(k);
         for (int i = 0; i < k; i++) {
             result.add(toSort.get(i).getKey());
         }
         return result;
     }
-
 }

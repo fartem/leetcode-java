@@ -24,5 +24,4 @@ public class CheckIFNumbersAreAscendingInASentence {
         }
         return true;
     }
-
 }

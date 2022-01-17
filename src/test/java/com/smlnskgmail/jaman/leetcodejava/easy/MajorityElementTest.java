@@ -1,19 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class MajorityElementTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                3,
-                new MajorityElement(
-                        new int[]{3, 2, 3}
-                ).solution()
-        );
+        assertEquals(3, new MajorityElement(new int[] {3, 2, 3}).solution());
     }
-
 }

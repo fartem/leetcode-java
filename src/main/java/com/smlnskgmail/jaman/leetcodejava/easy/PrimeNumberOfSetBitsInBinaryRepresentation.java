@@ -6,10 +6,7 @@ public class PrimeNumberOfSetBitsInBinaryRepresentation {
     private final int left;
     private final int right;
 
-    public PrimeNumberOfSetBitsInBinaryRepresentation(
-            int left,
-            int right
-    ) {
+    public PrimeNumberOfSetBitsInBinaryRepresentation(int left, int right) {
         this.left = left;
         this.right = right;
     }
@@ -39,5 +36,4 @@ public class PrimeNumberOfSetBitsInBinaryRepresentation {
         }
         return true;
     }
-
 }

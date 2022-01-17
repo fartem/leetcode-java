@@ -26,5 +26,4 @@ public class SortArrayByParityII {
         }
         return input;
     }
-
 }

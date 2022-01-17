@@ -6,10 +6,7 @@ public class FindSmallestLetterGreaterThanTarget {
     private final char[] letters;
     private final char target;
 
-    public FindSmallestLetterGreaterThanTarget(
-            char[] letters,
-            char target
-    ) {
+    public FindSmallestLetterGreaterThanTarget(char[] letters, char target) {
         this.letters = letters;
         this.target = target;
     }
@@ -22,5 +19,4 @@ public class FindSmallestLetterGreaterThanTarget {
         }
         return letters[0];
     }
-
 }

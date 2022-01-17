@@ -26,5 +26,4 @@ public class RedistributeCharactersToMakeAllStringsEqual {
         }
         return true;
     }
-
 }

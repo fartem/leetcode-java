@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class MaximumAverageSubarrayITest {
 
@@ -10,12 +10,7 @@ public class MaximumAverageSubarrayITest {
     public void defaultTest() {
         assertEquals(
                 12.75000,
-                new MaximumAverageSubarrayI(
-                        new int[]{1, 12, -5, -6, 50, 3},
-                        4
-                ).solution(),
-                0
-        );
+                new MaximumAverageSubarrayI(new int[] {1, 12, -5, -6, 50, 3}, 4).solution(),
+                0);
     }
-
 }

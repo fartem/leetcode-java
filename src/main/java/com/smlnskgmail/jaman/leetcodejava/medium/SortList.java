@@ -60,5 +60,4 @@ public class SortList {
         }
         return temp.next;
     }
-
 }

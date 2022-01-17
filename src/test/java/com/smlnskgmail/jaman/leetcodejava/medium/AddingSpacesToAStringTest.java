@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class AddingSpacesToAStringTest {
 
@@ -10,11 +10,7 @@ public class AddingSpacesToAStringTest {
     public void defaultTest() {
         assertEquals(
                 "Leetcode Helps Me Learn",
-                new AddingSpacesToAString(
-                        "LeetcodeHelpsMeLearn",
-                        new int[]{8, 13, 15}
-                ).solution()
-        );
+                new AddingSpacesToAString("LeetcodeHelpsMeLearn", new int[] {8, 13, 15})
+                        .solution());
     }
-
 }

@@ -24,14 +24,11 @@ public class RangeSumOfBST {
             return 0;
         }
         if (head.val >= low && head.val <= high) {
-            return head.val
-                    + count(head.left, low, high)
-                    + count(head.right, low, high);
+            return head.val + count(head.left, low, high) + count(head.right, low, high);
         } else if (head.val < low) {
             return count(head.right, low, high);
         } else {
             return count(head.left, low, high);
         }
     }
-
 }

@@ -24,5 +24,4 @@ public class DIStringMatch {
         result[length] = l;
         return result;
     }
-
 }

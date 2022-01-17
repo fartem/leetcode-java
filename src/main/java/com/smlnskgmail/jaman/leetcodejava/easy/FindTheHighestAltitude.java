@@ -20,5 +20,4 @@ public class FindTheHighestAltitude {
         }
         return Math.max(high, 0);
     }
-
 }

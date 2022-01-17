@@ -14,5 +14,4 @@ public class NumberOfRecentCalls {
         }
         return requests.size();
     }
-
 }

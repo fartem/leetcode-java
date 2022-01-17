@@ -25,5 +25,4 @@ public class SumRootToLeafNumbers {
         }
         return sum(node.left, curr) + sum(node.right, curr);
     }
-
 }

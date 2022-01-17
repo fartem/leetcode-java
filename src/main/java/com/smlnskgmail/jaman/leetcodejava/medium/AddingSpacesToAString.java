@@ -22,5 +22,4 @@ public class AddingSpacesToAString {
         result.append(s.substring(start));
         return result.toString();
     }
-
 }

@@ -1,9 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+import static org.junit.Assert.assertEquals;
+
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 public class MinimumDepthOfBinaryTreeTest {
 
@@ -12,17 +12,10 @@ public class MinimumDepthOfBinaryTreeTest {
         assertEquals(
                 2,
                 new MinimumDepthOfBinaryTree(
-                        new TreeNode(
-                                3,
-                                new TreeNode(9),
                                 new TreeNode(
-                                        20,
-                                        new TreeNode(15),
-                                        new TreeNode(7)
-                                )
-                        )
-                ).solution()
-        );
+                                        3,
+                                        new TreeNode(9),
+                                        new TreeNode(20, new TreeNode(15), new TreeNode(7))))
+                        .solution());
     }
-
 }

@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,11 +23,7 @@ public class SumOfRootToLeafBinaryNumbers {
         return result;
     }
 
-    private void fillValues(
-            TreeNode root,
-            List<Integer> values,
-            int curr
-    ) {
+    private void fillValues(TreeNode root, List<Integer> values, int curr) {
         if (root != null) {
             curr = (curr << 1) | root.val;
             if (root.left == null && root.right == null) {
@@ -39,5 +34,4 @@ public class SumOfRootToLeafBinaryNumbers {
             }
         }
     }
-
 }

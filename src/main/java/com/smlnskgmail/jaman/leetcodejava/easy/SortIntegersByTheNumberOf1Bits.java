@@ -19,19 +19,12 @@ public class SortIntegersByTheNumberOf1Bits {
         Arrays.sort(
                 nums,
                 (i1, i2) -> {
-                    int bitsCompare = Integer.compare(
-                            Integer.bitCount(i1),
-                            Integer.bitCount(i2)
-                    );
-                    return bitsCompare != 0
-                            ? bitsCompare
-                            : Integer.compare(i1, i2);
-                }
-        );
+                    int bitsCompare = Integer.compare(Integer.bitCount(i1), Integer.bitCount(i2));
+                    return bitsCompare != 0 ? bitsCompare : Integer.compare(i1, i2);
+                });
         for (int i = 0; i < input.length; i++) {
             input[i] = nums[i];
         }
         return input;
     }
-
 }

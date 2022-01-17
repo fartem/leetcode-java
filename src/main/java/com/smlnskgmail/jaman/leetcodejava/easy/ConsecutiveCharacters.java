@@ -27,5 +27,4 @@ public class ConsecutiveCharacters {
         }
         return Math.max(max, counter);
     }
-
 }

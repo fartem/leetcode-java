@@ -23,5 +23,4 @@ public class SpecialArrayWithXElementsGreaterThanOrEqualX {
         }
         return -1;
     }
-
 }

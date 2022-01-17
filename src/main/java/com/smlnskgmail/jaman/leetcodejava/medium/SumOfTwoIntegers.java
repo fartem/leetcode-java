@@ -19,5 +19,4 @@ public class SumOfTwoIntegers {
         }
         return a;
     }
-
 }

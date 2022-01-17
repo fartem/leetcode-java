@@ -28,5 +28,4 @@ public class IncreasingOrderSearchTree {
         curr = node;
         inorder(node.right);
     }
-
 }

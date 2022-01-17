@@ -6,10 +6,7 @@ public class CheckIfOneStringSwapCanMakeStringsEqual {
     private final String s1;
     private final String s2;
 
-    public CheckIfOneStringSwapCanMakeStringsEqual(
-            String s1,
-            String s2
-    ) {
+    public CheckIfOneStringSwapCanMakeStringsEqual(String s1, String s2) {
         this.s1 = s1;
         this.s2 = s2;
     }
@@ -31,5 +28,4 @@ public class CheckIfOneStringSwapCanMakeStringsEqual {
         }
         return diff == 0 || diff == 2;
     }
-
 }

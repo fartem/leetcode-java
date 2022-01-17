@@ -1,9 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+import static org.junit.Assert.assertEquals;
+
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 public class BinaryTreeTiltTest {
 
@@ -11,14 +11,6 @@ public class BinaryTreeTiltTest {
     public void defaultTest() {
         assertEquals(
                 1,
-                new BinaryTreeTilt(
-                        new TreeNode(
-                                1,
-                                new TreeNode(2),
-                                new TreeNode(3)
-                        )
-                ).solution()
-        );
+                new BinaryTreeTilt(new TreeNode(1, new TreeNode(2), new TreeNode(3))).solution());
     }
-
 }

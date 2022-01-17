@@ -30,5 +30,4 @@ public class FirstUniqueCharacterInAString {
         }
         return -1;
     }
-
 }

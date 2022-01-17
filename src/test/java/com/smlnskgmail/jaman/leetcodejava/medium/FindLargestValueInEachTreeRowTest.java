@@ -1,11 +1,10 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-import org.junit.Test;
-
-import java.util.Arrays;
-
 import static org.junit.Assert.assertEquals;
+
+import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
+import java.util.Arrays;
+import org.junit.Test;
 
 public class FindLargestValueInEachTreeRowTest {
 
@@ -14,21 +13,10 @@ public class FindLargestValueInEachTreeRowTest {
         assertEquals(
                 Arrays.asList(1, 3, 9),
                 new FindLargestValueInEachTreeRow(
-                        new TreeNode(
-                                1,
                                 new TreeNode(
-                                        3,
-                                        new TreeNode(5),
-                                        new TreeNode(3)
-                                ),
-                                new TreeNode(
-                                        2,
-                                        null,
-                                        new TreeNode(9)
-                                )
-                        )
-                ).solution()
-        );
+                                        1,
+                                        new TreeNode(3, new TreeNode(5), new TreeNode(3)),
+                                        new TreeNode(2, null, new TreeNode(9))))
+                        .solution());
     }
-
 }

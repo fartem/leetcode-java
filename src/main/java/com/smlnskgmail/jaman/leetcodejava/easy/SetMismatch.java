@@ -26,7 +26,6 @@ public class SetMismatch {
                 break;
             }
         }
-        return new int[]{rep, miss};
+        return new int[] {rep, miss};
     }
-
 }

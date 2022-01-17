@@ -38,5 +38,4 @@ public class TheKWeakestRowsInAMatrix {
         }
         return result;
     }
-
 }

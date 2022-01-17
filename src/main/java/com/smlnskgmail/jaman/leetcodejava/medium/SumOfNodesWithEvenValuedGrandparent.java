@@ -26,5 +26,4 @@ public class SumOfNodesWithEvenValuedGrandparent {
             sum(curr.right, curr, p);
         }
     }
-
 }

@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class NumberOfRectanglesThatCanFormTheLargestSquareTest {
 
@@ -11,9 +11,7 @@ public class NumberOfRectanglesThatCanFormTheLargestSquareTest {
         assertEquals(
                 3,
                 new NumberOfRectanglesThatCanFormTheLargestSquare(
-                        new int[][]{{5, 8}, {3, 9}, {5, 12}, {16, 5}}
-                ).solution()
-        );
+                                new int[][] {{5, 8}, {3, 9}, {5, 12}, {16, 5}})
+                        .solution());
     }
-
 }

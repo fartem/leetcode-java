@@ -39,5 +39,4 @@ public class CellsWithOddValuesInAMatrix {
         }
         return columnOdds * (n - rowOdds) + rowOdds * (m - columnOdds);
     }
-
 }

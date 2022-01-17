@@ -35,5 +35,4 @@ public class DesignParkingSystem {
                 return false;
         }
     }
-
 }

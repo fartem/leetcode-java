@@ -12,5 +12,4 @@ public class ANumberAfterADoubleReversal {
     public boolean solution() {
         return input == 0 || input % 10 != 0;
     }
-
 }

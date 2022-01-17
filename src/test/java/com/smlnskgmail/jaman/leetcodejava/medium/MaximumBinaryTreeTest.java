@@ -1,34 +1,20 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
+import static junit.framework.TestCase.assertTrue;
+
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import org.junit.Test;
-
-import static junit.framework.TestCase.assertTrue;
 
 public class MaximumBinaryTreeTest {
 
     @Test
     public void defaultTest() {
-        TreeNode correct = new TreeNode(
-                6,
+        TreeNode correct =
                 new TreeNode(
-                        3,
-                        null,
-                        new TreeNode(
-                                2,
-                                null,
-                                new TreeNode(1)
-                        )
-                ),
-                new TreeNode(
-                        5,
-                        new TreeNode(0),
-                        null
-                )
-        );
-        TreeNode solution = new MaximumBinaryTree(
-                new int[]{3, 2, 1, 6, 0, 5}
-        ).solution();
+                        6,
+                        new TreeNode(3, null, new TreeNode(2, null, new TreeNode(1))),
+                        new TreeNode(5, new TreeNode(0), null));
+        TreeNode solution = new MaximumBinaryTree(new int[] {3, 2, 1, 6, 0, 5}).solution();
         assertTrue(assertNodes(correct, solution));
     }
 
@@ -41,5 +27,4 @@ public class MaximumBinaryTreeTest {
         }
         return n1 == null && n2 == null;
     }
-
 }

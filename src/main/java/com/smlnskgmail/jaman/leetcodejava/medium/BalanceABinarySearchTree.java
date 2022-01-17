@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,5 +37,4 @@ public class BalanceABinarySearchTree {
         node.right = build(nums, m + 1, r);
         return node;
     }
-
 }

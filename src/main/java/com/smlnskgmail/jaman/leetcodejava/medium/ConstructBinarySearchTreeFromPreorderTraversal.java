@@ -15,11 +15,7 @@ public class ConstructBinarySearchTreeFromPreorderTraversal {
         return constructBST(input, 0, input.length - 1);
     }
 
-    private TreeNode constructBST(
-            int[] preorder,
-            int start,
-            int end
-    ) {
+    private TreeNode constructBST(int[] preorder, int start, int end) {
         if (start > end) {
             return null;
         }
@@ -34,5 +30,4 @@ public class ConstructBinarySearchTreeFromPreorderTraversal {
         node.right = constructBST(preorder, index, end);
         return node;
     }
-
 }

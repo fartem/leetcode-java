@@ -19,5 +19,4 @@ public class ConvertBinaryNumberInALinkedListToInteger {
         }
         return result;
     }
-
 }

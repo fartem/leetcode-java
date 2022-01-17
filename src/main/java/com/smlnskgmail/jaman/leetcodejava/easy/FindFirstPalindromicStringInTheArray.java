@@ -28,5 +28,4 @@ public class FindFirstPalindromicStringInTheArray {
         }
         return true;
     }
-
 }

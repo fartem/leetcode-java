@@ -21,5 +21,4 @@ public class MoveZeros {
             input[j] = 0;
         }
     }
-
 }

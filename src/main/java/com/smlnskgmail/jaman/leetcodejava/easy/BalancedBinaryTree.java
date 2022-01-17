@@ -21,19 +21,13 @@ public class BalancedBinaryTree {
         }
         int left = maxHeight(root.left);
         int right = maxHeight(root.right);
-        return Math.abs(left - right) < 2
-                && isBalanced(root.left)
-                && isBalanced(root.right);
+        return Math.abs(left - right) < 2 && isBalanced(root.left) && isBalanced(root.right);
     }
 
     private int maxHeight(TreeNode node) {
         if (node == null) {
             return 0;
         }
-        return 1 + Math.max(
-                maxHeight(node.left),
-                maxHeight(node.right)
-        );
+        return 1 + Math.max(maxHeight(node.left), maxHeight(node.right));
     }
-
 }

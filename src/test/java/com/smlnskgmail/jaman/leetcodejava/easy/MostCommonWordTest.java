@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class MostCommonWordTest {
 
@@ -11,10 +11,8 @@ public class MostCommonWordTest {
         assertEquals(
                 "ball",
                 new MostCommonWord(
-                        "Bob hit a ball, the hit BALL flew far after it was hit.",
-                        new String[]{"hit"}
-                ).solution()
-        );
+                                "Bob hit a ball, the hit BALL flew far after it was hit.",
+                                new String[] {"hit"})
+                        .solution());
     }
-
 }

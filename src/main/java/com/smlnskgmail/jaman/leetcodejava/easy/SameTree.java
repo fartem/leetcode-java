@@ -28,5 +28,4 @@ public class SameTree {
         }
         return p == null && q == null;
     }
-
 }

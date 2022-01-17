@@ -1,19 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class ReplaceAllDigitsWithCharactersTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                "abcdef",
-                new ReplaceAllDigitsWithCharacters(
-                        "a1c1e1"
-                ).solution()
-        );
+        assertEquals("abcdef", new ReplaceAllDigitsWithCharacters("a1c1e1").solution());
     }
-
 }

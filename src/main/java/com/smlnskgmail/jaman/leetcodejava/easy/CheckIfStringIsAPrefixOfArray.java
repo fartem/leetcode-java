@@ -6,10 +6,7 @@ public class CheckIfStringIsAPrefixOfArray {
     private final String s;
     private final String[] words;
 
-    public CheckIfStringIsAPrefixOfArray(
-            String s,
-            String[] words
-    ) {
+    public CheckIfStringIsAPrefixOfArray(String s, String[] words) {
         this.s = s;
         this.words = words;
     }
@@ -27,5 +24,4 @@ public class CheckIfStringIsAPrefixOfArray {
         }
         return p == s.length();
     }
-
 }

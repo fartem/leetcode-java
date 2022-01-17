@@ -27,5 +27,4 @@ public class InvertBinaryTree {
         invert(right);
         return root;
     }
-
 }

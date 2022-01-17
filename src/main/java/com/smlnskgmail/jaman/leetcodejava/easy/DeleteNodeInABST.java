@@ -54,5 +54,4 @@ public class DeleteNodeInABST {
         }
         return node.val;
     }
-
 }

@@ -36,5 +36,4 @@ public class ReplaceAllQuestionMarksAvoidConsecutiveRepeatingCharacters {
         }
         return result.toString();
     }
-
 }

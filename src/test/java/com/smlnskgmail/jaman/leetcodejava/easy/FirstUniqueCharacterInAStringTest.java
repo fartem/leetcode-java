@@ -1,19 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class FirstUniqueCharacterInAStringTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                0,
-                new FirstUniqueCharacterInAString(
-                        "leetcode"
-                ).solution()
-        );
+        assertEquals(0, new FirstUniqueCharacterInAString("leetcode").solution());
     }
-
 }

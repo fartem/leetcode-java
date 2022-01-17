@@ -28,5 +28,4 @@ public class InsertIntoABinarySearchTree {
         }
         return new TreeNode(val);
     }
-
 }

@@ -23,5 +23,4 @@ public class SingleNumber {
         }
         return uniqueNums.iterator().next();
     }
-
 }

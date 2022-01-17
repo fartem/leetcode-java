@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class FindFirstPalindromicStringInTheArrayTest {
 
@@ -11,9 +11,7 @@ public class FindFirstPalindromicStringInTheArrayTest {
         assertEquals(
                 "ada",
                 new FindFirstPalindromicStringInTheArray(
-                        new String[]{"abc", "car", "ada", "racecar", "cool"}
-                ).solution()
-        );
+                                new String[] {"abc", "car", "ada", "racecar", "cool"})
+                        .solution());
     }
-
 }

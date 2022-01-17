@@ -10,11 +10,7 @@ public class TwoOutOfThree {
     private final int[] nums2;
     private final int[] nums3;
 
-    public TwoOutOfThree(
-            int[] nums1,
-            int[] nums2,
-            int[] nums3
-    ) {
+    public TwoOutOfThree(int[] nums1, int[] nums2, int[] nums3) {
         this.nums1 = nums1;
         this.nums2 = nums2;
         this.nums3 = nums3;
@@ -35,13 +31,10 @@ public class TwoOutOfThree {
         }
         List<Integer> result = new ArrayList<>();
         for (int i = 1; i <= 100; i++) {
-            if ((f[i] > 0 && s[i] > 0)
-                    || (s[i] > 0 && t[i] > 0)
-                    || (f[i] > 0 && t[i] > 0)) {
+            if ((f[i] > 0 && s[i] > 0) || (s[i] > 0 && t[i] > 0) || (f[i] > 0 && t[i] > 0)) {
                 result.add(i);
             }
         }
         return result;
     }
-
 }

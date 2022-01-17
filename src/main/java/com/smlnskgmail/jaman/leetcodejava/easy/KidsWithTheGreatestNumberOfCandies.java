@@ -27,5 +27,4 @@ public class KidsWithTheGreatestNumberOfCandies {
         }
         return result;
     }
-
 }

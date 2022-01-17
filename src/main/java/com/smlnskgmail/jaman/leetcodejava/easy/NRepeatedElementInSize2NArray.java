@@ -23,5 +23,4 @@ public class NRepeatedElementInSize2NArray {
         }
         return 0;
     }
-
 }

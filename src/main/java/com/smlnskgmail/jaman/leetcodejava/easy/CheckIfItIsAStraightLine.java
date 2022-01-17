@@ -14,9 +14,11 @@ public class CheckIfItIsAStraightLine {
         for (int i = 1; i < input.length; i++) {
             int[] point1 = input[i - 1];
             int[] point2 = input[i];
-            slope[i - 1] = point1[0] == point2[0]
-                    ? Integer.MAX_VALUE
-                    : ((double) (point1[1] - point2[1])) / ((double) (point1[0] - point2[0]));
+            slope[i - 1] =
+                    point1[0] == point2[0]
+                            ? Integer.MAX_VALUE
+                            : ((double) (point1[1] - point2[1]))
+                                    / ((double) (point1[0] - point2[0]));
         }
         for (int i = 1; i < input.length - 1; i++) {
             if (Math.abs(slope[i] - slope[i - 1]) > 1e-6) {
@@ -25,5 +27,4 @@ public class CheckIfItIsAStraightLine {
         }
         return true;
     }
-
 }

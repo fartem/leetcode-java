@@ -34,5 +34,4 @@ public class RingsAndRods {
         }
         return result;
     }
-
 }

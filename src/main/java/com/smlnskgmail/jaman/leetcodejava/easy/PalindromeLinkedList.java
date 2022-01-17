@@ -43,5 +43,4 @@ public class PalindromeLinkedList {
         }
         return previous;
     }
-
 }

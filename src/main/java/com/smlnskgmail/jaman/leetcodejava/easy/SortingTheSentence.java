@@ -15,18 +15,12 @@ public class SortingTheSentence {
         String[] words = input.split(" ");
         Arrays.sort(
                 words,
-                (s1, s2) -> Character.compare(
-                        s1.charAt(s1.length() - 1),
-                        s2.charAt(s2.length() - 1)
-                )
-        );
+                (s1, s2) ->
+                        Character.compare(s1.charAt(s1.length() - 1), s2.charAt(s2.length() - 1)));
         StringBuilder result = new StringBuilder();
         for (String word : words) {
-            result
-                    .append(word, 0, word.length() - 1)
-                    .append(" ");
+            result.append(word, 0, word.length() - 1).append(" ");
         }
         return result.toString().trim();
     }
-
 }

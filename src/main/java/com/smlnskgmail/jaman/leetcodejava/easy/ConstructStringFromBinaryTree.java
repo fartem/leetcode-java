@@ -38,5 +38,4 @@ public class ConstructStringFromBinaryTree {
             part.append(')');
         }
     }
-
 }

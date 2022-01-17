@@ -30,5 +30,4 @@ public class SplitAStringInBalancedStrings {
         }
         return result;
     }
-
 }

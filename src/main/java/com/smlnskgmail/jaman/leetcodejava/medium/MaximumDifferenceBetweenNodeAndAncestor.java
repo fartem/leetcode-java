@@ -25,5 +25,4 @@ public class MaximumDifferenceBetweenNodeAndAncestor {
         }
         return max - min;
     }
-
 }

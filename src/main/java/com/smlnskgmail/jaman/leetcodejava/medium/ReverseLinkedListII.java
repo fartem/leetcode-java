@@ -9,11 +9,7 @@ public class ReverseLinkedListII {
     private int left;
     private int right;
 
-    public ReverseLinkedListII(
-            ListNode head,
-            int left,
-            int right
-    ) {
+    public ReverseLinkedListII(ListNode head, int left, int right) {
         this.head = head;
         this.left = left;
         this.right = right;
@@ -49,5 +45,4 @@ public class ReverseLinkedListII {
         tail.next = curr;
         return head;
     }
-
 }

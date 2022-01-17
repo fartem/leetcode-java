@@ -1,22 +1,16 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
 import java.util.List;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class PositionsOfLargeGroupsTest {
 
     @Test
     public void defaultTest() {
         assertEquals(
-                List.of(Arrays.asList(3, 6)),
-                new PositionsOfLargeGroups(
-                        "abbxxxxzyy"
-                ).solution()
-        );
+                List.of(Arrays.asList(3, 6)), new PositionsOfLargeGroups("abbxxxxzyy").solution());
     }
-
 }

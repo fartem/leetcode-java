@@ -1,19 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class LatestTimeByReplacingHiddenDigitsTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                "23:50",
-                new LatestTimeByReplacingHiddenDigits(
-                        "2?:?0"
-                ).solution()
-        );
+        assertEquals("23:50", new LatestTimeByReplacingHiddenDigits("2?:?0").solution());
     }
-
 }

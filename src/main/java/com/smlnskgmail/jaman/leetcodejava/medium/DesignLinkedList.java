@@ -9,9 +9,7 @@ public class DesignLinkedList {
 
     private int length = 0;
 
-    public DesignLinkedList() {
-
-    }
+    public DesignLinkedList() {}
 
     public int get(int index) {
         if (isValidIndex(index)) {
@@ -90,5 +88,4 @@ public class DesignLinkedList {
             }
         }
     }
-
 }

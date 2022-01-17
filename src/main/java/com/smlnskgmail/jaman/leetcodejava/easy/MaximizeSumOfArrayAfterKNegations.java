@@ -30,5 +30,4 @@ public class MaximizeSumOfArrayAfterKNegations {
         }
         return result - (k % 2) * min * 2;
     }
-
 }

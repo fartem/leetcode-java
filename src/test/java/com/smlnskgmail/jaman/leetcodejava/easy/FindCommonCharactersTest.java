@@ -1,10 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class FindCommonCharactersTest {
 
@@ -12,10 +11,6 @@ public class FindCommonCharactersTest {
     public void defaultTest() {
         assertEquals(
                 Arrays.asList("e", "l", "l"),
-                new FindCommonCharacters(
-                        new String[]{"bella", "label", "roller"}
-                ).solution()
-        );
+                new FindCommonCharacters(new String[] {"bella", "label", "roller"}).solution());
     }
-
 }

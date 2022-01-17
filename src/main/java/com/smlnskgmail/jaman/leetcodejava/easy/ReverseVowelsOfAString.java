@@ -46,5 +46,4 @@ public class ReverseVowelsOfAString {
         }
         return String.valueOf(letters);
     }
-
 }

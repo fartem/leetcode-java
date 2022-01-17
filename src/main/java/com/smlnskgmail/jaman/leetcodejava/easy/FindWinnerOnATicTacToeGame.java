@@ -39,5 +39,4 @@ public class FindWinnerOnATicTacToeGame {
     private boolean isValid(String a, String b, String c) {
         return a != null && a == b && a == c;
     }
-
 }

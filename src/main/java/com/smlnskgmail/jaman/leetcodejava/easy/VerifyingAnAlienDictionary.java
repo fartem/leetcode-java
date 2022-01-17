@@ -6,10 +6,7 @@ public class VerifyingAnAlienDictionary {
     private final String[] words;
     private final String order;
 
-    public VerifyingAnAlienDictionary(
-            String[] words,
-            String order
-    ) {
+    public VerifyingAnAlienDictionary(String[] words, String order) {
         this.words = words;
         this.order = order;
     }
@@ -38,5 +35,4 @@ public class VerifyingAnAlienDictionary {
         }
         return true;
     }
-
 }

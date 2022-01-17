@@ -36,5 +36,4 @@ public class UniqueEmailAddresses {
         }
         return uniq.size();
     }
-
 }

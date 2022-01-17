@@ -11,10 +11,7 @@ public class MinimumIndexSumOfTwoLists {
     private final String[] firstList;
     private final String[] secondList;
 
-    public MinimumIndexSumOfTwoLists(
-            String[] firstList,
-            String[] secondList
-    ) {
+    public MinimumIndexSumOfTwoLists(String[] firstList, String[] secondList) {
         this.firstList = firstList;
         this.secondList = secondList;
     }
@@ -41,5 +38,4 @@ public class MinimumIndexSumOfTwoLists {
         }
         return result.toArray(new String[0]);
     }
-
 }

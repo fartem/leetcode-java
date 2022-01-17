@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,5 +29,4 @@ public class SwappingNodesInALinkedList {
         s.val = temp;
         return head;
     }
-
 }

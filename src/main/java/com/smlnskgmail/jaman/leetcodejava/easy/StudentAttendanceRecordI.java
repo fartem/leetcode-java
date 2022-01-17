@@ -29,5 +29,4 @@ public class StudentAttendanceRecordI {
         }
         return absent < 2 && late < 3;
     }
-
 }

@@ -8,10 +8,7 @@ public class CheckIfWordEqualsSummationOfTwoWords {
     private final String targetWord;
 
     public CheckIfWordEqualsSummationOfTwoWords(
-            String firstWord,
-            String secondWord,
-            String targetWord
-    ) {
+            String firstWord, String secondWord, String targetWord) {
         this.firstWord = firstWord;
         this.secondWord = secondWord;
         this.targetWord = targetWord;
@@ -37,5 +34,4 @@ public class CheckIfWordEqualsSummationOfTwoWords {
         }
         return sum == 0;
     }
-
 }

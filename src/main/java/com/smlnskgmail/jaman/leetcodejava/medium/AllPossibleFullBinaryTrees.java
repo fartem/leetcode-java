@@ -1,7 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -32,11 +31,7 @@ public class AllPossibleFullBinaryTrees {
                     int j = n - 1 - i;
                     for (TreeNode left : allPossibleFBT(i)) {
                         for (TreeNode right : allPossibleFBT(j)) {
-                            TreeNode node = new TreeNode(
-                                    0,
-                                    left,
-                                    right
-                            );
+                            TreeNode node = new TreeNode(0, left, right);
                             nodes.add(node);
                         }
                     }
@@ -46,5 +41,4 @@ public class AllPossibleFullBinaryTrees {
         }
         return VALUES.get(n);
     }
-
 }

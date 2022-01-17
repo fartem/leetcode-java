@@ -8,10 +8,7 @@ public class MostCommonWord {
     private final String paragraph;
     private final String[] banned;
 
-    public MostCommonWord(
-            String paragraph,
-            String[] banned
-    ) {
+    public MostCommonWord(String paragraph, String[] banned) {
         this.paragraph = paragraph;
         this.banned = banned;
     }
@@ -50,5 +47,4 @@ public class MostCommonWord {
         }
         return mostCommonWord;
     }
-
 }

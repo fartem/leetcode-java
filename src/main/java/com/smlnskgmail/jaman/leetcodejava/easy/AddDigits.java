@@ -22,5 +22,4 @@ public class AddDigits {
         }
         return result;
     }
-
 }

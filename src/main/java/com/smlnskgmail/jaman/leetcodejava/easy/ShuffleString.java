@@ -18,5 +18,4 @@ public class ShuffleString {
         }
         return result.toString();
     }
-
 }

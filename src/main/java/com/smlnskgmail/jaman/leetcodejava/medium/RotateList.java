@@ -41,5 +41,4 @@ public class RotateList {
         last.next = oldHead;
         return head;
     }
-
 }

@@ -12,5 +12,4 @@ public class Base7 {
     public String solution() {
         return Integer.toString(input, 7);
     }
-
 }

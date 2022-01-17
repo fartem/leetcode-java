@@ -13,5 +13,4 @@ public class NumberOfSegmentsInAString {
         String string = input.trim();
         return string.length() == 0 ? 0 : string.split("\\s+").length;
     }
-
 }

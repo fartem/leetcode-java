@@ -32,5 +32,4 @@ public class ReverseWordsInAString {
         Collections.reverse(result);
         return String.join(" ", result);
     }
-
 }

@@ -6,10 +6,7 @@ public class TwoSumIIInputArrayIsSorted {
     private final int[] numbers;
     private final int target;
 
-    public TwoSumIIInputArrayIsSorted(
-            int[] numbers,
-            int target
-    ) {
+    public TwoSumIIInputArrayIsSorted(int[] numbers, int target) {
         this.numbers = numbers;
         this.target = target;
     }
@@ -27,7 +24,6 @@ public class TwoSumIIInputArrayIsSorted {
                 break;
             }
         }
-        return new int[]{start + 1, end + 1};
+        return new int[] {start + 1, end + 1};
     }
-
 }

@@ -46,5 +46,4 @@ public class Finding3DigitEvenNumbers {
         }
         return result;
     }
-
 }

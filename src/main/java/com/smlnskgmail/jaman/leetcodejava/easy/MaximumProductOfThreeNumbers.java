@@ -16,8 +16,6 @@ public class MaximumProductOfThreeNumbers {
         int length = input.length;
         return Math.max(
                 input[0] * input[1] * input[length - 1],
-                input[length - 1] * input[length - 2] * input[length - 3]
-        );
+                input[length - 1] * input[length - 2] * input[length - 3]);
     }
-
 }

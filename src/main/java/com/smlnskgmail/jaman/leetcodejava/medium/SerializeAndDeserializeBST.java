@@ -47,5 +47,4 @@ public class SerializeAndDeserializeBST {
         }
         return root;
     }
-
 }

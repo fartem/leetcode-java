@@ -27,15 +27,9 @@ public class MinimumAbsoluteDifference {
             int fNum = input[i];
             int sNum = input[i + 1];
             if (Math.abs(fNum - sNum) == diff) {
-                result.add(
-                        Arrays.asList(
-                                Math.min(fNum, sNum),
-                                Math.max(fNum, sNum)
-                        )
-                );
+                result.add(Arrays.asList(Math.min(fNum, sNum), Math.max(fNum, sNum)));
             }
         }
         return result;
     }
-
 }

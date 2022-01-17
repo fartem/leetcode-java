@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class MaximumDifferenceBetweenIncreasingElementsTest {
 
@@ -10,10 +10,6 @@ public class MaximumDifferenceBetweenIncreasingElementsTest {
     public void defaultTest() {
         assertEquals(
                 4,
-                new MaximumDifferenceBetweenIncreasingElements(
-                        new int[]{7, 1, 5, 4}
-                ).solution()
-        );
+                new MaximumDifferenceBetweenIncreasingElements(new int[] {7, 1, 5, 4}).solution());
     }
-
 }

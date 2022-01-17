@@ -20,5 +20,4 @@ public class JewelsAndStones {
         }
         return result;
     }
-
 }

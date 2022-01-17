@@ -32,5 +32,4 @@ public class SortArrayByParity {
         }
         return input;
     }
-
 }

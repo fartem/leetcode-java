@@ -18,5 +18,4 @@ public class ToLowerCase {
         }
         return String.valueOf(chars);
     }
-
 }

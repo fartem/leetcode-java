@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class CheckIfTwoStringArraysAreEquivalentTest {
 
@@ -10,10 +10,7 @@ public class CheckIfTwoStringArraysAreEquivalentTest {
     public void defaultTest() {
         assertTrue(
                 new CheckIfTwoStringArraysAreEquivalent(
-                        new String[]{"ab", "c"},
-                        new String[]{"a", "bc"}
-                ).solution()
-        );
+                                new String[] {"ab", "c"}, new String[] {"a", "bc"})
+                        .solution());
     }
-
 }

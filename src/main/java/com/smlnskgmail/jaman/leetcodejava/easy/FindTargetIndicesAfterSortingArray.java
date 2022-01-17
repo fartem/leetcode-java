@@ -4,16 +4,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-//https://leetcode.com/problems/find-target-indices-after-sorting-array
+// https://leetcode.com/problems/find-target-indices-after-sorting-array
 public class FindTargetIndicesAfterSortingArray {
 
     private final int[] nums;
     private final int target;
 
-    public FindTargetIndicesAfterSortingArray(
-            int[] nums,
-            int target
-    ) {
+    public FindTargetIndicesAfterSortingArray(int[] nums, int target) {
         this.nums = nums;
         this.target = target;
     }
@@ -28,5 +25,4 @@ public class FindTargetIndicesAfterSortingArray {
         }
         return result;
     }
-
 }

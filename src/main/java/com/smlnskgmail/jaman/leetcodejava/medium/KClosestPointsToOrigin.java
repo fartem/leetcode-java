@@ -24,5 +24,4 @@ public class KClosestPointsToOrigin {
     private int distance(int[] point) {
         return point[0] * point[0] + point[1] * point[1];
     }
-
 }

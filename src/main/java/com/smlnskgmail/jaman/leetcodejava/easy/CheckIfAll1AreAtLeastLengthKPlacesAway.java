@@ -6,10 +6,7 @@ public class CheckIfAll1AreAtLeastLengthKPlacesAway {
     private final int[] nums;
     private final int k;
 
-    public CheckIfAll1AreAtLeastLengthKPlacesAway(
-            int[] nums,
-            int k
-    ) {
+    public CheckIfAll1AreAtLeastLengthKPlacesAway(int[] nums, int k) {
         this.nums = nums;
         this.k = k;
     }
@@ -31,5 +28,4 @@ public class CheckIfAll1AreAtLeastLengthKPlacesAway {
         }
         return true;
     }
-
 }

@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class RearrangeSpacesBetweenWordsTest {
 
@@ -10,10 +10,6 @@ public class RearrangeSpacesBetweenWordsTest {
     public void defaultTest() {
         assertEquals(
                 "this   is   a   sentence",
-                new RearrangeSpacesBetweenWords(
-                        "  this   is  a sentence "
-                ).solution()
-        );
+                new RearrangeSpacesBetweenWords("  this   is  a sentence ").solution());
     }
-
 }

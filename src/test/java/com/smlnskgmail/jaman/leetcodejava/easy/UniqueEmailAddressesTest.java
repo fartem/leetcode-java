@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class UniqueEmailAddressesTest {
 
@@ -11,13 +11,11 @@ public class UniqueEmailAddressesTest {
         assertEquals(
                 2,
                 new UniqueEmailAddresses(
-                        new String[]{
-                                "test.email+alex@leetcode.com",
-                                "test.e.mail+bob.cathy@leetcode.com",
-                                "testemail+david@lee.tcode.com"
-                        }
-                ).solution()
-        );
+                                new String[] {
+                                    "test.email+alex@leetcode.com",
+                                    "test.e.mail+bob.cathy@leetcode.com",
+                                    "testemail+david@lee.tcode.com"
+                                })
+                        .solution());
     }
-
 }

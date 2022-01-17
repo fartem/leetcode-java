@@ -33,5 +33,4 @@ public class SlowestKey {
         }
         return keys.get(slow);
     }
-
 }

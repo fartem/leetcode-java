@@ -18,5 +18,4 @@ public class FindNumbersWithEvenNumberOfDigits {
         }
         return result;
     }
-
 }

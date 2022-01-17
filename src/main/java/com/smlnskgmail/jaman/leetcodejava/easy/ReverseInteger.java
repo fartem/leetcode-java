@@ -28,5 +28,4 @@ public class ReverseInteger {
         }
         return result;
     }
-
 }

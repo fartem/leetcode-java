@@ -1,9 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class DesignHashSetTest {
 
@@ -19,5 +19,4 @@ public class DesignHashSetTest {
         designHashSet.remove(2);
         assertFalse(designHashSet.contains(2));
     }
-
 }

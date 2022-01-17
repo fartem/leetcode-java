@@ -24,21 +24,11 @@ public class PlusOne {
             }
         }
         if (overflow) {
-            int[] result = Arrays.copyOf(
-                    input,
-                    input.length + 1
-            );
+            int[] result = Arrays.copyOf(input, input.length + 1);
             result[0] = 1;
-            System.arraycopy(
-                    input,
-                    0,
-                    result,
-                    1,
-                    input.length
-            );
+            System.arraycopy(input, 0, result, 1, input.length);
             return result;
         }
         return input;
     }
-
 }

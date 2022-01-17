@@ -38,5 +38,4 @@ public class DeepestLeavesSum {
         }
         return 0;
     }
-
 }

@@ -20,5 +20,4 @@ public class ElementAppearingMoreThan25InSortedArray {
         }
         return -1;
     }
-
 }

@@ -6,10 +6,7 @@ public class AddStrings {
     private final String num1;
     private final String num2;
 
-    public AddStrings(
-            String num1,
-            String num2
-    ) {
+    public AddStrings(String num1, String num2) {
         this.num1 = num1;
         this.num2 = num2;
     }
@@ -47,5 +44,4 @@ public class AddStrings {
         }
         return Character.getNumericValue(num.charAt(index));
     }
-
 }

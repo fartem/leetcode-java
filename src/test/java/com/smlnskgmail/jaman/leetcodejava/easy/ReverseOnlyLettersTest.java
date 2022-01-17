@@ -1,19 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class ReverseOnlyLettersTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                "dc-ba",
-                new ReverseOnlyLetters(
-                        "ab-cd"
-                ).solution()
-        );
+        assertEquals("dc-ba", new ReverseOnlyLetters("ab-cd").solution());
     }
-
 }

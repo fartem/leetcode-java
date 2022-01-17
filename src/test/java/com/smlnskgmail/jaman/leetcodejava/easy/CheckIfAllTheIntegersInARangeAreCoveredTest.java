@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class CheckIfAllTheIntegersInARangeAreCoveredTest {
 
@@ -10,11 +10,7 @@ public class CheckIfAllTheIntegersInARangeAreCoveredTest {
     public void defaultTest() {
         assertTrue(
                 new CheckIfAllTheIntegersInARangeAreCovered(
-                        new int[][]{{1, 2}, {3, 4}, {5, 6}},
-                        2,
-                        5
-                ).solution()
-        );
+                                new int[][] {{1, 2}, {3, 4}, {5, 6}}, 2, 5)
+                        .solution());
     }
-
 }

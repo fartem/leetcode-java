@@ -9,11 +9,7 @@ public class LowestCommonAncestorOfABinarySearchTree {
     private final TreeNode p;
     private final TreeNode q;
 
-    public LowestCommonAncestorOfABinarySearchTree(
-            TreeNode root,
-            TreeNode p,
-            TreeNode q
-    ) {
+    public LowestCommonAncestorOfABinarySearchTree(TreeNode root, TreeNode p, TreeNode q) {
         this.root = root;
         this.p = p;
         this.q = q;
@@ -23,11 +19,7 @@ public class LowestCommonAncestorOfABinarySearchTree {
         return lowestCommonAncestor(root, p, q);
     }
 
-    private TreeNode lowestCommonAncestor(
-            TreeNode root,
-            TreeNode p,
-            TreeNode q
-    ) {
+    private TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (p.val < root.val && q.val < root.val) {
             return lowestCommonAncestor(root.left, p, q);
         } else if (p.val > root.val && q.val > root.val) {
@@ -35,5 +27,4 @@ public class LowestCommonAncestorOfABinarySearchTree {
         }
         return root;
     }
-
 }

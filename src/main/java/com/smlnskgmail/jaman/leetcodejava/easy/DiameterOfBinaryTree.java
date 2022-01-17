@@ -27,5 +27,4 @@ public class DiameterOfBinaryTree {
         }
         return 0;
     }
-
 }

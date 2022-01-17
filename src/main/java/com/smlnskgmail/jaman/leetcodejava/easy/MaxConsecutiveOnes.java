@@ -22,5 +22,4 @@ public class MaxConsecutiveOnes {
         }
         return Math.max(result, counter);
     }
-
 }

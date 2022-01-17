@@ -6,10 +6,7 @@ public class GuessNumberHigherOrLower {
     private final int input;
     private final int guess;
 
-    public GuessNumberHigherOrLower(
-            int input,
-            int guess
-    ) {
+    public GuessNumberHigherOrLower(int input, int guess) {
         this.input = input;
         this.guess = guess;
     }
@@ -35,5 +32,4 @@ public class GuessNumberHigherOrLower {
     private int guess(int number) {
         return Integer.compare(guess, number);
     }
-
 }

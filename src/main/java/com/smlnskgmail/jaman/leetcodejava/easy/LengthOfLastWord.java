@@ -15,5 +15,4 @@ public class LengthOfLastWord {
         String word = string.substring(lastSpace + 1);
         return word.length();
     }
-
 }

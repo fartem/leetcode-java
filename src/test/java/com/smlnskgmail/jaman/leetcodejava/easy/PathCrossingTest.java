@@ -1,16 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertFalse;
+
+import org.junit.Test;
 
 public class PathCrossingTest {
 
     @Test
     public void defaultTest() {
-        assertFalse(
-                new PathCrossing("NES").solution()
-        );
+        assertFalse(new PathCrossing("NES").solution());
     }
-
 }

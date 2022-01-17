@@ -6,34 +6,12 @@ import java.util.Set;
 // https://leetcode.com/problems/unique-morse-code-words
 public class UniqueMorseCodeWords {
 
-    private static final String[] ALPHABET = new String[]{
-            ".-",
-            "-...",
-            "-.-.",
-            "-..",
-            ".",
-            "..-.",
-            "--.",
-            "....",
-            "..",
-            ".---",
-            "-.-",
-            ".-..",
-            "--",
-            "-.",
-            "---",
-            ".--.",
-            "--.-",
-            ".-.",
-            "...",
-            "-",
-            "..-",
-            "...-",
-            ".--",
-            "-..-",
-            "-.--",
-            "--.."
-    };
+    private static final String[] ALPHABET =
+            new String[] {
+                ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-",
+                ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--",
+                "-..-", "-.--", "--.."
+            };
 
     private final String[] input;
 
@@ -53,5 +31,4 @@ public class UniqueMorseCodeWords {
         }
         return uniq.size();
     }
-
 }

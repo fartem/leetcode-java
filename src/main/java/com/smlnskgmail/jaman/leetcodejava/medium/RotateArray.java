@@ -25,5 +25,4 @@ public class RotateArray {
         System.arraycopy(copy, 0, nums, div, part);
         System.arraycopy(copy, part, nums, 0, div);
     }
-
 }

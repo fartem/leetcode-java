@@ -10,10 +10,7 @@ public class FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree {
     private final TreeNode target;
 
     public FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree(
-            TreeNode original,
-            TreeNode cloned,
-            TreeNode target
-    ) {
+            TreeNode original, TreeNode cloned, TreeNode target) {
         this.original = original;
         this.cloned = cloned;
         this.target = target;
@@ -39,5 +36,4 @@ public class FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree {
         }
         return null;
     }
-
 }

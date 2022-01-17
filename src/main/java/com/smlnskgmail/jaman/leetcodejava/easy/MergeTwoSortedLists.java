@@ -38,5 +38,4 @@ public class MergeTwoSortedLists {
         }
         return temp.next;
     }
-
 }

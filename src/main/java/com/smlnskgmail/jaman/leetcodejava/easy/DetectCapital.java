@@ -12,10 +12,8 @@ public class DetectCapital {
     public boolean solution() {
         if (input.charAt(0) < 97) {
             String sub = input.substring(1);
-            return sub.toLowerCase().equals(sub)
-                    || input.toUpperCase().equals(input);
+            return sub.toLowerCase().equals(sub) || input.toUpperCase().equals(input);
         }
         return input.toLowerCase().equals(input);
     }
-
 }

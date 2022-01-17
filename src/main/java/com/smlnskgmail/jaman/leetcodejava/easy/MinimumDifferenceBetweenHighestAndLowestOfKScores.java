@@ -8,10 +8,7 @@ public class MinimumDifferenceBetweenHighestAndLowestOfKScores {
     private final int[] nums;
     private final int k;
 
-    public MinimumDifferenceBetweenHighestAndLowestOfKScores(
-            int[] nums,
-            int k
-    ) {
+    public MinimumDifferenceBetweenHighestAndLowestOfKScores(int[] nums, int k) {
         this.nums = nums;
         this.k = k;
     }
@@ -23,12 +20,8 @@ public class MinimumDifferenceBetweenHighestAndLowestOfKScores {
         Arrays.sort(nums);
         int result = Integer.MAX_VALUE;
         for (int i = k - 1; i < nums.length; i++) {
-            result = Math.min(
-                    result,
-                    nums[i] - nums[i - k + 1]
-            );
+            result = Math.min(result, nums[i] - nums[i - k + 1]);
         }
         return result;
     }
-
 }

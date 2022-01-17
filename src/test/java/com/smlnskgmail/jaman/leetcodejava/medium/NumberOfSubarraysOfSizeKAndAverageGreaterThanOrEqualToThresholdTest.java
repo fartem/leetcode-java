@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThresholdTest {
 
@@ -11,11 +11,7 @@ public class NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThresholdTest
         assertEquals(
                 3,
                 new NumberOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold(
-                        new int[]{2, 2, 2, 2, 5, 5, 5, 8},
-                        3,
-                        4
-                ).solution()
-        );
+                                new int[] {2, 2, 2, 2, 5, 5, 5, 8}, 3, 4)
+                        .solution());
     }
-
 }

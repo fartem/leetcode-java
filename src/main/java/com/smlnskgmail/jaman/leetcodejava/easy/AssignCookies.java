@@ -31,5 +31,4 @@ public class AssignCookies {
         }
         return result;
     }
-
 }

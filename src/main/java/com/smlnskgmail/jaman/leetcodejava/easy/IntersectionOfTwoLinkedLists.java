@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-//https://leetcode.com/problems/intersection-of-two-linked-lists
+// https://leetcode.com/problems/intersection-of-two-linked-lists
 public class IntersectionOfTwoLinkedLists {
 
     private ListNode firstHead;
@@ -30,5 +30,4 @@ public class IntersectionOfTwoLinkedLists {
         }
         return pointerA;
     }
-
 }
