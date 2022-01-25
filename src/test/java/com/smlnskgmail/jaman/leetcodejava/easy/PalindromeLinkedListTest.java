@@ -9,20 +9,7 @@ public class PalindromeLinkedListTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new PalindromeLinkedList(
-                        new ListNode(
-                                1,
-                                new ListNode(
-                                        2,
-                                        new ListNode(
-                                                2,
-                                                new ListNode(1)
-                                        )
-                                )
-                        )
-                ).solution()
-        );
+        assertTrue(new PalindromeLinkedList(ListNode.fromNumbers(1, 2, 2, 1)).solution());
     }
 
 }

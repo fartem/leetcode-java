@@ -15,14 +15,14 @@ public class ListNode {
         return l1 == null && l2 == null;
     }
 
-    public static ListNode fromArray(int[] arr) {
-        if (arr.length == 0) {
+    public static ListNode fromNumbers(int... numbers) {
+        if (numbers.length == 0) {
             return null;
         }
-        ListNode head = new ListNode(arr[0]);
+        ListNode head = new ListNode(numbers[0]);
         ListNode p = head;
-        for (int i = 1; i < arr.length; i++) {
-            p.next = new ListNode(arr[i]);
+        for (int i = 1; i < numbers.length; i++) {
+            p.next = new ListNode(numbers[i]);
             p = p.next;
         }
         return head;

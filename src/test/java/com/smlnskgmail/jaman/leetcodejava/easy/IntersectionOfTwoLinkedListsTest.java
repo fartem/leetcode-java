@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class IntersectionOfTwoLinkedListsTest {
 
@@ -35,14 +35,12 @@ public class IntersectionOfTwoLinkedListsTest {
                         )
                 )
         ).solution();
-        while (intersection != null) {
-            assertEquals(
-                    intersection,
-                    result
-            );
-            intersection = intersection.next;
-            result = result.next;
-        }
+        assertTrue(
+                ListNode.areEqual(
+                        intersection,
+                        result
+                )
+        );
     }
 
 }

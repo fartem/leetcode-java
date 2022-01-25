@@ -5,8 +5,8 @@ import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 //https://leetcode.com/problems/intersection-of-two-linked-lists
 public class IntersectionOfTwoLinkedLists {
 
-    private ListNode firstHead;
-    private ListNode secondHead;
+    private final ListNode firstHead;
+    private final ListNode secondHead;
 
     public IntersectionOfTwoLinkedLists(ListNode firstHead, ListNode secondHead) {
         this.firstHead = firstHead;
