@@ -1,6 +1,8 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.LinkedList;
 
 // https://leetcode.com/problems/merge-intervals
 public class MergeIntervals {
