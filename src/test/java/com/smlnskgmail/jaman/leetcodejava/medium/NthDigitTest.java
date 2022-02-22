@@ -12,10 +12,6 @@ public class NthDigitTest {
                 3,
                 new NthDigit(3).solution()
         );
-        assertEquals(
-                9,
-                new NthDigit(9).solution()
-        );
     }
 
 }
