@@ -10,7 +10,7 @@ public class CapitalizeTheTitle {
     }
 
     public String solution() {
-        StringBuilder result = new StringBuilder(input);
+        StringBuilder result = new StringBuilder();
         for (String word : input.split(" ")) {
             result.append(word.toLowerCase());
             if (word.length() > 2) {
