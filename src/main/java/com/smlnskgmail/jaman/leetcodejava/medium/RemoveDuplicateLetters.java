@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.leetcodejava.easy;
+package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Stack;
 
