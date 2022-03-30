@@ -12,10 +12,6 @@ public class NumberOfGoodWaysToSplitAStringTest {
                 2,
                 new NumberOfGoodWaysToSplitAString("aacaba").solution()
         );
-        assertEquals(
-                2,
-                new NumberOfGoodWaysToSplitAString("aacabaesfasdfsadfasdfsadfs").solution()
-        );
     }
 
 }
