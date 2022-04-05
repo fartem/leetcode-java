@@ -6,14 +6,14 @@ import java.util.Map;
 // https://leetcode.com/problems/longest-palindromic-subsequence
 public class LongestPalindromicSubsequence {
 
-    private final String s;
+    private final String input;
 
     public LongestPalindromicSubsequence(String input) {
-        this.s = input;
+        this.input = input;
     }
 
     public int solution() {
-        return calculateLength(s, 0, s.length() - 1, new HashMap<>());
+        return calculateLength(input, 0, input.length() - 1, new HashMap<>());
     }
 
     private int calculateLength(String s, int start, int end, Map<String, Integer> subs) {
