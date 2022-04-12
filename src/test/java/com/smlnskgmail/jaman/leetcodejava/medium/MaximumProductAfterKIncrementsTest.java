@@ -11,8 +11,8 @@ public class MaximumProductAfterKIncrementsTest {
         assertEquals(
                 20,
                 new MaximumProductAfterKIncrements(
-                        new int[]{24, 5, 64, 53, 26, 38},
-                        54
+                        new int[]{0, 4},
+                        5
                 ).solution()
         );
     }
