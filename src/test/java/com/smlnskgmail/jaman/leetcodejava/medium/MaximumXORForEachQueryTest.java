@@ -11,7 +11,7 @@ public class MaximumXORForEachQueryTest {
         assertArrayEquals(
                 new int[]{0, 3, 2, 3},
                 new MaximumXORForEachQuery(
-                        new int[]{0, 3, 2, 3},
+                        new int[]{0, 1, 1, 3},
                         2
                 ).solution()
         );
