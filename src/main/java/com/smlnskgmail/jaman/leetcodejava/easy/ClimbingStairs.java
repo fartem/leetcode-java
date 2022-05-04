@@ -10,17 +10,17 @@ public class ClimbingStairs {
     }
 
     public int solution() {
-        if (input < 4) {
-            return input;
+        if (input == 1) {
+            return 1;
         }
-        int prev = 0;
-        int next = 1;
-        for (int i = 0; i < input; ++i) {
-            int sum = prev + next;
-            prev = next;
-            next = sum;
+        int n1 = 1;
+        int n2 = 2;
+        for (int i = 3; i <= input; i++) {
+            int temp = n1;
+            n1 = n2;
+            n2 += temp;
         }
-        return next;
+        return n2;
     }
 
 }
