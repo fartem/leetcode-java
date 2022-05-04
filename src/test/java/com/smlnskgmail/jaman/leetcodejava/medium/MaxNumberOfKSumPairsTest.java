@@ -15,13 +15,6 @@ public class MaxNumberOfKSumPairsTest {
                         5
                 ).solution()
         );
-        assertEquals(
-                1,
-                new MaxNumberOfKSumPairs(
-                        new int[]{3, 1, 3, 4, 3},
-                        6
-                ).solution()
-        );
     }
 
 }

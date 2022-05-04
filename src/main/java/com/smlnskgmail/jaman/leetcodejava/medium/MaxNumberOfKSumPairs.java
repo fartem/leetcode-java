@@ -16,19 +16,18 @@ public class MaxNumberOfKSumPairs {
 
     public int solution() {
         Map<Integer, Integer> count = new HashMap<>();
-        for (int num : nums) {
-            int c = count.getOrDefault(num, 0);
-            count.put(num, c + 1);
-        }
         int result = 0;
-        for (Map.Entry<Integer, Integer> c : count.entrySet()) {
-            int val = c.getKey();
-            result += Math.min(
-                    c.getValue(),
-                    count.getOrDefault(k - val, 0)
-            );
+        for (int num : nums) {
+            int s = k - num;
+            int sCount = count.getOrDefault(s, 0);
+            if (sCount > 0) {
+                result++;
+                count.put(s, sCount - 1);
+            } else {
+                count.put(num, count.getOrDefault(num, 0) + 1);
+            }
         }
-        return result / 2;
+        return result;
     }
 
 }
