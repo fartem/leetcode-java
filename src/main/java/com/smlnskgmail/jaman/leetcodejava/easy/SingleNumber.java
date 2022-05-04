@@ -1,8 +1,5 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-import java.util.HashSet;
-import java.util.Set;
-
 // https://leetcode.com/problems/single-number/solution
 public class SingleNumber {
 
@@ -13,15 +10,11 @@ public class SingleNumber {
     }
 
     public int solution() {
-        Set<Integer> uniqueNums = new HashSet<>();
+        int result = 0;
         for (int num : input) {
-            if (uniqueNums.contains(num)) {
-                uniqueNums.remove(num);
-            } else {
-                uniqueNums.add(num);
-            }
+            result ^= num;
         }
-        return uniqueNums.iterator().next();
+        return result;
     }
 
 }
