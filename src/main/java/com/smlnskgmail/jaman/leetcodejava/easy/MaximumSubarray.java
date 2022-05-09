@@ -10,15 +10,14 @@ public class MaximumSubarray {
     }
 
     public int solution() {
-        int localMax = 0;
-        int globalMax = Integer.MIN_VALUE;
-        for (int num : input) {
-            localMax = Math.max(num, num + localMax);
-            if (globalMax < localMax) {
-                globalMax = localMax;
-            }
+        int max = input[0];
+        int curr = max;
+        for (int i = 1; i < input.length; i++) {
+            int num = input[i];
+            curr = Math.max(curr + num, num);
+            max = Math.max(curr, max);
         }
-        return globalMax;
+        return max;
     }
 
 }
