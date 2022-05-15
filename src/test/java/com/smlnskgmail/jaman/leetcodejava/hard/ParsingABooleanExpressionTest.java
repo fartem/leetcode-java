@@ -8,11 +8,7 @@ public class ParsingABooleanExpressionTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new ParsingABooleanExpression(
-                        "!(f)"
-                ).solution()
-        );
+        assertTrue(new ParsingABooleanExpression("!(f)").solution());
     }
 
 }

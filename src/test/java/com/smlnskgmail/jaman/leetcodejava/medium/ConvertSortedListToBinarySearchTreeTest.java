@@ -24,31 +24,9 @@ public class ConvertSortedListToBinarySearchTreeTest {
                 )
         );
         TreeNode solution = new ConvertSortedListToBinarySearchTree(
-                new ListNode(
-                        -10,
-                        new ListNode(
-                                -3,
-                                new ListNode(
-                                        0,
-                                        new ListNode(
-                                                5,
-                                                new ListNode(9)
-                                        )
-                                )
-                        )
-                )
+                ListNode.fromNumbers(-10, -3, 0, 5, 9)
         ).solution();
-        assertTrue(isEquals(correct, solution));
-    }
-
-    private boolean isEquals(TreeNode a, TreeNode b) {
-        if (a != null && b != null) {
-            if (a.val != b.val) {
-                return false;
-            }
-            return isEquals(a.right, b.right);
-        }
-        return a == null && b == null;
+        assertTrue(TreeNode.areEqual(correct, solution));
     }
 
 }

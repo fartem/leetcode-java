@@ -1,7 +1,7 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.NextTreeNode;
-import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

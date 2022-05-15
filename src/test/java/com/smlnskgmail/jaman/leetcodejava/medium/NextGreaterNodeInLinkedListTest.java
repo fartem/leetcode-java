@@ -11,15 +11,7 @@ public class NextGreaterNodeInLinkedListTest {
     public void defaultTest() {
         assertArrayEquals(
                 new int[]{5, 5, 0},
-                new NextGreaterNodeInLinkedList(
-                        new ListNode(
-                                2,
-                                new ListNode(
-                                        1,
-                                        new ListNode(5)
-                                )
-                        )
-                ).solution()
+                new NextGreaterNodeInLinkedList(ListNode.fromNumbers(2, 1, 5)).solution()
         );
     }
 

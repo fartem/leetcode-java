@@ -12,16 +12,7 @@ public class LinkedListComponentsTest {
         assertEquals(
                 2,
                 new LinkedListComponents(
-                        new ListNode(
-                                0,
-                                new ListNode(
-                                        1,
-                                        new ListNode(
-                                                2,
-                                                new ListNode(3)
-                                        )
-                                )
-                        ),
+                        ListNode.fromNumbers(0, 1, 2, 3),
                         new int[]{0, 1, 3}
                 ).solution()
         );

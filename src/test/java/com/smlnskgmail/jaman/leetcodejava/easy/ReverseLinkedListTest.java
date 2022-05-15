@@ -3,48 +3,22 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class ReverseLinkedListTest {
 
     @Test
     public void defaultTest() {
-        ListNode validList = new ListNode(
-                5,
-                new ListNode(
-                        4,
-                        new ListNode(
-                                3,
-                                new ListNode(
-                                        2,
-                                        new ListNode(1)
-                                )
-                        )
+        ListNode validList = ListNode.fromNumbers(5, 4, 3, 2, 1);
+        ListNode reversedList = new ReverseLinkedList(
+                ListNode.fromNumbers(1, 2, 3, 4, 5)
+        ).solution();
+        assertTrue(
+                ListNode.areEqual(
+                        validList,
+                        reversedList
                 )
         );
-        ListNode reversedList = new ReverseLinkedList(
-                new ListNode(
-                        1,
-                        new ListNode(
-                                2,
-                                new ListNode(
-                                        3,
-                                        new ListNode(
-                                                4,
-                                                new ListNode(5)
-                                        )
-                                )
-                        )
-                )
-        ).solution();
-        while (validList != null) {
-            assertEquals(
-                    validList.val,
-                    reversedList.val
-            );
-            validList = validList.next;
-            reversedList = reversedList.next;
-        }
     }
 
 }

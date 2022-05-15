@@ -3,52 +3,18 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 
 public class SwappingNodesInALinkedListTest {
 
     @Test
     public void defaultTest() {
-        ListNode head = new ListNode(
-                1,
-                new ListNode(
-                        2,
-                        new ListNode(
-                                3,
-                                new ListNode(
-                                        4,
-                                        new ListNode(5)
-                                )
-                        )
-                )
-        );
-        ListNode correct = new ListNode(
-                1,
-                new ListNode(
-                        4,
-                        new ListNode(
-                                3,
-                                new ListNode(
-                                        2,
-                                        new ListNode(5)
-                                )
-                        )
-                )
-        );
+        ListNode correct = ListNode.fromNumbers(1, 4, 3, 2, 5);
         ListNode solution = new SwappingNodesInALinkedList(
-                head,
+                ListNode.fromNumbers(1, 2, 3, 4, 5),
                 2
         ).solution();
-        while (correct != null) {
-            assertEquals(
-                    solution.val,
-                    correct.val
-            );
-            correct = correct.next;
-            solution = solution.next;
-        }
-        assertNull(solution);
+        assertTrue(ListNode.areEqual(correct, solution));
     }
 
 }

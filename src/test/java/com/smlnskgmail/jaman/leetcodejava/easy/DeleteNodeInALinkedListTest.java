@@ -3,41 +3,22 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class DeleteNodeInALinkedListTest {
 
     @Test
     public void defaultTest() {
-        ListNode head = new ListNode(
-                4,
-                new ListNode(
-                        5,
-                        new ListNode(
-                                1,
-                                new ListNode(9)
-                        )
-                )
-        );
-        ListNode validList = new ListNode(
-                4,
-                new ListNode(
-                        1,
-                        new ListNode(9)
-                )
-        );
+        ListNode head = ListNode.fromNumbers(4, 5, 1, 9);
+        ListNode validList = ListNode.fromNumbers(4, 1, 9);
 
         new DeleteNodeInALinkedList(head.next).solution();
-
-        ListNode pointer = validList;
-        while (pointer != null) {
-            assertEquals(
-                    pointer.val,
-                    head.val
-            );
-            head = head.next;
-            pointer = pointer.next;
-        }
+        assertTrue(
+                ListNode.areEqual(
+                        head,
+                        validList
+                )
+        );
     }
 
 }

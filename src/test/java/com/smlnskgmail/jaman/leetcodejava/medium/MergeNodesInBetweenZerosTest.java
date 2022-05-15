@@ -11,9 +11,9 @@ public class MergeNodesInBetweenZerosTest {
     public void defaultTest() {
         assertTrue(
                 ListNode.areEqual(
-                        ListNode.fromArray(new int[]{4, 11}),
+                        ListNode.fromNumbers(4, 11),
                         new MergeNodesInBetweenZeros(
-                                ListNode.fromArray(new int[]{0, 3, 1, 0, 4, 5, 2, 0})
+                                ListNode.fromNumbers(0, 3, 1, 0, 4, 5, 2, 0)
                         ).solution()
                 )
         );

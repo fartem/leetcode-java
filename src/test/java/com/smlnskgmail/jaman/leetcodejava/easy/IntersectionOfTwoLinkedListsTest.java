@@ -3,20 +3,14 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class IntersectionOfTwoLinkedListsTest {
 
     @Test
     public void defaultTest() {
-        ListNode intersection = new ListNode(
-                8,
-                new ListNode(
-                        4,
-                        new ListNode(5)
-                )
-        );
-        ListNode result = new IntersectionOfTwoLinkedLists(
+        ListNode intersection = ListNode.fromNumbers(8, 4, 5);
+        ListNode solution = new IntersectionOfTwoLinkedLists(
                 new ListNode(
                         4,
                         new ListNode(
@@ -35,14 +29,7 @@ public class IntersectionOfTwoLinkedListsTest {
                         )
                 )
         ).solution();
-        while (intersection != null) {
-            assertEquals(
-                    intersection,
-                    result
-            );
-            intersection = intersection.next;
-            result = result.next;
-        }
+        assertTrue(ListNode.areEqual(intersection, solution));
     }
 
 }

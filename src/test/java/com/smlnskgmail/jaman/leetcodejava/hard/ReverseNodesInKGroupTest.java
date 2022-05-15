@@ -11,9 +11,9 @@ public class ReverseNodesInKGroupTest {
     public void defaultTest() {
         assertTrue(
                 ListNode.areEqual(
-                        ListNode.fromArray(new int[]{2, 1, 4, 3, 5}),
+                        ListNode.fromNumbers(2, 1, 4, 3, 5),
                         new ReverseNodesInKGroup(
-                                ListNode.fromArray(new int[]{1, 2, 3, 4, 5}),
+                                ListNode.fromNumbers(1, 2, 3, 4, 5),
                                 2
                         ).solution()
                 )

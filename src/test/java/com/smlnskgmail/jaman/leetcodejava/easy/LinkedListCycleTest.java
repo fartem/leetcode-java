@@ -18,11 +18,7 @@ public class LinkedListCycleTest {
         nodes[3] = new ListNode(-4);
         nodes[2].next = nodes[3];
         nodes[3].next = nodes[1];
-        assertTrue(
-                new LinkedListCycle(
-                        nodes[0]
-                ).solution()
-        );
+        assertTrue(new LinkedListCycle(nodes[0]).solution());
     }
 
 }

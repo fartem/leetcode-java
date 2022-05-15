@@ -11,9 +11,9 @@ public class ReverseNodesInEvenLengthGroupsTest {
     public void defaultTest() {
         assertTrue(
                 ListNode.areEqual(
-                        ListNode.fromArray(new int[]{5, 6, 2, 3, 9, 1, 4, 8, 3, 7}),
+                        ListNode.fromNumbers(5, 6, 2, 3, 9, 1, 4, 8, 3, 7),
                         new ReverseNodesInEvenLengthGroups(
-                                ListNode.fromArray(new int[]{5, 2, 6, 3, 9, 1, 7, 3, 8, 4})
+                                ListNode.fromNumbers(5, 2, 6, 3, 9, 1, 7, 3, 8, 4)
                         ).solution()
                 )
         );

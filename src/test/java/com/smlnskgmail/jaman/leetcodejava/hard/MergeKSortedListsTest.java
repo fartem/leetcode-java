@@ -11,23 +11,12 @@ public class MergeKSortedListsTest {
     public void defaultTest() {
         assertTrue(
                 ListNode.areEqual(
-                        ListNode.fromArray(new int[]{1, 1, 2, 3, 4, 4, 5, 6}),
+                        ListNode.fromNumbers(1, 1, 2, 3, 4, 4, 5, 6),
                         new MergeKSortedLists(
                                 new ListNode[]{
-                                        ListNode.fromArray(new int[]{1, 4, 5}),
-                                        ListNode.fromArray(new int[]{1, 3, 4}),
-                                        ListNode.fromArray(new int[]{2, 6})
-                                }
-                        ).solution()
-                )
-        );
-        assertTrue(
-                ListNode.areEqual(
-                        ListNode.fromArray(new int[]{-1, 5, 6, 10, 11}),
-                        new MergeKSortedLists(
-                                new ListNode[]{
-                                        ListNode.fromArray(new int[]{-1, 5, 11}),
-                                        ListNode.fromArray(new int[]{6, 10})
+                                        ListNode.fromNumbers(1, 4, 5),
+                                        ListNode.fromNumbers(1, 3, 4),
+                                        ListNode.fromNumbers(2, 6)
                                 }
                         ).solution()
                 )

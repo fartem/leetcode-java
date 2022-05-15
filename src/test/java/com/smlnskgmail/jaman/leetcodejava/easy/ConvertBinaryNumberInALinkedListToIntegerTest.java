@@ -9,17 +9,10 @@ public class ConvertBinaryNumberInALinkedListToIntegerTest {
 
     @Test
     public void defaultTest() {
-        ListNode head = new ListNode(
-                1,
-                new ListNode(
-                        0,
-                        new ListNode(1)
-                )
-        );
         assertEquals(
                 5,
                 new ConvertBinaryNumberInALinkedListToInteger(
-                        head
+                        ListNode.fromNumbers(1, 0, 1)
                 ).solution()
         );
     }
