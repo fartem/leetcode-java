@@ -9,17 +9,12 @@ public class RemoveLinkedListElementsTest {
 
     @Test
     public void defaultTest() {
-        ListNode validList = ListNode.fromNumbers(1, 2, 3, 4, 5);
-        ListNode result = new RemoveLinkedListElements(
+        ListNode correct = ListNode.fromNumbers(1, 2, 3, 4, 5);
+        ListNode solution = new RemoveLinkedListElements(
                 ListNode.fromNumbers(1, 2, 6, 3, 4, 5, 6),
                 6
         ).solution();
-        assertTrue(
-                ListNode.areEqual(
-                        validList,
-                        result
-                )
-        );
+        assertTrue(ListNode.areEqual(correct, solution));
     }
 
 }

@@ -12,13 +12,7 @@ public class LinkedListInBinaryTreeTest {
     public void defaultTest() {
         assertTrue(
                 new LinkedListInBinaryTree(
-                        new ListNode(
-                                4,
-                                new ListNode(
-                                        2,
-                                        new ListNode(8)
-                                )
-                        ),
+                        ListNode.fromNumbers(4, 2, 8),
                         new TreeNode(
                                 1,
                                 new TreeNode(

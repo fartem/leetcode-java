@@ -10,14 +10,12 @@ public class BestTimeToBuyAndSellStock {
     }
 
     public int solution() {
-        int min = Integer.MAX_VALUE;
         int max = 0;
-        for (int price : input) {
-            if (price < min) {
-                min = price;
-            } else if (price - min > max) {
-                max = price - min;
-            }
+        int min = input[0];
+        for (int i = 1; i < input.length; i++) {
+            int price = input[i];
+            max = Math.max(price - min, max);
+            min = Math.min(price, min);
         }
         return max;
     }

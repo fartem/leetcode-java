@@ -9,15 +9,11 @@ public class RemoveDuplicatesFromSortedListTest {
 
     @Test
     public void defaultTest() {
-        ListNode validList = ListNode.fromNumbers(1, 2);
-        ListNode head = ListNode.fromNumbers(1, 1, 2);
-        ListNode result = new RemoveDuplicatesFromSortedList(head).solution();
-        assertTrue(
-                ListNode.areEqual(
-                        validList,
-                        result
-                )
-        );
+        ListNode correct = ListNode.fromNumbers(1, 2);
+        ListNode solution = new RemoveDuplicatesFromSortedList(
+                ListNode.fromNumbers(1, 1, 2)
+        ).solution();
+        assertTrue(ListNode.areEqual(correct, solution));
     }
 
 }

@@ -12,31 +12,7 @@ public class FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPointsTest {
         assertArrayEquals(
                 new int[]{-1, -1},
                 new FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPoints(
-                        new ListNode(1, new ListNode(3))
-                ).solution()
-        );
-        assertArrayEquals(
-                new int[]{1, 3},
-                new FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPoints(
-                        new ListNode(
-                                5,
-                                new ListNode(
-                                        3,
-                                        new ListNode(
-                                                1,
-                                                new ListNode(
-                                                        2,
-                                                        new ListNode(
-                                                                5,
-                                                                new ListNode(
-                                                                        1,
-                                                                        new ListNode(2)
-                                                                )
-                                                        )
-                                                )
-                                        )
-                                )
-                        )
+                        ListNode.fromNumbers(1, 3)
                 ).solution()
         );
     }

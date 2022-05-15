@@ -11,21 +11,7 @@ public class MiddleOfTheLinkedListTest {
     public void defaultTest() {
         assertEquals(
                 3,
-                new MiddleOfTheLinkedList(
-                        new ListNode(
-                                1,
-                                new ListNode(
-                                        2,
-                                        new ListNode(
-                                                3,
-                                                new ListNode(
-                                                        4,
-                                                        new ListNode(5)
-                                                )
-                                        )
-                                )
-                        )
-                ).solution().val
+                new MiddleOfTheLinkedList(ListNode.fromNumbers(1, 2, 3, 4, 5)).solution().val
         );
     }
 

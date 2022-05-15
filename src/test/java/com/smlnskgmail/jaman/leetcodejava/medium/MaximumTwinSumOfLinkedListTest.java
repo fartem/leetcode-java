@@ -11,18 +11,7 @@ public class MaximumTwinSumOfLinkedListTest {
     public void defaultTest() {
         assertEquals(
                 6,
-                new MaximumTwinSumOfLinkedList(
-                        new ListNode(
-                                5,
-                                new ListNode(
-                                        4,
-                                        new ListNode(
-                                                2,
-                                                new ListNode(1)
-                                        )
-                                )
-                        )
-                ).solution()
+                new MaximumTwinSumOfLinkedList(ListNode.fromNumbers(5, 4, 2, 1)).solution()
         );
     }
 

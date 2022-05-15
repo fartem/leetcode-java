@@ -9,14 +9,8 @@ public class IntersectionOfTwoLinkedListsTest {
 
     @Test
     public void defaultTest() {
-        ListNode intersection = new ListNode(
-                8,
-                new ListNode(
-                        4,
-                        new ListNode(5)
-                )
-        );
-        ListNode result = new IntersectionOfTwoLinkedLists(
+        ListNode intersection = ListNode.fromNumbers(8, 4, 5);
+        ListNode solution = new IntersectionOfTwoLinkedLists(
                 new ListNode(
                         4,
                         new ListNode(
@@ -35,12 +29,7 @@ public class IntersectionOfTwoLinkedListsTest {
                         )
                 )
         ).solution();
-        assertTrue(
-                ListNode.areEqual(
-                        intersection,
-                        result
-                )
-        );
+        assertTrue(ListNode.areEqual(intersection, solution));
     }
 
 }

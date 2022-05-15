@@ -9,24 +9,16 @@ public class SplitLinkedListIntPartsTest {
 
     @Test
     public void defaultTest() {
-        ListNode head = new ListNode(
-                1,
-                new ListNode(
-                        2,
-                        new ListNode(3)
-                )
-        );
-        ListNode[] correct = new ListNode[]{
-                new ListNode(1),
-                new ListNode(2),
-                new ListNode(3),
-                null,
-                null
-        };
         assertArrayEquals(
-                correct,
+                new ListNode[]{
+                        new ListNode(1),
+                        new ListNode(2),
+                        new ListNode(3),
+                        null,
+                        null
+                },
                 new SplitLinkedListIntParts(
-                        head,
+                        ListNode.fromNumbers(1, 2, 3),
                         5
                 ).solution()
         );

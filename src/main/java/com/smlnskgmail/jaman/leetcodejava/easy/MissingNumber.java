@@ -12,13 +12,10 @@ public class MissingNumber {
     public int solution() {
         int max = input.length;
         int sum = 0;
-        for (int i = 0; i <= max; i++) {
-            sum += i;
-        }
         for (int num : input) {
-            sum -= num;
+            sum += num;
         }
-        return sum;
+        return max * (max + 1) / 2 - sum;
     }
 
 }
