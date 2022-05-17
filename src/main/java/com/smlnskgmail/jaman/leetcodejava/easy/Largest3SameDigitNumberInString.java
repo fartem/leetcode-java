@@ -3,20 +3,20 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 // https://leetcode.com/problems/largest-3-same-digit-number-in-string
 public class Largest3SameDigitNumberInString {
 
-    private final String num;
+    private final String input;
 
     public Largest3SameDigitNumberInString(String input) {
-        this.num = input;
+        this.input = input;
     }
 
     public String solution() {
         String result = "";
-        char prev = num.charAt(0);
+        char prev = input.charAt(0);
         char[] candidate = new char[3];
         int p = 0;
         candidate[p++] = prev;
-        for (int i = 1; i < num.length(); i++) {
-            char curr = num.charAt(i);
+        for (int i = 1; i < input.length(); i++) {
+            char curr = input.charAt(i);
             if (prev != curr) {
                 p = 0;
             }
