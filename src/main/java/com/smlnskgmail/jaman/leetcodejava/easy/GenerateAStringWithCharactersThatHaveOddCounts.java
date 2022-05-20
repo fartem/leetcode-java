@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts
+// https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/
 public class GenerateAStringWithCharactersThatHaveOddCounts {
 
     private final int input;

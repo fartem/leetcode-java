@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.hard;
 
-// https://leetcode.com/problems/parsing-a-boolean-expression
+// https://leetcode.com/problems/parsing-a-boolean-expression/
 public class ParsingABooleanExpression {
 
     private final String input;

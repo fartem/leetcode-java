@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/determine-if-string-halves-are-alike
+// https://leetcode.com/problems/determine-if-string-halves-are-alike/
 public class DetermineIfStringHalvesAreAlike {
 
     private final String input;

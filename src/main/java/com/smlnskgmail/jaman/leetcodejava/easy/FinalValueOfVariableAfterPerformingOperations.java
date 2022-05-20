@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+// https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
 public class FinalValueOfVariableAfterPerformingOperations {
 
     private final String[] input;

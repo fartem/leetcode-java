@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/intersection-of-two-arrays
+// https://leetcode.com/problems/intersection-of-two-arrays/
 public class IntersectionOfTwoArrays {
 
     private final int[] nums1;

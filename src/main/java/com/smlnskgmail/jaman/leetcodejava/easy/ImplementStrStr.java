@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/implement-strstr
+// https://leetcode.com/problems/implement-strstr/
 public class ImplementStrStr {
 
     private final String haystack;

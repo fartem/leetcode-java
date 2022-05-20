@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-it-is-a-straight-line
+// https://leetcode.com/problems/check-if-it-is-a-straight-line/
 public class CheckIfItIsAStraightLine {
 
     private final int[][] input;

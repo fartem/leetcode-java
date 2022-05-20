@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence
+// https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/
 public class CheckIFNumbersAreAscendingInASentence {
 
     private final String input;

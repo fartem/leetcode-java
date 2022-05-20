@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/assign-cookies
+// https://leetcode.com/problems/assign-cookies/
 public class AssignCookies {
 
     private final int[] g;

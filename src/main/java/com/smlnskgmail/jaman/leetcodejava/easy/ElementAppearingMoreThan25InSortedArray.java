@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array
+// https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 public class ElementAppearingMoreThan25InSortedArray {
 
     private final int[] input;

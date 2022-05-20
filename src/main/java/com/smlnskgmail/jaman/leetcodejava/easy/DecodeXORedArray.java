@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/decode-xored-array
+// https://leetcode.com/problems/decode-xored-array/
 public class DecodeXORedArray {
 
     private final int[] encoded;

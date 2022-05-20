@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/add-strings
+// https://leetcode.com/problems/add-strings/
 public class AddStrings {
 
     private final String num1;
     private final String num2;
 
-    public AddStrings(
-            String num1,
-            String num2
-    ) {
+    public AddStrings(String num1, String num2) {
         this.num1 = num1;
         this.num2 = num2;
     }

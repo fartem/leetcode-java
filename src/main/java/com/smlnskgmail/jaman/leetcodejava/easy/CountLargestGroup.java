@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-largest-group
+// https://leetcode.com/problems/count-largest-group/
 public class CountLargestGroup {
 
     private final int input;

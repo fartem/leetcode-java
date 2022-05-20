@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/delete-node-in-a-linked-list
+// https://leetcode.com/problems/delete-node-in-a-linked-list/
 public class DeleteNodeInALinkedList {
 
     private final ListNode node;

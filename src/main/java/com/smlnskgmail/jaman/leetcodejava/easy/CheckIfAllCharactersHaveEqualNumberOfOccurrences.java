@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences
+// https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/
 public class CheckIfAllCharactersHaveEqualNumberOfOccurrences {
 
     private final String input;

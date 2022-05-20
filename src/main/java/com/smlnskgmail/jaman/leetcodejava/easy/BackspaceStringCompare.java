@@ -2,16 +2,13 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/backspace-string-compare
+// https://leetcode.com/problems/backspace-string-compare/
 public class BackspaceStringCompare {
 
     private final String s;
     private final String t;
 
-    public BackspaceStringCompare(
-            String s,
-            String t
-    ) {
+    public BackspaceStringCompare(String s, String t) {
         this.s = s;
         this.t = t;
     }

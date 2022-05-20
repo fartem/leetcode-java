@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/climbing-stairs
+// https://leetcode.com/problems/climbing-stairs/
 public class ClimbingStairs {
 
     private final int input;

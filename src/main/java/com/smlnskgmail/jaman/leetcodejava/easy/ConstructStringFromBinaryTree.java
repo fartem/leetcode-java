@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/construct-string-from-binary-tree
+// https://leetcode.com/problems/construct-string-from-binary-tree/
 public class ConstructStringFromBinaryTree {
 
     private final TreeNode input;

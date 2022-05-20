@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/greatest-common-divisor-of-strings
+// https://leetcode.com/problems/greatest-common-divisor-of-strings/
 public class GreatestCommonDivisorOfStrings {
 
     private final String first;
     private final String second;
 
-    public GreatestCommonDivisorOfStrings(
-            String first,
-            String second
-    ) {
+    public GreatestCommonDivisorOfStrings(String first, String second) {
         this.first = first;
         this.second = second;
     }

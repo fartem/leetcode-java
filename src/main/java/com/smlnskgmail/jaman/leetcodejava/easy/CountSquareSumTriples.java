@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-square-sum-triples
+// https://leetcode.com/problems/count-square-sum-triples/
 public class CountSquareSumTriples {
 
     private final int input;

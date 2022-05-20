@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/defuse-the-bomb
+// https://leetcode.com/problems/defuse-the-bomb/
 public class DefuseTheBomb {
 
     private final int[] code;

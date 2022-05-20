@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/jewels-and-stones
+// https://leetcode.com/problems/jewels-and-stones/
 public class JewelsAndStones {
 
     private final String jewels;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/find-the-difference
+// https://leetcode.com/problems/find-the-difference/
 public class FindTheDifference {
 
     private final String firstString;

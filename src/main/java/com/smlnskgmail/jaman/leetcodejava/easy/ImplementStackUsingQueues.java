@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.LinkedList;
 
-// https://leetcode.com/problems/implement-stack-using-queues
+// https://leetcode.com/problems/implement-stack-using-queues/
 public class ImplementStackUsingQueues {
 
     private final LinkedList<Integer> queue = new LinkedList<>();

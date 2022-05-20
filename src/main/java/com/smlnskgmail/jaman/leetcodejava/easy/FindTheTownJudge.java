@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/find-the-town-judge
+// https://leetcode.com/problems/find-the-town-judge/
 public class FindTheTownJudge {
 
     private final int n;

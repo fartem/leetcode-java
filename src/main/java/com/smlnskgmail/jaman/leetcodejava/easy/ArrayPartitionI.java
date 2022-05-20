@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/array-partition-i
+// https://leetcode.com/problems/array-partition-i/
 public class ArrayPartitionI {
 
     private final int[] input;

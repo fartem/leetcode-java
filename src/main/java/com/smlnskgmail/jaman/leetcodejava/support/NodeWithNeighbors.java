@@ -8,9 +8,6 @@ public class NodeWithNeighbors {
     public int val;
     public List<NodeWithNeighbors> neighbors;
 
-    public NodeWithNeighbors() {
-    }
-
     public NodeWithNeighbors(int val) {
         this.val = val;
         this.neighbors = new ArrayList<>();

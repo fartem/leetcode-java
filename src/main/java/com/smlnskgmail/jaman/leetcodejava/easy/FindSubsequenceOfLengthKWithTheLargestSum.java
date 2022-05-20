@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.*;
 
-// https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum
+// https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/
 public class FindSubsequenceOfLengthKWithTheLargestSum {
 
     private final int[] nums;

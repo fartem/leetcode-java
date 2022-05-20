@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/arranging-coins
+// https://leetcode.com/problems/arranging-coins/
 public class ArrangingCoins {
 
     private int input;

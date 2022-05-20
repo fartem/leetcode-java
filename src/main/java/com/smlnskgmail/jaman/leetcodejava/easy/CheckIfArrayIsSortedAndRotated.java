@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-array-is-sorted-and-rotated
+// https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 public class CheckIfArrayIsSortedAndRotated {
 
     private final int[] input;

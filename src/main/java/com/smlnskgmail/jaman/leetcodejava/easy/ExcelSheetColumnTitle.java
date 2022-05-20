@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/excel-sheet-column-title
+// https://leetcode.com/problems/excel-sheet-column-title/
 public class ExcelSheetColumnTitle {
 
     private int input;

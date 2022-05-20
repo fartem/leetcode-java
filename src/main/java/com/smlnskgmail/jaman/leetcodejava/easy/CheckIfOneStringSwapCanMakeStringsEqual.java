@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal
+// https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/
 public class CheckIfOneStringSwapCanMakeStringsEqual {
 
     private final String s1;
     private final String s2;
 
-    public CheckIfOneStringSwapCanMakeStringsEqual(
-            String s1,
-            String s2
-    ) {
+    public CheckIfOneStringSwapCanMakeStringsEqual(String s1, String s2) {
         this.s1 = s1;
         this.s2 = s2;
     }

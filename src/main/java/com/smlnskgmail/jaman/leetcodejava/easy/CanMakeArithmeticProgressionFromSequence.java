@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence
+// https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/
 public class CanMakeArithmeticProgressionFromSequence {
 
     private final int[] input;

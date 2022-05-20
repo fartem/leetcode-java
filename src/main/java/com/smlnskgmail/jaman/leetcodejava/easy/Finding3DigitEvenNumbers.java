@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/finding-3-digit-even-numbers
+// https://leetcode.com/problems/finding-3-digit-even-numbers/
 public class Finding3DigitEvenNumbers {
 
     private final int[] input;

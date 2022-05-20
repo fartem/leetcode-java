@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/find-mode-in-binary-search-tree
+// https://leetcode.com/problems/find-mode-in-binary-search-tree/
 public class FindModeInBinarySearchTree {
 
     private final TreeNode input;

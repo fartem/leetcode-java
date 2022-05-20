@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary
+// https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
 public class AverageSalaryExcludingTheMinimumAndMaximumSalary {
 
     private final int[] input;

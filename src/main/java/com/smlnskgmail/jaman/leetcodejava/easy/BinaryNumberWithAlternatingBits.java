@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/binary-number-with-alternating-bits
+// https://leetcode.com/problems/binary-number-with-alternating-bits/
 public class BinaryNumberWithAlternatingBits {
 
     private int input;

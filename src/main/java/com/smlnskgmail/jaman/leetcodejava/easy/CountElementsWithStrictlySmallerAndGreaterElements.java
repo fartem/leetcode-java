@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements
+// https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/
 public class CountElementsWithStrictlySmallerAndGreaterElements {
 
     private final int[] input;

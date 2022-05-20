@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/hamming-distance
+// https://leetcode.com/problems/hamming-distance/
 public class HammingDistance {
 
     private final int x;

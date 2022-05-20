@@ -3,16 +3,13 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/count-common-words-with-one-occurrence
+// https://leetcode.com/problems/count-common-words-with-one-occurrence/
 public class CountCommonWordsWithOneOccurrence {
 
     private final String[] words1;
     private final String[] words2;
 
-    public CountCommonWordsWithOneOccurrence(
-            String[] words1,
-            String[] words2
-    ) {
+    public CountCommonWordsWithOneOccurrence(String[] words1, String[] words2) {
         this.words1 = words1;
         this.words2 = words2;
     }

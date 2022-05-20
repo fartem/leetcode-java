@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/guess-number-higher-or-lower
+// https://leetcode.com/problems/guess-number-higher-or-lower/
 public class GuessNumberHigherOrLower {
 
     private final int input;
     private final int guess;
 
-    public GuessNumberHigherOrLower(
-            int input,
-            int guess
-    ) {
+    public GuessNumberHigherOrLower(int input, int guess) {
         this.input = input;
         this.guess = guess;
     }

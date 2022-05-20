@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/day-of-the-year
+// https://leetcode.com/problems/day-of-the-year/
 public class DayOfTheYear {
 
     private final static int[] DAYS = new int[]{0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};

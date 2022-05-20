@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-// https://leetcode.com/problems/average-of-levels-in-binary-tree
+// https://leetcode.com/problems/average-of-levels-in-binary-tree/
 public class AverageOfLevelsInBinaryTree {
 
     private final TreeNode input;

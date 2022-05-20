@@ -5,16 +5,13 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/all-elements-in-two-binary-search-trees
+// https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 public class AllElementsInTwoBinarySearchTrees {
 
     private final TreeNode root1;
     private final TreeNode root2;
 
-    public AllElementsInTwoBinarySearchTrees(
-            TreeNode root1,
-            TreeNode root2
-    ) {
+    public AllElementsInTwoBinarySearchTrees(TreeNode root1, TreeNode root2) {
         this.root1 = root1;
         this.root2 = root2;
     }

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-special-quadruplets
+// https://leetcode.com/problems/count-special-quadruplets/
 public class CountSpecialQuadruplets {
 
     private final int[] nums;

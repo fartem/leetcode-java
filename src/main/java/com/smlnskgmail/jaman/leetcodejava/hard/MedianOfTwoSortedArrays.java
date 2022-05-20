@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.hard;
 
-// https://leetcode.com/problems/median-of-two-sorted-arrays
+// https://leetcode.com/problems/median-of-two-sorted-arrays/
 public class MedianOfTwoSortedArrays {
 
     private final int[] nums1;

@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array
+// https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 public class FindAllNumbersDisappearedInAnArray {
 
     private final int[] input;

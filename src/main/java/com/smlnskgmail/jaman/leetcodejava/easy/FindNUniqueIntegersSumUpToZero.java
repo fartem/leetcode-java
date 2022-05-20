@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero
+// https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/
 public class FindNUniqueIntegersSumUpToZero {
 
     private final int input;

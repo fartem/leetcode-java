@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/crawler-log-folder
+// https://leetcode.com/problems/crawler-log-folder/
 public class CrawlerLogFolder {
 
     private final String[] input;

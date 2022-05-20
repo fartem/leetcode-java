@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number
+// https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 public class HowManyNumbersAreSmallerThanTheCurrentNumber {
 
     private final int[] input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/cells-with-odd-values-in-a-matrix
+// https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/
 public class CellsWithOddValuesInAMatrix {
 
     private final int m;

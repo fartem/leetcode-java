@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/diameter-of-binary-tree
+// https://leetcode.com/problems/diameter-of-binary-tree/
 public class DiameterOfBinaryTree {
 
     private final TreeNode input;

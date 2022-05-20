@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/height-checker
+// https://leetcode.com/problems/height-checker/
 public class HeightChecker {
 
     private final int[] input;

@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/calculate-digit-sum-of-a-string
+// https://leetcode.com/problems/calculate-digit-sum-of-a-string/
 public class CalculateDigitSumOfAString {
 
     private String s;

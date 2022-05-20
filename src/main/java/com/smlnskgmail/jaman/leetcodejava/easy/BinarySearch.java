@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/binary-search
+// https://leetcode.com/problems/binary-search/
 public class BinarySearch {
 
     private final int[] nums;

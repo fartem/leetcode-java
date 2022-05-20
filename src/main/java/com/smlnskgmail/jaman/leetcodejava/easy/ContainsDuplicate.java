@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/contains-duplicate
+// https://leetcode.com/problems/contains-duplicate/
 public class ContainsDuplicate {
 
     private final int[] input;

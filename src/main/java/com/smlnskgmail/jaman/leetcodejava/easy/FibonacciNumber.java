@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/fibonacci-number
+// https://leetcode.com/problems/fibonacci-number/
 public class FibonacciNumber {
 
     private final int input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-vowel-substrings-of-a-string
+// https://leetcode.com/problems/count-vowel-substrings-of-a-string/
 public class CountVowelSubstringsOfAString {
 
     private final String input;

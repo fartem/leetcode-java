@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.hard;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/first-missing-positive
+// https://leetcode.com/problems/first-missing-positive/
 public class FirstMissingPositive {
 
     private final int[] nums;

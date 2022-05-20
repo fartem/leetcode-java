@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/intersection-of-two-arrays-ii
+// https://leetcode.com/problems/intersection-of-two-arrays-ii/
 public class IntersectionOfTwoArraysII {
 
     private final int[] nums1;

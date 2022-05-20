@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate
+// https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/
 public class FindNearestPointThatHasTheSameXOrYCoordinate {
 
     private final int x;

@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/binary-tree-paths
+// https://leetcode.com/problems/binary-tree-paths/
 public class BinaryTreePaths {
 
     private final TreeNode input;

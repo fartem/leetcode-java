@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// https://leetcode.com/problems/contains-duplicate-ii
+// https://leetcode.com/problems/contains-duplicate-ii/
 public class ContainsDuplicateII {
 
     private final int[] nums;

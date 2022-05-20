@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/divide-a-string-into-groups-of-size-k
+// https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/
 public class DivideAStringIntoGroupsOfSizeK {
 
     private final String s;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/delete-characters-to-make-fancy-string
+// https://leetcode.com/problems/delete-characters-to-make-fancy-string/
 public class DeleteCharactersToMakeFancyString {
 
     private final String input;

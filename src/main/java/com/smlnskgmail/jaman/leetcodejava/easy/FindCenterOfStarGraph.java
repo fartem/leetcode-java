@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/find-center-of-star-graph
+// https://leetcode.com/problems/find-center-of-star-graph/
 public class FindCenterOfStarGraph {
 
     private final int[][] input;

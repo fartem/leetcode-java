@@ -1,9 +1,17 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/day-of-the-week
+// https://leetcode.com/problems/day-of-the-week/
 public class DayOfTheWeek {
 
-    private static final String[] DAY_OF_WEEK = new String[]{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+    private static final String[] DAY_OF_WEEK = new String[]{
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+    };
     private static final int[] MONTHS = new int[]{0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
     private int day;

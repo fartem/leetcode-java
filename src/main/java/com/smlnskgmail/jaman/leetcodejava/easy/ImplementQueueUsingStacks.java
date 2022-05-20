@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/implement-queue-using-stacks
+// https://leetcode.com/problems/implement-queue-using-stacks/
 public class ImplementQueueUsingStacks {
 
     private final Stack<Integer> stack = new Stack<>();

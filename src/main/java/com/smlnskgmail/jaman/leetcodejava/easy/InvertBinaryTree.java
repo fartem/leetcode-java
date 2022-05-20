@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/invert-binary-tree
+// https://leetcode.com/problems/invert-binary-tree/
 public class InvertBinaryTree {
 
     private final TreeNode input;

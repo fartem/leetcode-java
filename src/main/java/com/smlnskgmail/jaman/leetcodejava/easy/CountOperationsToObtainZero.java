@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-operations-to-obtain-zero
+// https://leetcode.com/problems/count-operations-to-obtain-zero/
 public class CountOperationsToObtainZero {
 
     private int num1;

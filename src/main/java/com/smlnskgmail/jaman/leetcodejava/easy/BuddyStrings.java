@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/buddy-strings
+// https://leetcode.com/problems/buddy-strings/
 public class BuddyStrings {
 
     private final String s;

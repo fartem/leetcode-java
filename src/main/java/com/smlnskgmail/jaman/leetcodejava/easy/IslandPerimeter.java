@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/island-perimeter
+// https://leetcode.com/problems/island-perimeter/
 public class IslandPerimeter {
 
     private final int[][] input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/defanging-an-ip-address
+// https://leetcode.com/problems/defanging-an-ip-address/
 public class DefangingAnIPAddress {
 
     private final String input;

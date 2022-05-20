@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/first-unique-character-in-a-string
+// https://leetcode.com/problems/first-unique-character-in-a-string/
 public class FirstUniqueCharacterInAString {
 
     private final String input;

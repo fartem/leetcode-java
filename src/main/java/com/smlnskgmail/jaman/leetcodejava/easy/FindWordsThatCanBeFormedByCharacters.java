@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/find-words-that-can-be-formed-by-characters
+// https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/
 public class FindWordsThatCanBeFormedByCharacters {
 
     private final String[] words;
     private final String chars;
 
-    public FindWordsThatCanBeFormedByCharacters(
-            String[] words,
-            String chars
-    ) {
+    public FindWordsThatCanBeFormedByCharacters(String[] words, String chars) {
         this.words = words;
         this.chars = chars;
     }

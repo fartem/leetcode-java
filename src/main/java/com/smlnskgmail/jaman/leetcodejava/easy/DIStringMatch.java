@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/di-string-match
+// https://leetcode.com/problems/di-string-match/
 public class DIStringMatch {
 
     private final String input;

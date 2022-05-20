@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/concatenation-of-array
+// https://leetcode.com/problems/concatenation-of-array/
 public class ConcatenationOfArray {
 
     private final int[] input;

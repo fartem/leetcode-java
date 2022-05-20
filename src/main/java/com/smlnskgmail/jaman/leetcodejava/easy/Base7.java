@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/base-7
+// https://leetcode.com/problems/base-7/
 public class Base7 {
 
     private final int input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping
+// https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/
 public class DecryptStringFromAlphabetToIntegerMapping {
 
     private final String input;

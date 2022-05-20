@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.hard;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/reverse-nodes-in-k-group
+// https://leetcode.com/problems/reverse-nodes-in-k-group/
 public class ReverseNodesInKGroup {
 
     private final ListNode head;

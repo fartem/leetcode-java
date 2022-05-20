@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent
+// https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
 public class CheckIfTwoStringArraysAreEquivalent {
 
     private final String[] firstWordArray;

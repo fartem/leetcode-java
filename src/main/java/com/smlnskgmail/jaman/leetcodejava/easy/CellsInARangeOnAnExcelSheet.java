@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet
+// https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/
 public class CellsInARangeOnAnExcelSheet {
 
     private final String s;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/increasing-decreasing-string
+// https://leetcode.com/problems/increasing-decreasing-string/
 public class IncreasingDecreasingString {
 
     private final String input;

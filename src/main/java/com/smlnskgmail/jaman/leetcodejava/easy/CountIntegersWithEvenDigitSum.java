@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-integers-with-even-digit-sum
+// https://leetcode.com/problems/count-integers-with-even-digit-sum/
 public class CountIntegersWithEvenDigitSum {
 
     private final int input;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/balanced-binary-tree
+// https://leetcode.com/problems/balanced-binary-tree/
 public class BalancedBinaryTree {
 
     private final TreeNode input;

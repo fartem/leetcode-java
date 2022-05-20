@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Objects;
 
-// https://leetcode.com/problems/design-hashmap
+// https://leetcode.com/problems/design-hashmap/
 public class DesignHashMap {
 
     private final Entry[] entries = new Entry[500];

@@ -1,14 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+// https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
 public class CountNumberOfPairsWithAbsoluteDifferenceK {
 
     private final int[] nums;
     private final int k;
 
-    public CountNumberOfPairsWithAbsoluteDifferenceK(
-            int[] nums,
-            int k
-    ) {
+    public CountNumberOfPairsWithAbsoluteDifferenceK(int[] nums, int k) {
         this.nums = nums;
         this.k = k;
     }

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/find-closest-number-to-zero
+// https://leetcode.com/problems/find-closest-number-to-zero/
 public class FindClosestNumberToZero {
 
     private final int[] input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-primes
+// https://leetcode.com/problems/count-primes/
 public class CountPrimes {
 
     private final int input;

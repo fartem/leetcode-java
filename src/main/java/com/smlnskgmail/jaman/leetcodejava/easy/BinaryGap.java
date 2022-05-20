@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/binary-gap
+// https://leetcode.com/problems/binary-gap/
 public class BinaryGap {
 
     private final int input;

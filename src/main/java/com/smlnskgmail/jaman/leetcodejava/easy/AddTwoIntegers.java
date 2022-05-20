@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/add-two-integers
+// https://leetcode.com/problems/add-two-integers/
 public class AddTwoIntegers {
 
     private final int num1;

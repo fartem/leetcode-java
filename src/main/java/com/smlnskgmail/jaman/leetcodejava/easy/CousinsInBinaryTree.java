@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// https://leetcode.com/problems/cousins-in-binary-tree
+// https://leetcode.com/problems/cousins-in-binary-tree/
 public class CousinsInBinaryTree {
 
     private final TreeNode root;

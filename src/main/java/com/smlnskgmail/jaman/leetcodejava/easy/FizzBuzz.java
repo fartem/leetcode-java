@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/fizz-buzz
+// https://leetcode.com/problems/fizz-buzz/
 public class FizzBuzz {
 
     private final int input;

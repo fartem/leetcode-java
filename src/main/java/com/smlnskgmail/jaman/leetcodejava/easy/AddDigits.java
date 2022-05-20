@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/add-digits
+// https://leetcode.com/problems/add-digits/
 public class AddDigits {
 
     private int input;

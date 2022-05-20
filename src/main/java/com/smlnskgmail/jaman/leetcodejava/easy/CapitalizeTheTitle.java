@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/capitalize-the-title
+// https://leetcode.com/problems/capitalize-the-title/
 public class CapitalizeTheTitle {
 
     private final String input;

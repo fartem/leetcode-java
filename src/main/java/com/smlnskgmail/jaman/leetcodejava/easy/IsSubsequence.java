@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/is-subsequence
+// https://leetcode.com/problems/is-subsequence/
 public class IsSubsequence {
 
     private final String s;
     private final String t;
 
-    public IsSubsequence(
-            String s,
-            String t
-    ) {
+    public IsSubsequence(String s, String t) {
         this.s = s;
         this.t = t;
     }

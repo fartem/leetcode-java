@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/design-parking-system
+// https://leetcode.com/problems/design-parking-system/
 public class DesignParkingSystem {
 
     private int big;

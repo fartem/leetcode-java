@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.List;
 
-// https://leetcode.com/problems/count-items-matching-a-rule
+// https://leetcode.com/problems/count-items-matching-a-rule/
 public class CountItemsMatchingARule {
 
     private final List<List<String>> items;

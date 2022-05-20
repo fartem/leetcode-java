@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop
+// https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/
 public class FinalPricesWithASpecialDiscountInAShop {
 
     private final int[] input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/build-array-from-permutation
+// https://leetcode.com/problems/build-array-from-permutation/
 public class BuildArrayFromPermutation {
 
     private final int[] input;

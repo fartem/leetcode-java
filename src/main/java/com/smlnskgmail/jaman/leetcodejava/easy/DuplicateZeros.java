@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/duplicate-zeros
+// https://leetcode.com/problems/duplicate-zeros/
 public class DuplicateZeros {
 
     private final int[] input;

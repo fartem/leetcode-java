@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-of-matches-in-tournament
+// https://leetcode.com/problems/count-of-matches-in-tournament/
 public class CountOfMatchesInTournament {
 
     private int input;

@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/count-the-number-of-consistent-strings
+// https://leetcode.com/problems/count-the-number-of-consistent-strings/
 public class CountTheNumberOfConsistentStrings {
 
     private final String allowed;

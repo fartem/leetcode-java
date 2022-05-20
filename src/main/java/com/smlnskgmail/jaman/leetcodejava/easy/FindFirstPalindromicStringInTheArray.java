@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/find-first-palindromic-string-in-the-array
+// https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
 public class FindFirstPalindromicStringInTheArray {
 
     private final String[] input;

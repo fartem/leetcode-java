@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/find-pivot-index
+// https://leetcode.com/problems/find-pivot-index/
 public class FindPivotIndex {
 
     private final int[] input;

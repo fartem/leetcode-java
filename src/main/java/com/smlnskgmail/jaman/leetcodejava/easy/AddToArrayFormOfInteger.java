@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// https://leetcode.com/problems/add-to-array-form-of-integer
+// https://leetcode.com/problems/add-to-array-form-of-integer/
 public class AddToArrayFormOfInteger {
 
     private final int[] num;

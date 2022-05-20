@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-odd-numbers-in-an-interval-range
+// https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
 public class CountOddNumbersInAnIntervalRange {
 
     private final int low;

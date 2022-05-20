@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/first-bad-version
+// https://leetcode.com/problems/first-bad-version/
 public class FirstBadVersion {
 
     private final int input;

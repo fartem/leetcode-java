@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
+// https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 public class ConvertSortedArrayToBinarySearchTree {
 
     private final int[] input;
@@ -15,11 +15,7 @@ public class ConvertSortedArrayToBinarySearchTree {
         return toBST(input, 0, input.length - 1);
     }
 
-    private TreeNode toBST(
-            int[] nums,
-            int start,
-            int end
-    ) {
+    private TreeNode toBST(int[] nums, int start, int end) {
         if (start > end) {
             return null;
         }

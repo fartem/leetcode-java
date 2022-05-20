@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-hills-and-valleys-in-an-array
+// https://leetcode.com/problems/count-hills-and-valleys-in-an-array/
 public class CountHillsAndValleysInAnArray {
 
     private final int[] nums;

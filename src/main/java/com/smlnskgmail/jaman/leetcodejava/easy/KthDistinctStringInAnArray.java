@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/kth-distinct-string-in-an-array
+// https://leetcode.com/problems/kth-distinct-string-in-an-array/
 public class KthDistinctStringInAnArray {
 
     private final String[] arr;

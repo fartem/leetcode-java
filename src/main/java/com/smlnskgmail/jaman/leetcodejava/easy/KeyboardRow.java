@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/keyboard-row
+// https://leetcode.com/problems/keyboard-row/
 public class KeyboardRow {
 
     private final String[] input;

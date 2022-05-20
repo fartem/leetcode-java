@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/delete-node-in-a-bst
+// https://leetcode.com/problems/delete-node-in-a-bst/
 public class DeleteNodeInABST {
 
     private final TreeNode root;

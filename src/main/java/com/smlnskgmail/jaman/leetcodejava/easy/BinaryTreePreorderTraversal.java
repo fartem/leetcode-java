@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/binary-tree-preorder-traversal
+// https://leetcode.com/problems/binary-tree-preorder-traversal/
 public class BinaryTreePreorderTraversal {
 
     private final TreeNode input;

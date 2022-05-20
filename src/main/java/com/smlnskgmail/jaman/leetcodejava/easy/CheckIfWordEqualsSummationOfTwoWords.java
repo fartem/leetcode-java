@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-word-equals-summation-of-two-words
+// https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/
 public class CheckIfWordEqualsSummationOfTwoWords {
 
     private final String firstWord;

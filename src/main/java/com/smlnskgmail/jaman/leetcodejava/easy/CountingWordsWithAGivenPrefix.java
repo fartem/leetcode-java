@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/counting-words-with-a-given-prefix
+// https://leetcode.com/problems/counting-words-with-a-given-prefix/
 public class CountingWordsWithAGivenPrefix {
 
     private final String[] words;

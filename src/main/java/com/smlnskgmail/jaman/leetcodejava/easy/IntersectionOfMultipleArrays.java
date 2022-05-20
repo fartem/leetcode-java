@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.*;
 
-// https://leetcode.com/problems/intersection-of-multiple-arrays
+// https://leetcode.com/problems/intersection-of-multiple-arrays/
 public class IntersectionOfMultipleArrays {
 
     private final int[][] input;

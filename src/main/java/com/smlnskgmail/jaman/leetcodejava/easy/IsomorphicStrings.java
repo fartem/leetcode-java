@@ -3,16 +3,13 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/isomorphic-strings
+// https://leetcode.com/problems/isomorphic-strings/
 public class IsomorphicStrings {
 
     private final String s;
     private final String t;
 
-    public IsomorphicStrings(
-            String s,
-            String t
-    ) {
+    public IsomorphicStrings(String s, String t) {
         this.s = s;
         this.t = t;
     }

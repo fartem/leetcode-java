@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-string-is-a-prefix-of-array
+// https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/
 public class CheckIfStringIsAPrefixOfArray {
 
     private final String s;
     private final String[] words;
 
-    public CheckIfStringIsAPrefixOfArray(
-            String s,
-            String[] words
-    ) {
+    public CheckIfStringIsAPrefixOfArray(String s, String[] words) {
         this.s = s;
         this.words = words;
     }

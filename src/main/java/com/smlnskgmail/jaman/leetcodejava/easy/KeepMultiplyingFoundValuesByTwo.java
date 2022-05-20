@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/keep-multiplying-found-values-by-two
+// https://leetcode.com/problems/keep-multiplying-found-values-by-two/
 public class KeepMultiplyingFoundValuesByTwo {
 
     private final int[] nums;

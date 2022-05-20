@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.hard;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/merge-k-sorted-lists
+// https://leetcode.com/problems/merge-k-sorted-lists/
 public class MergeKSortedLists {
 
     private final ListNode[] input;

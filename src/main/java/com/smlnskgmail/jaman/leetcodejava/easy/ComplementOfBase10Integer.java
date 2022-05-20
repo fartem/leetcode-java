@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/complement-of-base-10-integer
+// https://leetcode.com/problems/complement-of-base-10-integer/
 public class ComplementOfBase10Integer {
 
     private int input;

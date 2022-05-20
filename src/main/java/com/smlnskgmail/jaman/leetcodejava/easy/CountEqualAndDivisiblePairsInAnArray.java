@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array
+// https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
 public class CountEqualAndDivisiblePairsInAnArray {
 
     private final int[] nums;

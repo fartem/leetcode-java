@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/divisor-game
+// https://leetcode.com/problems/divisor-game/
 public class DivisorGame {
 
     private final int input;

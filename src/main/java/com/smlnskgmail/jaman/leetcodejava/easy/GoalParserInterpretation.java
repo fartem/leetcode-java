@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/goal-parser-interpretation
+// https://leetcode.com/problems/goal-parser-interpretation/
 public class GoalParserInterpretation {
 
     private final String input;

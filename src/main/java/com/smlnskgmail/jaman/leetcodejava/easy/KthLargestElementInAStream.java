@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-// https://leetcode.com/problems/kth-largest-element-in-a-stream
+// https://leetcode.com/problems/kth-largest-element-in-a-stream/
 public class KthLargestElementInAStream {
 
     private final Queue<Integer> heap = new PriorityQueue<>();

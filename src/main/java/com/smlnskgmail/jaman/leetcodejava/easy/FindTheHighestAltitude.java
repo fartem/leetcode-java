@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/find-the-highest-altitude
+// https://leetcode.com/problems/find-the-highest-altitude/
 public class FindTheHighestAltitude {
 
     private final int[] input;

@@ -1,17 +1,13 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times
+// https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/
 public class DetectPatternOfLengthMRepeatedKOrMoreTimes {
 
     private final int[] arr;
     private final int m;
     private final int k;
 
-    public DetectPatternOfLengthMRepeatedKOrMoreTimes(
-            int[] arr,
-            int m,
-            int k
-    ) {
+    public DetectPatternOfLengthMRepeatedKOrMoreTimes(int[] arr, int m, int k) {
         this.arr = arr;
         this.m = m;
         this.k = k;

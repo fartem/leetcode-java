@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/divide-array-into-equal-pairs
+// https://leetcode.com/problems/divide-array-into-equal-pairs/
 public class DivideArrayIntoEqualPairs {
 
     private final int[] nums;

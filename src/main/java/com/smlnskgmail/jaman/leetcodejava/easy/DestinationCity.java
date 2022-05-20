@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-// https://leetcode.com/problems/destination-city
+// https://leetcode.com/problems/destination-city/
 public class DestinationCity {
 
     private final List<List<String>> input;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/find-greatest-common-divisor-of-array
+// https://leetcode.com/problems/find-greatest-common-divisor-of-array/
 public class FindGreatestCommonDivisorOfArray {
 
     private final int[] input;

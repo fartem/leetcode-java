@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/consecutive-characters
+// https://leetcode.com/problems/consecutive-characters/
 public class ConsecutiveCharacters {
 
     private final String input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones
+// https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/
 public class CheckIfBinaryStringHasAtMostOneSegmentOfOnes {
 
     private final String input;

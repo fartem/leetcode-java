@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/excel-sheet-column-number
+// https://leetcode.com/problems/excel-sheet-column-number/
 public class ExcelSheetColumnNumber {
 
     private final String input;

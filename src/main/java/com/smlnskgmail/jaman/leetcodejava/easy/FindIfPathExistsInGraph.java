@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// https://leetcode.com/problems/find-if-path-exists-in-graph
+// https://leetcode.com/problems/find-if-path-exists-in-graph/
 public class FindIfPathExistsInGraph {
 
     private final int n;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-all-as-appears-before-all-bs
+// https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/
 public class CheckIfAllAsAppearsBeforeAllBs {
 
     private final String input;

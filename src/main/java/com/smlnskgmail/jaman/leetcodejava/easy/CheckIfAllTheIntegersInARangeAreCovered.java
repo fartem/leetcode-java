@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered
+// https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/
 public class CheckIfAllTheIntegersInARangeAreCovered {
 
     private final int[][] ranges;
