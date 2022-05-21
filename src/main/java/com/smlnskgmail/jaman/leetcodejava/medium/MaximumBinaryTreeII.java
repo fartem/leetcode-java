@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/maximum-binary-tree-ii
+// https://leetcode.com/problems/maximum-binary-tree-ii/
 public class MaximumBinaryTreeII {
 
     private final TreeNode root;

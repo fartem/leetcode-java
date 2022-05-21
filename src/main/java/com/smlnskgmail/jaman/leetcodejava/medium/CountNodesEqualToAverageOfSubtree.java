@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree
+// https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
 public class CountNodesEqualToAverageOfSubtree {
 
     private final TreeNode root;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list
+// https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 public class DeleteTheMiddleNodeOfALinkedList {
 
     private final ListNode input;

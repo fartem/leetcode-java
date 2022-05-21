@@ -18,11 +18,7 @@ public class LetterCasePermutation {
         return result;
     }
 
-    private void findPermutations(
-            char[] arr,
-            int index,
-            List<String> result
-    ) {
+    private void findPermutations(char[] arr, int index, List<String> result) {
         if (index == arr.length) {
             result.add(new String(arr));
             return;

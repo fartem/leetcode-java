@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/design-a-stack-with-increment-operation
+// https://leetcode.com/problems/design-a-stack-with-increment-operation/
 public class DesignAStackWithIncrementOperation {
 
     private final int[] stack;

@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/linked-list-components
+// https://leetcode.com/problems/linked-list-components/
 public class LinkedListComponents {
 
     private ListNode head;

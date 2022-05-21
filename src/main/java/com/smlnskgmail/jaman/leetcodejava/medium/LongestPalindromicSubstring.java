@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/longest-palindromic-substring
+// https://leetcode.com/problems/longest-palindromic-substring/
 public class LongestPalindromicSubstring {
 
     private final String input;

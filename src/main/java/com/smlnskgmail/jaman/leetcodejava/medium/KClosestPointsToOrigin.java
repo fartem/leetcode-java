@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.Arrays;
 import java.util.Comparator;
 
-// https://leetcode.com/problems/k-closest-points-to-origin
+// https://leetcode.com/problems/k-closest-points-to-origin/
 public class KClosestPointsToOrigin {
 
     private final int[][] points;

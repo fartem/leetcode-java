@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-// https://leetcode.com/problems/flatten-nested-list-iterator
+// https://leetcode.com/problems/flatten-nested-list-iterator/
 public class FlattenNestedListIterator implements Iterator<Integer> {
 
     private final List<Integer> values = new ArrayList<>();

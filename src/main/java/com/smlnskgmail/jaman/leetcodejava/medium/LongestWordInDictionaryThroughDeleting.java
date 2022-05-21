@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.List;
 
-// https://leetcode.com/problems/longest-word-in-dictionary-through-deleting
+// https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
 public class LongestWordInDictionaryThroughDeleting {
 
     private final String s;

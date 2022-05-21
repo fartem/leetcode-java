@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/insert-into-a-binary-search-tree
+// https://leetcode.com/problems/insert-into-a-binary-search-tree/
 public class InsertIntoABinarySearchTree {
 
     private final TreeNode root;

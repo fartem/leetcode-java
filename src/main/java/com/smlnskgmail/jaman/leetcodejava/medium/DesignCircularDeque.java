@@ -4,7 +4,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
 import java.util.Objects;
 
-// https://leetcode.com/problems/design-circular-deque
+// https://leetcode.com/problems/design-circular-deque/
 public class DesignCircularDeque {
 
     private final int size;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-// https://leetcode.com/problems/design-underground-system
+// https://leetcode.com/problems/design-underground-system/
 public class DesignUndergroundSystem {
 
     private final HashMap<String, List<Integer>> stations = new HashMap<>();

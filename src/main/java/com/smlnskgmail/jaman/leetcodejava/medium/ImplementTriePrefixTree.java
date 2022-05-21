@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/implement-trie-prefix-tree
+// https://leetcode.com/problems/implement-trie-prefix-tree/
 public class ImplementTriePrefixTree {
 
     private final Node root = new Node();

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/convert-bst-to-greater-tree
+// https://leetcode.com/problems/convert-bst-to-greater-tree/
 public class ConvertBSToGreaterTree {
 
     private final TreeNode input;

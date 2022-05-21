@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array
+// https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 public class FindFirstAndLastPositionOfElementInSortedArray {
 
     private final int[] nums;

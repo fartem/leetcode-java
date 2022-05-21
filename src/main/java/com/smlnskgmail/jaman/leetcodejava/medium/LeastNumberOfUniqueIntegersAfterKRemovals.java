@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals
+// https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/
 public class LeastNumberOfUniqueIntegersAfterKRemovals {
 
     private final int[] arr;

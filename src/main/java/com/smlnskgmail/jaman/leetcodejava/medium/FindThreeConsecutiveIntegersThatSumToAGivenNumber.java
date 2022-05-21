@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number
+// https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/
 public class FindThreeConsecutiveIntegersThatSumToAGivenNumber {
 
     private final long num;

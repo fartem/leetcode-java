@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-// https://leetcode.com/problems/encode-and-decode-tinyurl
+// https://leetcode.com/problems/encode-and-decode-tinyurl/
 public class EncodeAndDecodeTinyURL {
 
     private static final String SYMBOLS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -12,15 +12,15 @@ public class EncodeAndDecodeTinyURL {
     private final Map<String, String> urls = new HashMap<>();
 
     public String encode(String longUrl) {
-        String shortUrl = generateShortUrl(longUrl);
+        String shortUrl = generateShortUrl();
         while (urls.containsKey(shortUrl)) {
-            shortUrl = generateShortUrl(longUrl);
+            shortUrl = generateShortUrl();
         }
         urls.put(shortUrl, longUrl);
         return shortUrl;
     }
 
-    private String generateShortUrl(String longUrl) {
+    private String generateShortUrl() {
         var shortUrl = new StringBuilder();
         var random = new Random();
         for (int i = 0; i < 6; i++) {

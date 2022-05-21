@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.*;
 
-// https://leetcode.com/problems/find-players-with-zero-or-one-losses
+// https://leetcode.com/problems/find-players-with-zero-or-one-losses/
 public class FindPlayersWithZeroOrOneLosses {
 
     private final int[][] input;

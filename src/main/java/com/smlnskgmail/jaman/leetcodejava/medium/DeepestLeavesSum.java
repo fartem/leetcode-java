@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/deepest-leaves-sum
+// https://leetcode.com/problems/deepest-leaves-sum/
 public class DeepestLeavesSum {
 
     private final TreeNode input;

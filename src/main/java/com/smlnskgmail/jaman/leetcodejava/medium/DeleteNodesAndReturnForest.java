@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-// https://leetcode.com/problems/delete-nodes-and-return-forest
+// https://leetcode.com/problems/delete-nodes-and-return-forest/
 public class DeleteNodesAndReturnForest {
 
     private final TreeNode root;
@@ -31,11 +31,7 @@ public class DeleteNodesAndReturnForest {
         return result;
     }
 
-    private TreeNode collectNodes(
-            TreeNode node,
-            List<TreeNode> nodes,
-            Set<Integer> deleteValues
-    ) {
+    private TreeNode collectNodes(TreeNode node, List<TreeNode> nodes, Set<Integer> deleteValues) {
         if (node != null) {
             node.left = collectNodes(node.left, nodes, deleteValues);
             node.right = collectNodes(node.right, nodes, deleteValues);

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/flatten-binary-tree-to-linked-list
+// https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 public class FlattenBinaryTreeToLinkedList {
 
     private final TreeNode input;

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// https://leetcode.com/problems/find-all-lonely-numbers-in-the-array
+// https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/
 public class FindAllLonelyNumbersInTheArray {
 
     private final int[] input;

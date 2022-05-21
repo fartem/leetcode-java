@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/find-triangular-sum-of-an-array
+// https://leetcode.com/problems/find-triangular-sum-of-an-array/
 public class FindTriangularSumOfAnArray {
 
     private final int[] nums;

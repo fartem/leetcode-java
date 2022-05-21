@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/kth-smallest-element-in-a-bst
+// https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 public class KthSmallestElementInABST {
 
     private final TreeNode root;

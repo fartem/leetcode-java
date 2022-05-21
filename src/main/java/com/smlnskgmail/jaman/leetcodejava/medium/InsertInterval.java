@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/insert-interval
+// https://leetcode.com/problems/insert-interval/
 public class InsertInterval {
 
     private final int[][] intervals;

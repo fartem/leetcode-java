@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// https://leetcode.com/problems/even-odd-tree
+// https://leetcode.com/problems/even-odd-tree/
 public class EvenOddTree {
 
     private final TreeNode input;

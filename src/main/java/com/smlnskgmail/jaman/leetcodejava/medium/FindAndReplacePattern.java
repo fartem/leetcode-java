@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// https://leetcode.com/problems/find-and-replace-pattern
+// https://leetcode.com/problems/find-and-replace-pattern/
 public class FindAndReplacePattern {
 
     private final String[] words;

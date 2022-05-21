@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/flip-equivalent-binary-trees
+// https://leetcode.com/problems/flip-equivalent-binary-trees/
 public class FlipEquivalentBinaryTrees {
 
     private final TreeNode root1;

@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree
+// https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
 public class ConvertSortedListToBinarySearchTree {
 
     private final ListNode input;

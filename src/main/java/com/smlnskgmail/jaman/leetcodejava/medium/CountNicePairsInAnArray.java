@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/count-nice-pairs-in-an-array
+// https://leetcode.com/problems/count-nice-pairs-in-an-array/
 public class CountNicePairsInAnArray {
 
     private static final int MODULO = 1_000_000_007;

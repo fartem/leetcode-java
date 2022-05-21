@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/design-browser-history
+// https://leetcode.com/problems/design-browser-history/
 public class DesignBrowserHistory {
 
     private final List<String> history = new ArrayList<>();

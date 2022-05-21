@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/daily-temperatures
+// https://leetcode.com/problems/daily-temperatures/
 public class DailyTemperatures {
 
     private final int[] input;

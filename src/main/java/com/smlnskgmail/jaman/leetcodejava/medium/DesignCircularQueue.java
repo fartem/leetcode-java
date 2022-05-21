@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/design-circular-queue
+// https://leetcode.com/problems/design-circular-queue/
 public class DesignCircularQueue {
 
     private final int size;

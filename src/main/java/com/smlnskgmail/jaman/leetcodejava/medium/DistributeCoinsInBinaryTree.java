@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/distribute-coins-in-binary-tree
+// https://leetcode.com/problems/distribute-coins-in-binary-tree/
 public class DistributeCoinsInBinaryTree {
 
     private final TreeNode input;

@@ -2,16 +2,13 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/delete-leaves-with-a-given-value
+// https://leetcode.com/problems/delete-leaves-with-a-given-value/
 public class DeleteLeavesWithAGivenValue {
 
     private final TreeNode input;
     private final int target;
 
-    public DeleteLeavesWithAGivenValue(
-            TreeNode input,
-            int target
-    ) {
+    public DeleteLeavesWithAGivenValue(TreeNode input,int target) {
         this.input = input;
         this.target = target;
     }

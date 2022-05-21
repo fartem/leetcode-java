@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal
+// https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
 public class ConstructBinarySearchTreeFromPreorderTraversal {
 
     private final int[] input;
@@ -15,11 +15,7 @@ public class ConstructBinarySearchTreeFromPreorderTraversal {
         return constructBST(input, 0, input.length - 1);
     }
 
-    private TreeNode constructBST(
-            int[] preorder,
-            int start,
-            int end
-    ) {
+    private TreeNode constructBST(int[] preorder, int start, int end) {
         if (start > end) {
             return null;
         }

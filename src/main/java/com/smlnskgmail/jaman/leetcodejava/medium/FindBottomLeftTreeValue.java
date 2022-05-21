@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/find-bottom-left-tree-value
+// https://leetcode.com/problems/find-bottom-left-tree-value/
 public class FindBottomLeftTreeValue {
 
     private final TreeNode input;

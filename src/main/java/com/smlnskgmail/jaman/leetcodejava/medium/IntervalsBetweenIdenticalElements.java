@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// https://leetcode.com/problems/intervals-between-identical-elements
+// https://leetcode.com/problems/intervals-between-identical-elements/
 public class IntervalsBetweenIdenticalElements {
 
     private final int[] arr;

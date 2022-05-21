@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/longest-word-in-dictionary
+// https://leetcode.com/problems/longest-word-in-dictionary/
 public class LongestWordInDictionary {
 
     private final String[] input;

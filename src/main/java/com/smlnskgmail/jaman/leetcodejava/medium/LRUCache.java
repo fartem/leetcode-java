@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/lru-cache
+// https://leetcode.com/problems/lru-cache/
 public class LRUCache {
 
     private final Node head = new Node();

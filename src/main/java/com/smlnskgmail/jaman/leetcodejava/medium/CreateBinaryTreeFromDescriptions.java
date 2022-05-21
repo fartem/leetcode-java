@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/create-binary-tree-from-descriptions
+// https://leetcode.com/problems/create-binary-tree-from-descriptions/
 public class CreateBinaryTreeFromDescriptions {
 
     private final int[][] descriptions;

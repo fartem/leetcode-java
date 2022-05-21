@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-// https://leetcode.com/problems/find-all-duplicates-in-an-array
+// https://leetcode.com/problems/find-all-duplicates-in-an-array/
 public class FindAllDuplicatedInAnArray {
 
     private final int[] input;

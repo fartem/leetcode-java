@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/longest-univalue-path
+// https://leetcode.com/problems/longest-univalue-path/
 public class LongestUnivaluePath {
 
     private final TreeNode input;

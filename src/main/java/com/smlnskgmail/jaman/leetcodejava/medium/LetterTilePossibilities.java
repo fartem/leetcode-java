@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/letter-tile-possibilities
+// https://leetcode.com/problems/letter-tile-possibilities/
 public class LetterTilePossibilities {
 
     private final String tiles;

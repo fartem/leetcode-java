@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-// https://leetcode.com/problems/linked-list-random-node
+// https://leetcode.com/problems/linked-list-random-node/
 public class LinkedListRandomNode {
 
     private final ListNode input;

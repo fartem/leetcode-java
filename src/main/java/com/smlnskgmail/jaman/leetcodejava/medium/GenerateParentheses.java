@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/generate-parentheses
+// https://leetcode.com/problems/generate-parentheses/
 public class GenerateParentheses {
 
     private final int input;

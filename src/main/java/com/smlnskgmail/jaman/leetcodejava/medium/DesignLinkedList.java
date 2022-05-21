@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/design-linked-list
+// https://leetcode.com/problems/design-linked-list/
 public class DesignLinkedList {
 
     private ListNode head;

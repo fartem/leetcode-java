@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves
+// https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 public class LowestCommonAncestorOfDeepestLeaves {
 
     private final TreeNode input;

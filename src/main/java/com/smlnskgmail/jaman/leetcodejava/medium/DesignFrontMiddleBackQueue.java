@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.LinkedList;
 
-// https://leetcode.com/problems/design-front-middle-back-queue
+// https://leetcode.com/problems/design-front-middle-back-queue/
 public class DesignFrontMiddleBackQueue {
 
     private final LinkedList<Integer> list = new LinkedList<>();

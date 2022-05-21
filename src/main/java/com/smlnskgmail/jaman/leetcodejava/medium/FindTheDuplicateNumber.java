@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/find-the-duplicate-number
+// https://leetcode.com/problems/find-the-duplicate-number/
 public class FindTheDuplicateNumber {
 
     private final int[] input;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/count-good-nodes-in-binary-tree
+// https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 public class CountGoodNodesInBinaryTree {
 
     private final TreeNode input;

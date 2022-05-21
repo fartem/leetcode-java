@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.ArrayDeque;
 
-// https://leetcode.com/problems/count-submatrices-with-all-ones
+// https://leetcode.com/problems/count-submatrices-with-all-ones/
 public class CountSubmatricesWithAllOnes {
 
     private final int[][] mat;
