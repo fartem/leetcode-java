@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.Node;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// https://leetcode.com/problems/maximum-depth-of-n-ary-tree
+// https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 public class MaximumDepthOfNAryTree {
 
     private final Node input;

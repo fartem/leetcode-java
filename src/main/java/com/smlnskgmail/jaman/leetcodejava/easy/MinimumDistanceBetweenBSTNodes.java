@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/minimum-distance-between-bst-nodes
+// https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 public class MinimumDistanceBetweenBSTNodes {
 
     private final TreeNode input;

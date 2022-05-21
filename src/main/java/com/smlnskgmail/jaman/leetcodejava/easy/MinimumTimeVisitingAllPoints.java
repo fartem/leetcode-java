@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/minimum-time-visiting-all-points
+// https://leetcode.com/problems/minimum-time-visiting-all-points/
 public class MinimumTimeVisitingAllPoints {
 
     private final int[][] input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/max-consecutive-ones
+// https://leetcode.com/problems/max-consecutive-ones/
 public class MaxConsecutiveOnes {
 
     private final int[] input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/matrix-diagonal-sum
+// https://leetcode.com/problems/matrix-diagonal-sum/
 public class MatrixDiagonalSum {
 
     private final int[][] input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/number-of-1-bits
+// https://leetcode.com/problems/number-of-1-bitsa/
 public class NumberOf1Bits {
 
     private final int input;

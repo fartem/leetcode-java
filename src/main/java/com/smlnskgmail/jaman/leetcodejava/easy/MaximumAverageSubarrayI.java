@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/maximum-average-subarray-i
+// https://leetcode.com/problems/maximum-average-subarray-i/
 public class MaximumAverageSubarrayI {
 
     private final int[] nums;

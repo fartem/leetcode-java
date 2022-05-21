@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/power-of-four
+// https://leetcode.com/problems/power-of-four/
 public class PowerOfFour {
 
     private final int input;

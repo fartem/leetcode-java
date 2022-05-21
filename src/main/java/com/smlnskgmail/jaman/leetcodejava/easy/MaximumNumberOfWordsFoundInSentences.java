@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/maximum-number-of-words-found-in-sentences
+// https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
 public class MaximumNumberOfWordsFoundInSentences {
 
     private final String[] input;

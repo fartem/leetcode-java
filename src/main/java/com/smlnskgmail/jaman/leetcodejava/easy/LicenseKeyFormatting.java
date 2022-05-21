@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/license-key-formatting
+// https://leetcode.com/problems/license-key-formatting/
 public class LicenseKeyFormatting {
 
     private final String s;

@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/number-of-different-integers-in-a-string
+// https://leetcode.com/problems/number-of-different-integers-in-a-string/
 public class NumberOfDifferentIntegersInAString {
 
     private final String input;

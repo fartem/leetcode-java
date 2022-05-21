@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/minimum-moves-to-equal-array-elements
+// https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
 public class MinimumMovesToEqualArrayElements {
 
     private final int[] input;

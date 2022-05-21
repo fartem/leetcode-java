@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/nim-game
+// https://leetcode.com/problems/nim-game/
 public class NimGame {
 
     private final int input;

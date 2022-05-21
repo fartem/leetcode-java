@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/maximum-product-of-three-numbers
+// https://leetcode.com/problems/maximum-product-of-three-numbers/
 public class MaximumProductOfThreeNumbers {
 
     private final int[] input;

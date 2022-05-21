@@ -5,16 +5,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// https://leetcode.com/problems/minimum-index-sum-of-two-lists
+// https://leetcode.com/problems/minimum-index-sum-of-two-lists/
 public class MinimumIndexSumOfTwoLists {
 
     private final String[] firstList;
     private final String[] secondList;
 
-    public MinimumIndexSumOfTwoLists(
-            String[] firstList,
-            String[] secondList
-    ) {
+    public MinimumIndexSumOfTwoLists(String[] firstList, String[] secondList) {
         this.firstList = firstList;
         this.secondList = secondList;
     }

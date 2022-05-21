@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/power-of-two
+// https://leetcode.com/problems/power-of-two/
 public class PowerOfTwo {
 
     private final int input;

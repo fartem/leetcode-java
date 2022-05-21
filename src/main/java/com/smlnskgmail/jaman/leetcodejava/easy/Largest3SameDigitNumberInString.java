@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/largest-3-same-digit-number-in-string
+// https://leetcode.com/problems/largest-3-same-digit-number-in-string/
 public class Largest3SameDigitNumberInString {
 
     private final String input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/maximum-ascending-subarray-sum
+// https://leetcode.com/problems/maximum-ascending-subarray-sum/
 public class MaximumAscendingSubarraySum {
 
     private final int[] input;

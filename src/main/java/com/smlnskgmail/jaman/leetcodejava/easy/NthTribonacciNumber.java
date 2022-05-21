@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/n-th-tribonacci-number
+// https://leetcode.com/problems/n-th-tribonacci-number/
 public class NthTribonacciNumber {
 
     private final int input;

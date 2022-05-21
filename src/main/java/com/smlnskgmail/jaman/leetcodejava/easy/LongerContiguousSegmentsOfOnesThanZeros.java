@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros
+// https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/
 public class LongerContiguousSegmentsOfOnesThanZeros {
 
     private final String input;

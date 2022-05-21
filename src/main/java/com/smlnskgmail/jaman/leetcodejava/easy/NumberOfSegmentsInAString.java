@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/number-of-segments-in-a-string
+// https://leetcode.com/problems/number-of-segments-in-a-string/
 public class NumberOfSegmentsInAString {
 
     private final String input;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.concurrent.Semaphore;
 
-// https://leetcode.com/problems/print-in-order
+// https://leetcode.com/problems/print-in-order/
 public class PrintInOrder {
 
     private final Semaphore s1 = new Semaphore(1);

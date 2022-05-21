@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree
+// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 public class LowestCommonAncestorOfABinarySearchTree {
 
     private final TreeNode root;

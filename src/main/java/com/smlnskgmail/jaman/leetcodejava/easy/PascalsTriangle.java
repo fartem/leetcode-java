@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// https://leetcode.com/problems/pascals-triangle
+// https://leetcode.com/problems/pascals-triangle/
 public class PascalsTriangle {
 
     private final int input;

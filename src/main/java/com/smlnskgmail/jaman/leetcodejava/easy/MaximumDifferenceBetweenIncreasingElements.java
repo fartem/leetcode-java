@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/maximum-difference-between-increasing-elements
+// https://leetcode.com/problems/maximum-difference-between-increasing-elements/
 public class MaximumDifferenceBetweenIncreasingElements {
 
     private final int[] input;

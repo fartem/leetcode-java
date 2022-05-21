@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter
+// https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/
 public class MinimumTimeToTypeWordUsingSpecialTypewriter {
 
     private final String input;

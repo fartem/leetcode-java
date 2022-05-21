@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+// https://leetcode.com/problems/peak-index-in-a-mountain-array/
 public class PeakIndexInAMountainArray {
 
     private final int[] input;

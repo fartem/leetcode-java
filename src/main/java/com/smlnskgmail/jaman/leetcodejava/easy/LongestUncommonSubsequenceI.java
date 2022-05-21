@@ -3,16 +3,13 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/longest-uncommon-subsequence-i
+// https://leetcode.com/problems/longest-uncommon-subsequence-i/
 public class LongestUncommonSubsequenceI {
 
     private final String a;
     private final String b;
 
-    public LongestUncommonSubsequenceI(
-            String a,
-            String b
-    ) {
+    public LongestUncommonSubsequenceI(String a, String b) {
         this.a = a;
         this.b = b;
     }

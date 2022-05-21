@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/ransom-note
+// https://leetcode.com/problems/ransom-note/
 public class RansomNote {
 
     private final String ransomNote;
     private final String magazine;
 
-    public RansomNote(
-            String ransomNote,
-            String magazine
-    ) {
+    public RansomNote(String ransomNote, String magazine) {
         this.ransomNote = ransomNote;
         this.magazine = magazine;
     }

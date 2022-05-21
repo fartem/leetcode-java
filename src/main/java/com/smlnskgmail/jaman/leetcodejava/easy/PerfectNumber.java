@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/perfect-number
+// https://leetcode.com/problems/perfect-number/
 public class PerfectNumber {
 
     private final int input;

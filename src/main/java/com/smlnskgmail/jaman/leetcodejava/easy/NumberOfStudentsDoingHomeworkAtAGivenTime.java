@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time
+// https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/
 public class NumberOfStudentsDoingHomeworkAtAGivenTime {
 
     private final int[] startTime;

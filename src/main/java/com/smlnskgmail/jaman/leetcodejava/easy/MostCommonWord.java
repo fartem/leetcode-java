@@ -2,16 +2,13 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.*;
 
-// https://leetcode.com/problems/most-common-word
+// https://leetcode.com/problems/most-common-word/
 public class MostCommonWord {
 
     private final String paragraph;
     private final String[] banned;
 
-    public MostCommonWord(
-            String paragraph,
-            String[] banned
-    ) {
+    public MostCommonWord(String paragraph, String[] banned) {
         this.paragraph = paragraph;
         this.banned = banned;
     }

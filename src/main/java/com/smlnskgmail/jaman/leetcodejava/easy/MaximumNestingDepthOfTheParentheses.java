@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses
+// https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
 public class MaximumNestingDepthOfTheParentheses {
 
     private final String input;

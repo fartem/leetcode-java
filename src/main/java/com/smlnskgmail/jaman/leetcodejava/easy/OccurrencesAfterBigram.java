@@ -3,18 +3,14 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/occurrences-after-bigram
+// https://leetcode.com/problems/occurrences-after-bigram/
 public class OccurrencesAfterBigram {
 
     private final String text;
     private final String first;
     private final String second;
 
-    public OccurrencesAfterBigram(
-            String text,
-            String first,
-            String second
-    ) {
+    public OccurrencesAfterBigram(String text, String first, String second) {
         this.text = text;
         this.first = first;
         this.second = second;

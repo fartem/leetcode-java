@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/number-of-days-between-two-dates
+// https://leetcode.com/problems/number-of-days-between-two-dates/
 public class NumberOfDaysBetweenTwoDates {
 
     private final String date1;

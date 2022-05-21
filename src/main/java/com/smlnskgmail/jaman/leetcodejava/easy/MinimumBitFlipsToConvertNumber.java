@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/minimum-bit-flips-to-convert-number
+// https://leetcode.com/problems/minimum-bit-flips-to-convert-number/
 public class MinimumBitFlipsToConvertNumber {
 
     private final int start;

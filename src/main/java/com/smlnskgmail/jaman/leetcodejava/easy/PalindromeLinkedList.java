@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/palindrome-linked-list
+// https://leetcode.com/problems/palindrome-linked-list/
 public class PalindromeLinkedList {
 
     private final ListNode head;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/longest-common-prefix
+// https://leetcode.com/problems/longest-common-prefix/
 public class LongestCommonPrefix {
 
     private final String[] input;

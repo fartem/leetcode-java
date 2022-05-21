@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/middle-of-the-linked-list
+// https://leetcode.com/problems/middle-of-the-linked-list/
 public class MiddleOfTheLinkedList {
 
     private final ListNode head;

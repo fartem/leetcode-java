@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/plus-one/submissions
+// https://leetcode.com/problems/plus-one/submissions/
 public class PlusOne {
 
     private final int[] input;
@@ -24,10 +24,7 @@ public class PlusOne {
             }
         }
         if (overflow) {
-            int[] result = Arrays.copyOf(
-                    input,
-                    input.length + 1
-            );
+            int[] result = Arrays.copyOf(input, input.length + 1);
             result[0] = 1;
             System.arraycopy(
                     input,

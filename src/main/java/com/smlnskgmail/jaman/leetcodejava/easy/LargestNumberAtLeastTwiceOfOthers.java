@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/largest-number-at-least-twice-of-others
+// https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 public class LargestNumberAtLeastTwiceOfOthers {
 
     private final int[] input;

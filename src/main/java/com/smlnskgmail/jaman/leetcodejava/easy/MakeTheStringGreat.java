@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/make-the-string-great
+// https://leetcode.com/problems/make-the-string-great/
 public class MakeTheStringGreat {
 
     private final String input;

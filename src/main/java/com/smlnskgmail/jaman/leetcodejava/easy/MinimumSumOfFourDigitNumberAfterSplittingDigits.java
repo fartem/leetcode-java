@@ -2,6 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
+// https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
 public class MinimumSumOfFourDigitNumberAfterSplittingDigits {
 
     private int input;

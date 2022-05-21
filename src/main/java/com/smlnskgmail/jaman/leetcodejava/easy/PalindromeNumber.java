@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/palindrome-number
+// https://leetcode.com/problems/palindrome-number/
 public class PalindromeNumber {
 
     private final int input;

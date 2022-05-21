@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-// https://leetcode.com/problems/minimum-absolute-difference
+// https://leetcode.com/problems/minimum-absolute-difference/
 public class MinimumAbsoluteDifference {
 
     private final int[] input;

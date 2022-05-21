@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array
+// https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
 public class MaximumProductOfTwoElementsInAnArray {
 
     private final int[] input;

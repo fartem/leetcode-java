@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-// https://leetcode.com/problems/last-stone-weight
+// https://leetcode.com/problems/last-stone-weight/
 public class LastStoneWeight {
 
     private final int[] input;

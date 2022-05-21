@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/longest-palindrome
+// https://leetcode.com/problems/longest-palindrome/
 public class LongestPalindrome {
 
     private final String input;

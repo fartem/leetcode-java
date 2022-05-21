@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/long-pressed-name
+// https://leetcode.com/problems/long-pressed-name/
 public class LongPressedName {
 
     private final String name;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/latest-time-by-replacing-hidden-digits
+// https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/
 public class LatestTimeByReplacingHiddenDigits {
 
     private final String input;

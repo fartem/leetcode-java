@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/minimum-moves-to-convert-string
+// https://leetcode.com/problems/minimum-moves-to-convert-string/
 public class MinimumMovesToConvertString {
 
     private final String input;

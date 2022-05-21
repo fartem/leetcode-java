@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/largest-substring-between-two-equal-characters
+// https://leetcode.com/problems/largest-substring-between-two-equal-characters/
 public class LargestSubstringBetweenTwoEqualCharacters {
 
     private final String input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum
+// https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/
 public class MinimumValueToGetPositiveStepByStepSum {
 
     private final int[] input;

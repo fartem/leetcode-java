@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/largest-perimeter-triangle
+// https://leetcode.com/problems/largest-perimeter-triangle/
 public class LargestPerimeterTriangle {
 
     private final int[] input;

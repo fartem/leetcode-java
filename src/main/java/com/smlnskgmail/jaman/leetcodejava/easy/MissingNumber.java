@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/missing-number
+// https://leetcode.com/problems/missing-number/
 public class MissingNumber {
 
     private final int[] input;

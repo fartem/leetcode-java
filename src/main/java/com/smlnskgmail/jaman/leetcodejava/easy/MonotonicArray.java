@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/monotonic-array
+// https://leetcode.com/problems/monotonic-array/
 public class MonotonicArray {
 
     private final int[] input;

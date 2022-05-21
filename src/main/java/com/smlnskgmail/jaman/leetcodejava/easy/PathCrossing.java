@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.*;
 
-// https://leetcode.com/problems/path-crossing
+// https://leetcode.com/problems/path-crossing/
 public class PathCrossing {
 
     private final String path;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/number-complement
+// https://leetcode.com/problems/number-complement/
 public class NumberComplement {
 
     private int input;

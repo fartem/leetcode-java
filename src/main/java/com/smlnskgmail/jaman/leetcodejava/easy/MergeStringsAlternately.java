@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/merge-strings-alternately
+// https://leetcode.com/problems/merge-strings-alternately/
 public class MergeStringsAlternately {
 
     private final String firstString;

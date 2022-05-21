@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-// https://leetcode.com/problems/positions-of-large-groups
+// https://leetcode.com/problems/positions-of-large-groups/
 public class PositionsOfLargeGroups {
 
     private final String input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/power-of-three
+// https://leetcode.com/problems/power-of-three/
 public class PowerOfThree {
 
     private final int input;

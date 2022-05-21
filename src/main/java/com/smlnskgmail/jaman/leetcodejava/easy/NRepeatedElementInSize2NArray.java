@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/n-repeated-element-in-size-2n-array
+// https://leetcode.com/problems/n-repeated-element-in-size-2n-array/
 public class NRepeatedElementInSize2NArray {
 
     private final int[] input;

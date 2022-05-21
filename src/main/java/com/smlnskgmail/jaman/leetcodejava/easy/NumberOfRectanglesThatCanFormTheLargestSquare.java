@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square
+// https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/
 public class NumberOfRectanglesThatCanFormTheLargestSquare {
 
     private final int[][] input;

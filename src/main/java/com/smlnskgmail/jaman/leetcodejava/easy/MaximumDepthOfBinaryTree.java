@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/maximum-depth-of-binary-tree
+// https://leetcode.com/problems/maximum-depth-of-binary-tree/
 public class MaximumDepthOfBinaryTree {
 
     private final TreeNode input;

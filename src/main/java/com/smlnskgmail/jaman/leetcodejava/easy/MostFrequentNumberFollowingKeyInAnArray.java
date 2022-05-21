@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/most-frequent-number-following-key-in-an-array
+// https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/
 public class MostFrequentNumberFollowingKeyInAnArray {
 
     private final int[] nums;

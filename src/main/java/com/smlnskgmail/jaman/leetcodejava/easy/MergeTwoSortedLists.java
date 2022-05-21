@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/merge-two-sorted-lists
+// https://leetcode.com/problems/merge-two-sorted-lists/
 public class MergeTwoSortedLists {
 
     private final ListNode firstList;

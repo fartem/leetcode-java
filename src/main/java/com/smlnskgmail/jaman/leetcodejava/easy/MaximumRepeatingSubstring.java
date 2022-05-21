@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/maximum-repeating-substring
+// https://leetcode.com/problems/maximum-repeating-substring/
 public class MaximumRepeatingSubstring {
 
     private final String sequence;
     private final String word;
 
-    public MaximumRepeatingSubstring(
-            String sequence,
-            String word
-    ) {
+    public MaximumRepeatingSubstring(String sequence, String word) {
         this.sequence = sequence;
         this.word = word;
     }

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/move-zeroes
+// https://leetcode.com/problems/move-zeroes/
 public class MoveZeros {
 
     private final int[] input;

@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
-// https://leetcode.com/problems/min-stack
+// https://leetcode.com/problems/min-stack/
 public class MinStack {
 
     private final Stack<Integer> stack = new Stack<>();

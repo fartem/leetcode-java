@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// https://leetcode.com/problems/n-ary-tree-preorder-traversal
+// https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 public class NAryTreePreorderTraversal {
 
     private final Node input;

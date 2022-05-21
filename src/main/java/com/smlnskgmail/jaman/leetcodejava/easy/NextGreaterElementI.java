@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/next-greater-element-i
+// https://leetcode.com/problems/next-greater-element-i/
 public class NextGreaterElementI {
 
     private final int[] nums1;

@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/maximum-number-of-words-you-can-type
+// https://leetcode.com/problems/maximum-number-of-words-you-can-type/
 public class MaximumNumberOfWordsYouCanType {
 
     private final String text;
     private final String brokenLetters;
 
-    public MaximumNumberOfWordsYouCanType(
-            String text,
-            String brokenLetters
-    ) {
+    public MaximumNumberOfWordsYouCanType(String text, String brokenLetters) {
         this.text = text;
         this.brokenLetters = brokenLetters;
     }

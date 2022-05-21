@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/linked-list-cycle
+// https://leetcode.com/problems/linked-list-cycle/
 public class LinkedListCycle {
 
     private final ListNode input;

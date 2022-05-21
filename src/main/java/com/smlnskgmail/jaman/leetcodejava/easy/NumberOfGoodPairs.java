@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/number-of-good-pairs
+// https://leetcode.com/problems/number-of-good-pairs/
 public class NumberOfGoodPairs {
 
     private final int[] input;

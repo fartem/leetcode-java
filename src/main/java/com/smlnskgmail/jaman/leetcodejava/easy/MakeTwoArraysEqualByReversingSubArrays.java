@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays
+// https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/
 public class MakeTwoArraysEqualByReversingSubArrays {
 
     private final int[] target;
     private final int[] arr;
 
-    public MakeTwoArraysEqualByReversingSubArrays(
-            int[] target,
-            int[] arr
-    ) {
+    public MakeTwoArraysEqualByReversingSubArrays(int[] target, int[] arr) {
         this.target = target;
         this.arr = arr;
     }

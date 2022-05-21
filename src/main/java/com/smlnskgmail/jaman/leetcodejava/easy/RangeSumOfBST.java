@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/range-sum-of-bst
+// https://leetcode.com/problems/range-sum-of-bst/
 public class RangeSumOfBST {
 
     private final TreeNode root;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/minimum-depth-of-binary-tree
+// https://leetcode.com/problems/minimum-depth-of-binary-tree/
 public class MinimumDepthOfBinaryTree {
 
     private final TreeNode input;

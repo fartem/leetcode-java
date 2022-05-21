@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/mean-of-array-after-removing-some-elements
+// https://leetcode.com/problems/mean-of-array-after-removing-some-elements/
 public class MeanOfArrayAfterRemovingSomeElements {
 
     private final int[] input;

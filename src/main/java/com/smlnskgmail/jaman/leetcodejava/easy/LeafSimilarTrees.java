@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/leaf-similar-trees
+// https://leetcode.com/problems/leaf-similar-trees/
 public class LeafSimilarTrees {
 
     private final TreeNode root1;

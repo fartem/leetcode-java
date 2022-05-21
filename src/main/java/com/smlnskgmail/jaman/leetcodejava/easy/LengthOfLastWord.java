@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/length-of-last-word
+// https://leetcode.com/problems/length-of-last-word/
 public class LengthOfLastWord {
 
     private final String input;

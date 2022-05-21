@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/kth-missing-positive-number
+// https://leetcode.com/problems/kth-missing-positive-number/
 public class KthMissingPositiveNumber {
 
     private final int[] array;

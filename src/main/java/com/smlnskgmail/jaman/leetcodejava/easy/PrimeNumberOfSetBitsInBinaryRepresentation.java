@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation
+// https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/
 public class PrimeNumberOfSetBitsInBinaryRepresentation {
 
     private final int left;
     private final int right;
 
-    public PrimeNumberOfSetBitsInBinaryRepresentation(
-            int left,
-            int right
-    ) {
+    public PrimeNumberOfSetBitsInBinaryRepresentation(int left, int right) {
         this.left = left;
         this.right = right;
     }

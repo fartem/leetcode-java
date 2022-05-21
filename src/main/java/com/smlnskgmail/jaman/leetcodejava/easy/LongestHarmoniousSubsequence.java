@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/longest-harmonious-subsequence
+// https://leetcode.com/problems/longest-harmonious-subsequence/
 public class LongestHarmoniousSubsequence {
 
     private final int[] input;

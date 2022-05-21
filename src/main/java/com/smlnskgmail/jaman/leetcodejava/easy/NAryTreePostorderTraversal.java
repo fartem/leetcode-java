@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-// https://leetcode.com/problems/n-ary-tree-postorder-traversal
+// https://leetcode.com/problems/n-ary-tree-postorder-traversal/
 public class NAryTreePostorderTraversal {
 
     private final Node input;

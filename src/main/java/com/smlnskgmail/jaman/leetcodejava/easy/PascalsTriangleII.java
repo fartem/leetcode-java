@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/pascals-triangle-ii
+// https://leetcode.com/problems/pascals-triangle-ii/
 public class PascalsTriangleII {
 
     private final int input;

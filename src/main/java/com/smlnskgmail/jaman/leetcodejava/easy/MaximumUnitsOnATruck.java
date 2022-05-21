@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.Arrays;
 import java.util.Comparator;
 
-// https://leetcode.com/problems/maximum-units-on-a-truck
+// https://leetcode.com/problems/maximum-units-on-a-truck/
 public class MaximumUnitsOnATruck {
 
     private final int[][] boxTypes;

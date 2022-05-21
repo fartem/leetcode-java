@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/maximum-69-number
+// https://leetcode.com/problems/maximum-69-number/
 public class Maximum69Number {
 
     private final int input;

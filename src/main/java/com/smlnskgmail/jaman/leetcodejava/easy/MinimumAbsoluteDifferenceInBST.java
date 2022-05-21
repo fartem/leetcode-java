@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-//  https://leetcode.com/problems/minimum-absolute-difference-in-bst
+//  https://leetcode.com/problems/minimum-absolute-difference-in-bst/
 public class MinimumAbsoluteDifferenceInBST {
 
     private final TreeNode input;

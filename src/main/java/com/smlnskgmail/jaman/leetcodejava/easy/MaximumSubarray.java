@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/maximum-subarray
+// https://leetcode.com/problems/maximum-subarray/
 public class MaximumSubarray {
 
     private final int[] input;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/maximize-sum-of-array-after-k-negations
+// https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/
 public class MaximizeSumOfArrayAfterKNegations {
 
     private final int[] nums;
