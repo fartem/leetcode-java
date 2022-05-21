@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/sort-list
+// https://leetcode.com/problems/sort-list/
 public class SortList {
 
     private final ListNode input;

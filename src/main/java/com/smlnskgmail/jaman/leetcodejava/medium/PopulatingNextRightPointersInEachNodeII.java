@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-// https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii
+// https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
 public class PopulatingNextRightPointersInEachNodeII {
 
     private final NextTreeNode root;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/partition-array-according-to-given-pivot
+// https://leetcode.com/problems/partition-array-according-to-given-pivot/
 public class PartitionArrayAccordingToGivenPivot {
 
     private final int[] nums;

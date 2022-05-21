@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/rotate-image
+// https://leetcode.com/problems/rotate-image/
 public class RotateImage {
 
     private final int[][] matrix;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/minimum-size-subarray-sum
+// https://leetcode.com/problems/minimum-size-subarray-sum/
 public class MinimumSizeSubarraySum {
 
     private final int target;

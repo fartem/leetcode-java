@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list
+// https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
 public class RemoveZeroSumConsecutiveNodesFromLinkedList {
 
     private final ListNode input;

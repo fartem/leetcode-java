@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.NextTreeNode;
 
-// https://leetcode.com/problems/populating-next-right-pointers-in-each-node
+// https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 public class PopulatingNextRightPointersInEachNode {
 
     private final NextTreeNode input;

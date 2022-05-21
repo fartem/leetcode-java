@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/minimum-add-to-make-parentheses-valid
+// https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 public class MinimumAddToMakeParenthesesValid {
 
     private final String input;

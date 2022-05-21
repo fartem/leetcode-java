@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/maximum-xor-for-each-query
+// https://leetcode.com/problems/maximum-xor-for-each-query/
 public class MaximumXORForEachQuery {
 
     private final int[] nums;

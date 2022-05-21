@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/partition-list
+// https://leetcode.com/problems/partition-list/
 public class PartitionList {
 
     private ListNode head;

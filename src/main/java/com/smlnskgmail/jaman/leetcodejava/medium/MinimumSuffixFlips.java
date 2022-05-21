@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/minimum-suffix-flips
+// https://leetcode.com/problems/minimum-suffix-flips/
 public class MinimumSuffixFlips {
 
     private final String target;

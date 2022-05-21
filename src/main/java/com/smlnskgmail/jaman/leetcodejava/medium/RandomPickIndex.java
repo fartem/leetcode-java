@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
-// https://leetcode.com/problems/random-pick-index
+// https://leetcode.com/problems/random-pick-index/
 public class RandomPickIndex {
 
     private final HashMap<Integer, List<Integer>> indices = new HashMap<>();
@@ -25,10 +25,7 @@ public class RandomPickIndex {
                 } else {
                     List<Integer> values = new ArrayList<>();
                     values.add(i);
-                    indices.put(
-                            num,
-                            values
-                    );
+                    indices.put(num, values);
                 }
             }
         }

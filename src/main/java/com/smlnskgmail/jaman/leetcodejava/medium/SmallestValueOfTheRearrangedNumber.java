@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/smallest-value-of-the-rearranged-number
+// https://leetcode.com/problems/smallest-value-of-the-rearranged-number/
 public class SmallestValueOfTheRearrangedNumber {
 
     private long input;

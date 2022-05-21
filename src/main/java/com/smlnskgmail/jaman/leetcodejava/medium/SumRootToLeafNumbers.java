@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/sum-root-to-leaf-numbers
+// https://leetcode.com/problems/sum-root-to-leaf-numbers/
 public class SumRootToLeafNumbers {
 
     private final TreeNode input;

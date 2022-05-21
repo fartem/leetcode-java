@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/nth-digit
+// https://leetcode.com/problems/nth-digit/
 public class NthDigit {
 
     private int input;

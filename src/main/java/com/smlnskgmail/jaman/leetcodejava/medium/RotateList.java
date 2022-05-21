@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/rotate-list
+// https://leetcode.com/problems/rotate-list/
 public class RotateList {
 
     private ListNode head;

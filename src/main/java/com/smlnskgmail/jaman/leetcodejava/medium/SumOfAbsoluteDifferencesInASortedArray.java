@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array
+// https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/
 public class SumOfAbsoluteDifferencesInASortedArray {
 
     private final int[] input;

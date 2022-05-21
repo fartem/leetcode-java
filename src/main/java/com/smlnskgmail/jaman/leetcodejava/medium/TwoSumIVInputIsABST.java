@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/two-sum-iv-input-is-a-bst
+// https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 public class TwoSumIVInputIsABST {
 
     private final TreeNode root;

@@ -2,18 +2,14 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/reverse-linked-list-ii
+// https://leetcode.com/problems/reverse-linked-list-ii/
 public class ReverseLinkedListII {
 
     private ListNode head;
     private int left;
     private int right;
 
-    public ReverseLinkedListII(
-            ListNode head,
-            int left,
-            int right
-    ) {
+    public ReverseLinkedListII(ListNode head, int left, int right) {
         this.head = head;
         this.left = left;
         this.right = right;

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-// https://leetcode.com/problems/next-greater-node-in-linked-list
+// https://leetcode.com/problems/next-greater-node-in-linked-list/
 public class NextGreaterNodeInLinkedList {
 
     private final ListNode input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings
+// https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
 public class MaximumNestingDepthOfTwoValidParenthesesStrings {
 
     private final String seq;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii
+// https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/
 public class MinimumMovesToEqualArrayElementsII {
 
     private final int[] input;

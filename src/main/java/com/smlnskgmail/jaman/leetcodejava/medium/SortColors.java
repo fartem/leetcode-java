@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/sort-colors
+// https://leetcode.com/problems/sort-colors/
 public class SortColors {
 
     private final int[] input;

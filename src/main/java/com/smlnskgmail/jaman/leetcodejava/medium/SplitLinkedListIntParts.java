@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/split-linked-list-in-parts
+// https://leetcode.com/problems/split-linked-list-in-parts/
 public class SplitLinkedListIntParts {
 
     private final ListNode head;

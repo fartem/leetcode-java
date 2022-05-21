@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/number-of-substrings-containing-all-three-characters
+// https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 public class NumberOfSubstringsContainingAllThreeCharacters {
 
     private final String s;

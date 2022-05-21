@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/permutations
+// https://leetcode.com/problems/permutations/
 public class Permutations {
 
     private final int[] input;

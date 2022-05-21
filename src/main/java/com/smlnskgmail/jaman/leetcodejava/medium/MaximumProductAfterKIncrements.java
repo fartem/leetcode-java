@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-// https://leetcode.com/problems/maximum-product-after-k-increments
+// https://leetcode.com/problems/maximum-product-after-k-increments/
 public class MaximumProductAfterKIncrements {
 
     private final int[] nums;

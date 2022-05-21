@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/recover-binary-search-tree
+// https://leetcode.com/problems/recover-binary-search-tree/
 public class RecoverBinarySearchTree {
 
     private final TreeNode input;

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// https://leetcode.com/problems/top-k-frequent-words
+// https://leetcode.com/problems/top-k-frequent-words/
 public class TopKFrequentWords {
 
     private final String[] words;

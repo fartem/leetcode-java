@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/xor-queries-of-a-subarray
+// https://leetcode.com/problems/xor-queries-of-a-subarray/
 public class XORQueriesOfASubarray {
 
     private final int[] arr;

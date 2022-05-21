@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// https://leetcode.com/problems/subsets
+// https://leetcode.com/problems/subsets/
 public class Subsets {
 
     private final int[] nums;

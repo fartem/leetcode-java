@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/reorder-list
+// https://leetcode.com/problems/reorder-list/
 public class ReorderList {
 
     private ListNode input;

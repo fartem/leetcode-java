@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/rotate-array
+// https://leetcode.com/problems/rotate-array/
 public class RotateArray {
 
     private final int[] nums;

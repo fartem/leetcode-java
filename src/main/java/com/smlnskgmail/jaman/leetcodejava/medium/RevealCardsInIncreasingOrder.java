@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 
-// https://leetcode.com/problems/reveal-cards-in-increasing-order
+// https://leetcode.com/problems/reveal-cards-in-increasing-order/
 public class RevealCardsInIncreasingOrder {
 
     private final int[] input;

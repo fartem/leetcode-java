@@ -2,10 +2,10 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/swap-nodes-in-pairs
+// https://leetcode.com/problems/swap-nodes-in-pairs/
 public class SwapNodesInPairs {
 
-    private ListNode input;
+    private final ListNode input;
 
     public SwapNodesInPairs(ListNode input) {
         this.input = input;

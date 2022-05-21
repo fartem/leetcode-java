@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram
+// https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
 public class MinimumNumberOfStepsToMakeTwoStringsAnagram {
 
     private final String s;

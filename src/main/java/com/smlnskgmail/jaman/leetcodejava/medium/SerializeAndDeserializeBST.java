@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/serialize-and-deserialize-bst
+// https://leetcode.com/problems/serialize-and-deserialize-bst/
 public class SerializeAndDeserializeBST {
 
     public String serialize(TreeNode root) {

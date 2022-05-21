@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/swapping-nodes-in-a-linked-list
+// https://leetcode.com/problems/swapping-nodes-in-a-linked-list/
 public class SwappingNodesInALinkedList {
 
     private final ListNode head;

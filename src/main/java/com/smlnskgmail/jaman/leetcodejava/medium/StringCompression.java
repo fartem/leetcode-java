@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/string-compression
+// https://leetcode.com/problems/string-compression/
 public class StringCompression {
 
     private final char[] input;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-// https://leetcode.com/problems/sort-integers-by-the-power-value
+// https://leetcode.com/problems/sort-integers-by-the-power-value/
 public class SortIntegersByThePowerValue {
 
     private final int lo;

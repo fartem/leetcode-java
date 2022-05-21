@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/multiply-strings
+// https://leetcode.com/problems/multiply-strings/
 public class MultiplyStrings {
 
     private final String num1;

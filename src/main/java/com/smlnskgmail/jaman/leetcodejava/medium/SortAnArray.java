@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/sort-an-array
+// https://leetcode.com/problems/sort-an-array/
 public class SortAnArray {
 
     private final int[] input;

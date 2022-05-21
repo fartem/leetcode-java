@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/remove-covered-intervals
+// https://leetcode.com/problems/remove-covered-intervals/
 public class RemoveCoveredIntervals {
 
     private final int[][] input;

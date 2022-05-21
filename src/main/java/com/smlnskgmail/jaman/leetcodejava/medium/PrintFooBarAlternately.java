@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.concurrent.Semaphore;
 
-// https://leetcode.com/problems/print-foobar-alternately
+// https://leetcode.com/problems/print-foobar-alternately/
 public class PrintFooBarAlternately {
 
     private final Semaphore foo = new Semaphore(1);

@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.Deque;
 import java.util.LinkedList;
 
-// https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree
+// https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 public class MaximumLevelSumOfABinaryTree {
 
     private final TreeNode input;

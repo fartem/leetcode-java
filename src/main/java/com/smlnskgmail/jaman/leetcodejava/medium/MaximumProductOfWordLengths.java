@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/maximum-product-of-word-lengths
+// https://leetcode.com/problems/maximum-product-of-word-lengths/
 public class MaximumProductOfWordLengths {
 
     private final String[] input;

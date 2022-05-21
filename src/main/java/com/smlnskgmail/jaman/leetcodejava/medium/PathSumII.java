@@ -5,13 +5,11 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/path-sum-ii
+// https://leetcode.com/problems/path-sum-ii/
 public class PathSumII {
 
     private final TreeNode root;
     private final int targetSum;
-
-    private final List<List<Integer>> paths = new ArrayList<>();
 
     public PathSumII(TreeNode root, int targetSum) {
         this.root = root;
@@ -29,12 +27,7 @@ public class PathSumII {
         return result;
     }
 
-    private void dfs(
-            TreeNode node,
-            List<List<Integer>> paths,
-            List<Integer> path,
-            int sum
-    ) {
+    private void dfs(TreeNode node, List<List<Integer>> paths, List<Integer> path, int sum) {
         if (sum == 0 && node.left == null && node.right == null) {
             List<Integer> targetPath = new ArrayList<>(path);
             paths.add(targetPath);

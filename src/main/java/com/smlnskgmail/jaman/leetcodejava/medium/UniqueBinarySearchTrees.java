@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/unique-binary-search-trees
+// https://leetcode.com/problems/unique-binary-search-trees/
 public class UniqueBinarySearchTrees {
 
     private final int input;

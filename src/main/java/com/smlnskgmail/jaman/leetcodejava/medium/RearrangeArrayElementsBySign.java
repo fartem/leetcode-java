@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/rearrange-array-elements-by-sign
+// https://leetcode.com/problems/rearrange-array-elements-by-sign/
 public class RearrangeArrayElementsBySign {
 
     private final int[] input;

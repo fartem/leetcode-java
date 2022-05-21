@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/validate-binary-search-tree
+// https://leetcode.com/problems/validate-binary-search-tree/
 public class ValidateBinarySearchTree {
 
     private final TreeNode input;
@@ -15,11 +15,7 @@ public class ValidateBinarySearchTree {
         return isBST(input, null, null);
     }
 
-    private boolean isBST(
-            TreeNode node,
-            TreeNode left,
-            TreeNode right
-    ) {
+    private boolean isBST(TreeNode node, TreeNode left, TreeNode right) {
         if (node == null) {
             return true;
         }
@@ -29,8 +25,7 @@ public class ValidateBinarySearchTree {
         if (right != null && node.val >= right.val) {
             return false;
         }
-        return isBST(node.left, left, node)
-                && isBST(node.right, node, right);
+        return isBST(node.left, left, node) && isBST(node.right, node, right);
     }
 
 }

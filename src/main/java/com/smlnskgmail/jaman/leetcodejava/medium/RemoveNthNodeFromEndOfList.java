@@ -5,16 +5,13 @@ import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/remove-nth-node-from-end-of-list
+// https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 public class RemoveNthNodeFromEndOfList {
 
     private ListNode head;
     private final int n;
 
-    public RemoveNthNodeFromEndOfList(
-            ListNode head,
-            int n
-    ) {
+    public RemoveNthNodeFromEndOfList(ListNode head, int n) {
         this.head = head;
         this.n = n;
     }

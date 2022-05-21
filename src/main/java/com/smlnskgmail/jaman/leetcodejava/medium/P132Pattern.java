@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/132-pattern
+// https://leetcode.com/problems/132-pattern/
 public class P132Pattern {
 
     private final int[] nums;

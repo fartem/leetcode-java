@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-// https://leetcode.com/problems/replace-words
+// https://leetcode.com/problems/replace-words/
 public class ReplaceWords {
 
     private final List<String> dictionary;

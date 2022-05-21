@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/maximum-difference-between-node-and-ancestor
+// https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 public class MaximumDifferenceBetweenNodeAndAncestor {
 
     private final TreeNode input;

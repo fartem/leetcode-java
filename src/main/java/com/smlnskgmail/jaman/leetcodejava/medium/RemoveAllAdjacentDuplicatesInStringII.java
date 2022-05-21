@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii
+// https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
 public class RemoveAllAdjacentDuplicatesInStringII {
 
     private final String s;

@@ -2,6 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.*;
 
+// https://leetcode.com/problems/sort-characters-by-frequency/
 public class SortCharactersByFrequency {
 
     private final String input;
@@ -37,9 +38,7 @@ public class SortCharactersByFrequency {
         for (Map.Entry<Integer, List<Character>> sortedValue : sortedChars.entrySet()) {
             List<Character> characters = sortedValue.getValue();
             for (char c : characters) {
-                for (int i = 0; i < sortedValue.getKey(); i++) {
-                    result.append(c);
-                }
+                result.append(String.valueOf(c).repeat(Math.max(0, sortedValue.getKey())));
             }
         }
         return result.toString();

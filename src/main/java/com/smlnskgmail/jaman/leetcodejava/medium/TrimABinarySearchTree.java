@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/trim-a-binary-search-tree
+// https://leetcode.com/problems/trim-a-binary-search-tree/
 public class TrimABinarySearchTree {
 
     private final TreeNode root;

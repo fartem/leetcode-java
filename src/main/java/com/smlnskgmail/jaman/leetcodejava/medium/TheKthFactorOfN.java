@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/the-kth-factor-of-n
+// https://leetcode.com/problems/the-kth-factor-of-n/
 public class TheKthFactorOfN {
 
     private final int n;

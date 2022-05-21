@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/next-greater-element-ii
+// https://leetcode.com/problems/next-greater-element-ii/
 public class NextGreaterElementII {
 
     private final int[] input;

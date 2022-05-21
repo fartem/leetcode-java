@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.Deque;
 import java.util.LinkedList;
 
-// https://leetcode.com/problems/maximum-width-of-binary-tree
+// https://leetcode.com/problems/maximum-width-of-binary-tree/
 public class MaximumWidthOfBinaryTree {
 
     private final TreeNode input;

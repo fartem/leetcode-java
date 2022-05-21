@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/smallest-subsequence-of-distinct-characters
+// https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
 public class SmallestSubsequenceOfDistinctCharacters {
 
     private final String s;

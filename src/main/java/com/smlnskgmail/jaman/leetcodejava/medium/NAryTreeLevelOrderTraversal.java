@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-// https://leetcode.com/problems/n-ary-tree-level-order-traversal
+// https://leetcode.com/problems/n-ary-tree-level-order-traversal/
 public class NAryTreeLevelOrderTraversal {
 
     private final Node input;

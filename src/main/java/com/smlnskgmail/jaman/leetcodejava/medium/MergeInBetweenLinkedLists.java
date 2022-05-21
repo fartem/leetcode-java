@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/merge-in-between-linked-lists
+// https://leetcode.com/problems/merge-in-between-linked-lists/
 public class MergeInBetweenLinkedLists {
 
     private final ListNode list1;
@@ -10,12 +10,7 @@ public class MergeInBetweenLinkedLists {
     private int b;
     private final ListNode list2;
 
-    public MergeInBetweenLinkedLists(
-            ListNode list1,
-            int a,
-            int b,
-            ListNode list2
-    ) {
+    public MergeInBetweenLinkedLists(ListNode list1, int a, int b, ListNode list2) {
         this.list1 = list1;
         this.a = a;
         this.b = b;

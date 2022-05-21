@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/partition-array-for-maximum-sum
+// https://leetcode.com/problems/partition-array-for-maximum-sum/
 public class PartitionArrayForMaximumSum {
 
     private final int[] arr;

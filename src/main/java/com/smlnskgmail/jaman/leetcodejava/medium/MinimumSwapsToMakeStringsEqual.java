@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/minimum-swaps-to-make-strings-equal
+// https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
 public class MinimumSwapsToMakeStringsEqual {
 
     private final String s1;

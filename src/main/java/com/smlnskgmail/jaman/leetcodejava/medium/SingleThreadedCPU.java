@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-// https://leetcode.com/problems/single-threaded-cpu
+// https://leetcode.com/problems/single-threaded-cpu/
 public class SingleThreadedCPU {
 
     private final int[][] input;

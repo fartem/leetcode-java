@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/vowels-of-all-substrings
+// https://leetcode.com/problems/vowels-of-all-substrings/
 public class VowelsOfAllSubstrings {
 
     private final String input;

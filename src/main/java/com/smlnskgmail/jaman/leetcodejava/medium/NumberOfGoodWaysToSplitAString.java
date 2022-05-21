@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/number-of-good-ways-to-split-a-string
+// https://leetcode.com/problems/number-of-good-ways-to-split-a-string/
 public class NumberOfGoodWaysToSplitAString {
 
     private final String s;

@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/number-of-laser-beams-in-a-bank
+// https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
 public class NumberOfLaserBeamsInABank {
 
     private final String[] input;

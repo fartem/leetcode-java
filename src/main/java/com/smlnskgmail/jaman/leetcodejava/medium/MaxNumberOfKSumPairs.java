@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/max-number-of-k-sum-pairs
+// https://leetcode.com/problems/max-number-of-k-sum-pairs/
 public class MaxNumberOfKSumPairs {
 
     private final int[] nums;

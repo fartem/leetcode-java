@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/odd-even-linked-list
+// https://leetcode.com/problems/odd-even-linked-list/
 public class OddEvenLinkedList {
 
     private final ListNode input;

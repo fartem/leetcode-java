@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedList;
 
-// https://leetcode.com/problems/merge-intervals
+// https://leetcode.com/problems/merge-intervals/
 public class MergeIntervals {
 
     private final int[][] intervals;

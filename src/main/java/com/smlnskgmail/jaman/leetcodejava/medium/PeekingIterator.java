@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Iterator;
 
-// https://leetcode.com/problems/peeking-iterator
+// https://leetcode.com/problems/peeking-iterator/
 public class PeekingIterator implements Iterator<Integer> {
 
     private final Iterator<Integer> iterator;

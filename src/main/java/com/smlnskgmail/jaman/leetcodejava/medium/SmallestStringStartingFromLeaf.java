@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/smallest-string-starting-from-leaf
+// https://leetcode.com/problems/smallest-string-starting-from-leaf/
 public class SmallestStringStartingFromLeaf {
 
     private final TreeNode input;

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target
+// https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/
 public class NumberOfPairsOfStringsWithConcatenationEqualToTarget {
 
     private final String[] nums;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/sum-of-two-integers
+// https://leetcode.com/problems/sum-of-two-integers/
 public class SumOfTwoIntegers {
 
     private int a;
