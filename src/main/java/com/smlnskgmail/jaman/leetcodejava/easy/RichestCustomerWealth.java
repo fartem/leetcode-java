@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/richest-customer-wealth
+// https://leetcode.com/problems/richest-customer-wealth/
 public class RichestCustomerWealth {
 
     private final int[][] input;

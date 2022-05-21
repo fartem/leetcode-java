@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/reverse-integer
+// https://leetcode.com/problems/reverse-integer/
 public class ReverseInteger {
 
     private int input;

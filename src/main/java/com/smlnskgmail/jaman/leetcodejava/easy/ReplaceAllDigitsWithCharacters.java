@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/replace-all-digits-with-characters
+// https://leetcode.com/problems/replace-all-digits-with-characters/
 public class ReplaceAllDigitsWithCharacters {
 
     private final String input;

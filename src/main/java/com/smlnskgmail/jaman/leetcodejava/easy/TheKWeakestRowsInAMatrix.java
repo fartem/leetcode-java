@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix
+// https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
 public class TheKWeakestRowsInAMatrix {
 
     private final int[][] mat;

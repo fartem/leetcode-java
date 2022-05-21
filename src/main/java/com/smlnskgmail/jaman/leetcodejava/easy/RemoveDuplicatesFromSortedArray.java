@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/remove-duplicates-from-sorted-array
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 public class RemoveDuplicatesFromSortedArray {
 
     private final int[] input;

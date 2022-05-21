@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/remove-outermost-parentheses
+// https://leetcode.com/problems/remove-outermost-parentheses/
 public class RemoveOutermostParentheses {
 
     private final String input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/shuffle-the-array
+// https://leetcode.com/problems/shuffle-the-array/
 public class ShuffleTheArray {
 
     private final int[] input;

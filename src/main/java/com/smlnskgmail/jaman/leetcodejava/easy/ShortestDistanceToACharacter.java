@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/shortest-distance-to-a-character
+// https://leetcode.com/problems/shortest-distance-to-a-character/
 public class ShortestDistanceToACharacter {
 
     private final String string;

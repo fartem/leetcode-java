@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side
+// https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
 public class ReplaceElementsWithGreatestElementOnRightSide {
 
     private final int[] input;

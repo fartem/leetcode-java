@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/second-largest-digit-in-a-string
+// https://leetcode.com/problems/second-largest-digit-in-a-string/
 public class SecondLargestDigitInAString {
 
     private final String input;

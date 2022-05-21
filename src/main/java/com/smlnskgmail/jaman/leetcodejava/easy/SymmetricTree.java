@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/symmetric-tree
+// https://leetcode.com/problems/symmetric-tree/
 public class SymmetricTree {
 
     private final TreeNode input;
@@ -20,8 +20,7 @@ public class SymmetricTree {
             return true;
         }
         if (left != null && right != null && left.val == right.val) {
-            return isMirror(left.left, right.right)
-                    && isMirror(left.right, right.left);
+            return isMirror(left.left, right.right) && isMirror(left.right, right.left);
         }
         return false;
     }

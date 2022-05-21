@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/remove-element
+// https://leetcode.com/problems/remove-element/
 public class RemoveElement {
 
     private final int[] input;

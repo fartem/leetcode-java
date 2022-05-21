@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/reverse-string
+// https://leetcode.com/problems/reverse-string/
 public class ReverseString {
 
     private final char[] input;

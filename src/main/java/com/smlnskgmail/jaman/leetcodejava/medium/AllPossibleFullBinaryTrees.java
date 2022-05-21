@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// https://leetcode.com/problems/all-possible-full-binary-trees
+// https://leetcode.com/problems/all-possible-full-binary-trees/
 public class AllPossibleFullBinaryTrees {
 
     private static final Map<Integer, List<TreeNode>> VALUES = new HashMap<>();
@@ -32,11 +32,7 @@ public class AllPossibleFullBinaryTrees {
                     int j = n - 1 - i;
                     for (TreeNode left : allPossibleFBT(i)) {
                         for (TreeNode right : allPossibleFBT(j)) {
-                            TreeNode node = new TreeNode(
-                                    0,
-                                    left,
-                                    right
-                            );
+                            TreeNode node = new TreeNode(0, left, right);
                             nodes.add(node);
                         }
                     }

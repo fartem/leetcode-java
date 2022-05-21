@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/student-attendance-record-i
+// https://leetcode.com/problems/student-attendance-record-i/
 public class StudentAttendanceRecordI {
 
     private final String input;
@@ -12,7 +12,6 @@ public class StudentAttendanceRecordI {
     public boolean solution() {
         int absent = 0;
         int late = 0;
-        char prev = 'P';
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
             if (c == 'L') {
@@ -25,7 +24,6 @@ public class StudentAttendanceRecordI {
                     late = 0;
                 }
             }
-            prev = c;
         }
         return absent < 2 && late < 3;
     }

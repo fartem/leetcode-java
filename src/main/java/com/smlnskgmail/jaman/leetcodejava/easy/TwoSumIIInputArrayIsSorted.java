@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
+// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 public class TwoSumIIInputArrayIsSorted {
 
     private final int[] numbers;
     private final int target;
 
-    public TwoSumIIInputArrayIsSorted(
-            int[] numbers,
-            int target
-    ) {
+    public TwoSumIIInputArrayIsSorted(int[] numbers, int target) {
         this.numbers = numbers;
         this.target = target;
     }

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string
+// https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 public class RemoveAllAdjacentDuplicatesInString {
 
     private final String input;

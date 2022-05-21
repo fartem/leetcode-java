@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/sort-even-and-odd-indices-independently
+// https://leetcode.com/problems/sort-even-and-odd-indices-independently/
 public class SortEvenAndOddIndicesIndependently {
 
     private final int[] nums;

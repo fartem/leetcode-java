@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/time-needed-to-buy-tickets
+// https://leetcode.com/problems/time-needed-to-buy-tickets/
 public class TimeNeededToBuyTickets {
 
     private final int[] tickets;

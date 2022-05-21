@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing
+// https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/
 public class RemoveOneElementToMakeTheArrayStrictlyIncreasing {
 
     private final int[] input;

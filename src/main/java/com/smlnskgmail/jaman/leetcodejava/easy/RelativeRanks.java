@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/relative-ranks
+// https://leetcode.com/problems/relative-ranks/
 public class RelativeRanks {
 
     private final int[] input;

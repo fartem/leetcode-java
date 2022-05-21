@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/remove-palindromic-subsequences
+// https://leetcode.com/problems/remove-palindromic-subsequences/
 public class RemovePalindromicSubsequences {
 
     private final String input;

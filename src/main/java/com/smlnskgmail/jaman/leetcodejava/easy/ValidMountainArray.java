@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/valid-mountain-array
+// https://leetcode.com/problems/valid-mountain-array/
 public class ValidMountainArray {
 
     private final int[] input;

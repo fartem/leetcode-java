@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/valid-palindrome-ii
+// https://leetcode.com/problems/valid-palindrome-ii/
 public class ValidPalindromeII {
 
     private final String input;
@@ -13,8 +13,7 @@ public class ValidPalindromeII {
         for (int i = 0; i < input.length() / 2; i++) {
             int index = input.length() - 1 - i;
             if (input.charAt(i) != input.charAt(index)) {
-                return isPalindromeRange(input, i + 1, index)
-                        || isPalindromeRange(input, i, index - 1);
+                return isPalindromeRange(input, i + 1, index) || isPalindromeRange(input, i, index - 1);
             }
         }
         return true;

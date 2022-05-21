@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/same-tree
+// https://leetcode.com/problems/same-tree/
 public class SameTree {
 
     private final TreeNode p;

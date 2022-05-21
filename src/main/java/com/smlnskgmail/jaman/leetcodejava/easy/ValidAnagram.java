@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/valid-anagram
+// https://leetcode.com/problems/valid-anagram/
 public class ValidAnagram {
 
     private final String s;

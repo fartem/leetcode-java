@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/shuffle-string
+// https://leetcode.com/problems/shuffle-string/
 public class ShuffleString {
 
     private final String string;

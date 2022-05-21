@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/water-bottles
+// https://leetcode.com/problems/water-bottles/
 public class WaterBottles {
 
     private final int numBottles;

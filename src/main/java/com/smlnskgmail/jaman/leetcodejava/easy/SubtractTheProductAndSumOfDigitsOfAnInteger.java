@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer
+// https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
 public class SubtractTheProductAndSumOfDigitsOfAnInteger {
 
     private int input;

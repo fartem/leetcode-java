@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/xor-operation-in-an-array
+// https://leetcode.com/problems/xor-operation-in-an-array/
 public class XOROperationInAnArray {
 
     private final int number;

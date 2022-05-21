@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/truncate-sentence
+// https://leetcode.com/problems/truncate-sentence/
 public class TruncateSentence {
 
     private final String string;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/univalued-binary-tree
+// https://leetcode.com/problems/univalued-binary-tree/
 public class UnivaluedBinaryTree {
 
     private final TreeNode input;
@@ -19,9 +19,7 @@ public class UnivaluedBinaryTree {
         if (root == null) {
             return true;
         }
-        return root.val == num
-                && isUniValued(root.left, num)
-                && isUniValued(root.right, num);
+        return root.val == num && isUniValued(root.left, num) && isUniValued(root.right, num);
     }
 
 }

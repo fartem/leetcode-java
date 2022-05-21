@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+// https://leetcode.com/problems/to-lower-case/
 public class ToLowerCase {
 
     private final String input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/robot-return-to-origin
+// https://leetcode.com/problems/robot-return-to-origin/
 public class RobotReturnToOrigin {
 
     private final String input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/valid-palindrome
+// https://leetcode.com/problems/valid-palindrome/
 public class ValidPalindrome {
 
     private final String input;

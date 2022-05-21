@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/three-consecutive-odds
+// https://leetcode.com/problems/three-consecutive-odds/
 public class ThreeConsecutiveOdds {
 
     private final int[] input;

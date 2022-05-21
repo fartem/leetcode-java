@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/balance-a-binary-search-tree
+// https://leetcode.com/problems/balance-a-binary-search-tree/
 public class BalanceABinarySearchTree {
 
     private final TreeNode input;

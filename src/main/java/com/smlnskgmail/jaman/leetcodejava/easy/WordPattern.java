@@ -3,16 +3,13 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/word-pattern
+// https://leetcode.com/problems/word-pattern/
 public class WordPattern {
 
     private final String pattern;
     private final String string;
 
-    public WordPattern(
-            String pattern,
-            String string
-    ) {
+    public WordPattern(String pattern, String string) {
         this.pattern = pattern;
         this.string = string;
     }

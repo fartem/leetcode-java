@@ -1,15 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/verifying-an-alien-dictionary
+// https://leetcode.com/problems/verifying-an-alien-dictionary/
 public class VerifyingAnAlienDictionary {
 
     private final String[] words;
     private final String order;
 
-    public VerifyingAnAlienDictionary(
-            String[] words,
-            String order
-    ) {
+    public VerifyingAnAlienDictionary(String[] words, String order) {
         this.words = words;
         this.order = order;
     }

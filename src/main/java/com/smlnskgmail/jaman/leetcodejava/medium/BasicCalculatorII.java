@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/basic-calculator-ii
+// https://leetcode.com/problems/basic-calculator-ii/
 public class BasicCalculatorII {
 
     private final String input;
@@ -45,11 +45,7 @@ public class BasicCalculatorII {
         return result;
     }
 
-    private int performOperation(
-            Stack<Integer> stack,
-            char op,
-            int num
-    ) {
+    private int performOperation(Stack<Integer> stack, char op, int num) {
         switch (op) {
             case '+':
                 return num;

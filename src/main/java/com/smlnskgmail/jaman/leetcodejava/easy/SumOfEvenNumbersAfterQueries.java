@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
+// https://leetcode.com/problems/sum-of-even-numbers-after-queries/
 public class SumOfEvenNumbersAfterQueries {
 
     private final int[] nums;

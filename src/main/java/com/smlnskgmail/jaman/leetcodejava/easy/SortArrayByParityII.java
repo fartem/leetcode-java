@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/sort-array-by-parity-ii
+// https://leetcode.com/problems/sort-array-by-parity-ii/
 public class SortArrayByParityII {
 
     private final int[] input;

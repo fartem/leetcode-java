@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// https://leetcode.com/problems/summary-ranges
+// https://leetcode.com/problems/summary-ranges/
 public class SummaryRanges {
 
     private final int[] input;

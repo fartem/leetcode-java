@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/sum-of-all-subset-xor-totals
+// https://leetcode.com/problems/sum-of-all-subset-xor-totals/
 public class SumOfAllSubsetXORTotals {
 
     private final int[] input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/reverse-only-letters
+// https://leetcode.com/problems/reverse-only-letters/
 public class ReverseOnlyLetters {
 
     private final String input;

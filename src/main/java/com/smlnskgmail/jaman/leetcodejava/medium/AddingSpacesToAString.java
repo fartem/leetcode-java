@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/adding-spaces-to-a-string
+// https://leetcode.com/problems/adding-spaces-to-a-string/
 public class AddingSpacesToAString {
 
     private final String s;

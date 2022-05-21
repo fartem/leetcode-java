@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/toeplitz-matrix
+// https://leetcode.com/problems/toeplitz-matrix/
 public class ToeplitzMatrix {
 
     private final int[][] input;

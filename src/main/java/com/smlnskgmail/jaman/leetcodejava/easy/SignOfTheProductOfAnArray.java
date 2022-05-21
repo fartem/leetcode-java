@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/sign-of-the-product-of-an-array
+// https://leetcode.com/problems/sign-of-the-product-of-an-array/
 public class SignOfTheProductOfAnArray {
 
     private final int[] input;

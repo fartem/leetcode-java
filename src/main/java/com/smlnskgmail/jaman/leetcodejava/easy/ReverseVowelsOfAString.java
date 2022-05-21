@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/reverse-vowels-of-a-string
+// https://leetcode.com/problems/reverse-vowels-of-a-string/
 public class ReverseVowelsOfAString {
 
     private final String input;

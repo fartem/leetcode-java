@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/squares-of-a-sorted-array
+// https://leetcode.com/problems/squares-of-a-sorted-array/
 public class SquaresOfASortedArray {
 
     private final int[] input;

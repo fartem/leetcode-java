@@ -3,16 +3,13 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/uncommon-words-from-two-sentences
+// https://leetcode.com/problems/uncommon-words-from-two-sentences/
 public class UncommonWordsFromTwoSentences {
 
     private final String firstString;
     private final String secondString;
 
-    public UncommonWordsFromTwoSentences(
-            String firstString,
-            String secondString
-    ) {
+    public UncommonWordsFromTwoSentences(String firstString, String secondString) {
         this.firstString = firstString;
         this.secondString = secondString;
     }

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/reverse-bits
+// https://leetcode.com/problems/reverse-bits/
 public class ReverseBits {
 
     private final int input;

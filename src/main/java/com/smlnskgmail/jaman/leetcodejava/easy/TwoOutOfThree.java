@@ -3,18 +3,14 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/two-out-of-three
+// https://leetcode.com/problems/two-out-of-three/
 public class TwoOutOfThree {
 
     private final int[] nums1;
     private final int[] nums2;
     private final int[] nums3;
 
-    public TwoOutOfThree(
-            int[] nums1,
-            int[] nums2,
-            int[] nums3
-    ) {
+    public TwoOutOfThree(int[] nums1, int[] nums2, int[] nums3) {
         this.nums1 = nums1;
         this.nums2 = nums2;
         this.nums3 = nums3;

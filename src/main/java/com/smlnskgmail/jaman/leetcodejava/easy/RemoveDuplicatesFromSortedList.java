@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/remove-duplicates-from-sorted-list
+// https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 public class RemoveDuplicatesFromSortedList {
 
     private final ListNode head;

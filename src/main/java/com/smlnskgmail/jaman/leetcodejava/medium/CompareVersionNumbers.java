@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/compare-version-numbers
+// https://leetcode.com/problems/compare-version-numbers/
 public class CompareVersionNumbers {
 
     private final String version1;

@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/unique-morse-code-words
+// https://leetcode.com/problems/unique-morse-code-words/
 public class UniqueMorseCodeWords {
 
     private static final String[] ALPHABET = new String[]{

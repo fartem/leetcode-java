@@ -1,8 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
-// https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits
+// https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/
 public class SortIntegersByTheNumberOf1Bits {
 
     private final int[] input;
@@ -18,15 +19,7 @@ public class SortIntegersByTheNumberOf1Bits {
         }
         Arrays.sort(
                 nums,
-                (i1, i2) -> {
-                    int bitsCompare = Integer.compare(
-                            Integer.bitCount(i1),
-                            Integer.bitCount(i2)
-                    );
-                    return bitsCompare != 0
-                            ? bitsCompare
-                            : Integer.compare(i1, i2);
-                }
+                Comparator.comparingInt(Integer::bitCount).thenComparingInt(i -> i)
         );
         for (int i = 0; i < input.length; i++) {
             input[i] = nums[i];

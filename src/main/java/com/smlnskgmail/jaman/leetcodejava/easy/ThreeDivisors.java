@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/three-divisors
+// https://leetcode.com/problems/three-divisors/
 public class ThreeDivisors {
 
     private final int input;

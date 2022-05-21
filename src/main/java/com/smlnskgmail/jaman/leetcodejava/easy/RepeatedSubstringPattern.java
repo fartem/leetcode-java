@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/repeated-substring-pattern
+// https://leetcode.com/problems/repeated-substring-pattern/
 public class RepeatedSubstringPattern {
 
     private final String input;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/third-maximum-number
+// https://leetcode.com/problems/third-maximum-number/
 public class ThirdMaximumNumber {
 
     private final int[] input;

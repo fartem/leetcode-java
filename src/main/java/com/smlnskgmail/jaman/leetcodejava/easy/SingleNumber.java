@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/single-number/solution
+// https://leetcode.com/problems/single-number/solution/
 public class SingleNumber {
 
     private final int[] input;

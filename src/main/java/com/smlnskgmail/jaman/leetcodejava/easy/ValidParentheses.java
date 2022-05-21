@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/valid-parentheses
+// https://leetcode.com/problems/valid-parentheses/
 public class ValidParentheses {
 
     private final String input;
@@ -17,15 +17,13 @@ public class ValidParentheses {
             char c = input.charAt(i);
             switch (c) {
                 case '(':
+                case '{':
                     stack.push(c);
                     break;
                 case ')':
                     if (stack.empty() || stack.pop() != '(') {
                         return false;
                     }
-                    break;
-                case '{':
-                    stack.push(c);
                     break;
                 case '}':
                     if (stack.empty() || stack.pop() != '{') {

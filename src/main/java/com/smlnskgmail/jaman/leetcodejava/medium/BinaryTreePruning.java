@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/binary-tree-pruning
+// https://leetcode.com/problems/binary-tree-pruning/
 public class BinaryTreePruning {
 
     private final TreeNode input;

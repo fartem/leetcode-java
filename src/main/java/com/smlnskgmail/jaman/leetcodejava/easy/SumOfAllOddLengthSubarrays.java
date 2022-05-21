@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/sum-of-all-odd-length-subarrays
+// https://leetcode.com/problems/sum-of-all-odd-length-subarrays/
 public class SumOfAllOddLengthSubarrays {
 
     private final int[] input;

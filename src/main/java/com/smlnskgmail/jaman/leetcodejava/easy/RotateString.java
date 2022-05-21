@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/rotate-string
+// https://leetcode.com/problems/rotate-string/
 public class RotateString {
 
     private final String a;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/running-sum-of-1d-array
+// https://leetcode.com/problems/running-sum-of-1d-array/
 public class RunningSumOf1DArray {
 
     private final int[] input;

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/smallest-index-with-equal-value
+// https://leetcode.com/problems/smallest-index-with-equal-value/
 public class SmallestIndexWithEqualValue {
 
     private final int[] input;

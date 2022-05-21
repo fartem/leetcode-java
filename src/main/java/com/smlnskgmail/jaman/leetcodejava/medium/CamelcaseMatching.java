@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/camelcase-matching
+// https://leetcode.com/problems/camelcase-matching/
 public class CamelcaseMatching {
 
     private final String[] queries;

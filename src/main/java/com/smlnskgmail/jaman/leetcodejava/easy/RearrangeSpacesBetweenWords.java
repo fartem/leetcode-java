@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/rearrange-spaces-between-words
+// https://leetcode.com/problems/rearrange-spaces-between-words/
 public class RearrangeSpacesBetweenWords {
 
     private final String input;

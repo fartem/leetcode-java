@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/sum-of-unique-elements
+// https://leetcode.com/problems/sum-of-unique-elementsa/
 public class SumOfUniqueNumbers {
 
     private final int[] input;

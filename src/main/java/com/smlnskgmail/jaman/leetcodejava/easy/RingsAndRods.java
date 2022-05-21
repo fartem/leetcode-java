@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-// https://leetcode.com/problems/rings-and-rods
+// https://leetcode.com/problems/rings-and-rods/
 public class RingsAndRods {
 
     private final String input;

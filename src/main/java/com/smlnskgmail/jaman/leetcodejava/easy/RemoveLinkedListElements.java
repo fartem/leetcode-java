@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/remove-linked-list-elements
+// https://leetcode.com/problems/remove-linked-list-elements/
 public class RemoveLinkedListElements {
 
     private ListNode head;

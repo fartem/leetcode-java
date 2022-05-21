@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/add-two-numbers
+// https://leetcode.com/problems/add-two-numbers/
 public class AddTwoNumbers {
 
     private ListNode l1;

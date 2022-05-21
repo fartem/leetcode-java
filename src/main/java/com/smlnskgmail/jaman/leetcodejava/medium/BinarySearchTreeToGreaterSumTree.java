@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree
+// https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 public class BinarySearchTreeToGreaterSumTree {
 
     private final TreeNode input;

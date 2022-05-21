@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/two-furthest-houses-with-different-colors
+// https://leetcode.com/problems/two-furthest-houses-with-different-colors/
 public class TwoFurthestHousesWithDifferentColors {
 
     private final int[] colors;

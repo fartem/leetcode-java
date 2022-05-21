@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/sum-of-digits-in-base-k
+// https://leetcode.com/problems/sum-of-digits-in-base-k/
 public class SumOfDigitsInBaseK {
 
     private final int n;

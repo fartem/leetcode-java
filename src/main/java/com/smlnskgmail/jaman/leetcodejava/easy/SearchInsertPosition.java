@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/search-insert-position
+// https://leetcode.com/problems/search-insert-position/
 public class SearchInsertPosition {
 
     private final int[] array;

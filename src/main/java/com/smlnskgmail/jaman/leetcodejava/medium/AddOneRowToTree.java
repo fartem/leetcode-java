@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.Deque;
 import java.util.LinkedList;
 
-// https://leetcode.com/problems/add-one-row-to-tree
+// https://leetcode.com/problems/add-one-row-to-tree/
 public class AddOneRowToTree {
 
     private final TreeNode root;

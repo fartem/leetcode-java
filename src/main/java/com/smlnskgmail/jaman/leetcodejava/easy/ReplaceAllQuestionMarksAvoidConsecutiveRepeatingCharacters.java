@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters
+// https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/
 public class ReplaceAllQuestionMarksAvoidConsecutiveRepeatingCharacters {
 
     private final String input;

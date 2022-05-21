@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/reverse-words-in-a-string-iii
+// https://leetcode.com/problems/reverse-words-in-a-string-iii/
 public class ReverseWordsInAStringIII {
 
     private final String input;

@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/all-paths-from-source-to-target
+// https://leetcode.com/problems/all-paths-from-source-to-target/
 public class AllPathsFromSourceToTarget {
 
     private final int[][] input;

@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/reformat-the-string
+// https://leetcode.com/problems/reformat-the-string/
 public class ReformatTheString {
 
     private final String input;

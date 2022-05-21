@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/root-equals-sum-of-children
+// https://leetcode.com/problems/root-equals-sum-of-children/
 public class RootEqualsSumOfChildren {
 
     private final TreeNode input;

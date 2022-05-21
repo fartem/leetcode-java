@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/slowest-key
+// https://leetcode.com/problems/slowest-key/
 public class SlowestKey {
 
     private final int[] releaseTimes;

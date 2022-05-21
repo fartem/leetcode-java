@@ -5,16 +5,13 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/subtree-of-another-tree
+// https://leetcode.com/problems/subtree-of-another-tree/
 public class SubtreeOfAnotherTree {
 
     private final TreeNode root;
     private final TreeNode subRoot;
 
-    public SubtreeOfAnotherTree(
-            TreeNode root,
-            TreeNode subRoot
-    ) {
+    public SubtreeOfAnotherTree(TreeNode root, TreeNode subRoot) {
         this.root = root;
         this.subRoot = subRoot;
     }
@@ -30,11 +27,7 @@ public class SubtreeOfAnotherTree {
         return false;
     }
 
-    private void findNodes(
-            TreeNode node,
-            TreeNode target,
-            List<TreeNode> nodes
-    ) {
+    private void findNodes(TreeNode node, TreeNode target, List<TreeNode> nodes) {
         if (node == null) {
             return;
         }

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.medium;
 
-// https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three
+// https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/
 public class CheckIfNumberIsASumOfPowersOfThree {
 
     private final int input;

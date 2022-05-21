@@ -4,7 +4,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
 import java.util.*;
 
-// https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal
+// https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 public class BinaryTreeZigzagLevelOrderTraversal {
 
     private final TreeNode input;

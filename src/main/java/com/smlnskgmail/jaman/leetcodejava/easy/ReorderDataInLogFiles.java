@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/reorder-data-in-log-files
+// https://leetcode.com/problems/reorder-data-in-log-files/
 public class ReorderDataInLogFiles {
 
     private final String[] input;

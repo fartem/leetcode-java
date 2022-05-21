@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/two-sum
+// https://leetcode.com/problems/two-sum/
 public class TwoSum {
 
     private final int[] array;

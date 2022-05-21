@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/set-mismatch
+// https://leetcode.com/problems/set-mismatch/
 public class SetMismatch {
 
     private final int[] input;

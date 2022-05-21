@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/binary-search-tree-iterator
+// https://leetcode.com/problems/binary-search-tree-iterator/
 public class BinarySearchTreeIterator {
 
     private final List<Integer> values = new ArrayList<>();

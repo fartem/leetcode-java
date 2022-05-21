@@ -5,7 +5,7 @@ import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers
+// https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 public class SumOfRootToLeafBinaryNumbers {
 
     private final TreeNode input;
@@ -24,11 +24,7 @@ public class SumOfRootToLeafBinaryNumbers {
         return result;
     }
 
-    private void fillValues(
-            TreeNode root,
-            List<Integer> values,
-            int curr
-    ) {
+    private void fillValues(TreeNode root, List<Integer> values, int curr) {
         if (root != null) {
             curr = (curr << 1) | root.val;
             if (root.left == null && root.right == null) {

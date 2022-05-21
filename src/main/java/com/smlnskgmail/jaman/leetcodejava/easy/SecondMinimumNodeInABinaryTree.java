@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-// https://leetcode.com/problems/second-minimum-node-in-a-binary-tree
+// https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
 public class SecondMinimumNodeInABinaryTree {
 
     private final TreeNode input;

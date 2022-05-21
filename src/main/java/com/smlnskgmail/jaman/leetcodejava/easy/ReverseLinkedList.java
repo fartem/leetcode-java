@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import com.smlnskgmail.jaman.leetcodejava.support.ListNode;
 
-// https://leetcode.com/problems/reverse-linked-list
+// https://leetcode.com/problems/reverse-linked-list/
 public class ReverseLinkedList {
 
     private final ListNode head;

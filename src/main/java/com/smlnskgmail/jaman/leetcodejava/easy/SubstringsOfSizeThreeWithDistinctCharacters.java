@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters
+// https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/
 public class SubstringsOfSizeThreeWithDistinctCharacters {
 
     private final String input;

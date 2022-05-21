@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-// https://leetcode.com/problems/string-matching-in-an-array
+// https://leetcode.com/problems/string-matching-in-an-array/
 public class StringMatchingInAnArray {
 
     private final List<String> input;

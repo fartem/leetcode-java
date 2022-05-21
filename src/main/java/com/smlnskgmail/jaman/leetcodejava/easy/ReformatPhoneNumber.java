@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/reformat-phone-number
+// https://leetcode.com/problems/reformat-phone-number/
 public class ReformatPhoneNumber {
 
     private final String input;

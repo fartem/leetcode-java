@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/thousand-separator
+// https://leetcode.com/problems/thousand-separator/
 public class ThousandSeparator {
 
     private final int input;

@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-// https://leetcode.com/problems/unique-email-addresses
+// https://leetcode.com/problems/unique-email-addresses/
 public class UniqueEmailAddresses {
 
     private final String[] input;

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/check-if-a-string-can-break-another-string
+// https://leetcode.com/problems/check-if-a-string-can-break-another-string/
 public class CheckIfAStringCanBreakAnotherString {
 
     private final String s1;
