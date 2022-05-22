@@ -6,15 +6,15 @@ import java.util.List;
 // https://leetcode.com/problems/letter-case-permutation
 public class LetterCasePermutation {
 
-    private final String s;
+    private final String input;
 
     public LetterCasePermutation(String input) {
-        this.s = input;
+        this.input = input;
     }
 
     public List<String> solution() {
         List<String> result = new ArrayList<>();
-        findPermutations(s.toCharArray(), 0, result);
+        findPermutations(input.toCharArray(), 0, result);
         return result;
     }
 

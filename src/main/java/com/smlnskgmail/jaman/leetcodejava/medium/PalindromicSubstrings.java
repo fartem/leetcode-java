@@ -3,17 +3,17 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 // https://leetcode.com/problems/palindromic-substrings/
 public class PalindromicSubstrings {
 
-    private final String s;
+    private final String input;
 
     public PalindromicSubstrings(String input) {
-        this.s = input;
+        this.input = input;
     }
 
     public int solution() {
-        int result = s.length();
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i + 1; j < s.length(); j++) {
-                if (isPalindrome(s, i, j)) {
+        int result = input.length();
+        for (int i = 0; i < input.length(); i++) {
+            for (int j = i + 1; j < input.length(); j++) {
+                if (isPalindrome(input, i, j)) {
                     result++;
                 }
             }

@@ -6,25 +6,25 @@ import java.util.Set;
 // https://leetcode.com/problems/number-of-good-ways-to-split-a-string/
 public class NumberOfGoodWaysToSplitAString {
 
-    private final String s;
+    private final String input;
 
     public NumberOfGoodWaysToSplitAString(String input) {
-        this.s = input;
+        this.input = input;
     }
 
     public int solution() {
         Set<Character> lChars = new HashSet<>();
         Set<Character> rChars = new HashSet<>();
-        int[] lCount = new int[s.length()];
-        int[] rCount = new int[s.length()];
-        for (int i = 0; i < s.length(); i++) {
-            char lC = s.charAt(i);
+        int[] lCount = new int[input.length()];
+        int[] rCount = new int[input.length()];
+        for (int i = 0; i < input.length(); i++) {
+            char lC = input.charAt(i);
             if (!lChars.contains(lC)) {
-                lChars.add(s.charAt(i));
+                lChars.add(input.charAt(i));
             }
             lCount[i] = lChars.size();
-            int rIndex = s.length() - i - 1;
-            char rC = s.charAt(rIndex);
+            int rIndex = input.length() - i - 1;
+            char rC = input.charAt(rIndex);
             if (!rChars.contains(rC)) {
                 rChars.add(rC);
             }
@@ -33,7 +33,7 @@ public class NumberOfGoodWaysToSplitAString {
         int result = 0;
         int lP = 0;
         int rP = 1;
-        while (lP != s.length() && rP != s.length()) {
+        while (lP != input.length() && rP != input.length()) {
             if (lCount[lP++] == rCount[rP++]) {
                 result++;
             }

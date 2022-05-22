@@ -6,14 +6,14 @@ import java.util.List;
 // https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/
 public class CellsInARangeOnAnExcelSheet {
 
-    private final String s;
+    private final String input;
 
     public CellsInARangeOnAnExcelSheet(String input) {
-        this.s = input;
+        this.input = input;
     }
 
     public List<String> solution() {
-        String[] parts = s.split(":");
+        String[] parts = input.split(":");
         char startChar = parts[0].charAt(0);
         int startNum = Integer.parseInt(parts[0].substring(1));
         char endChar = parts[1].charAt(0);
