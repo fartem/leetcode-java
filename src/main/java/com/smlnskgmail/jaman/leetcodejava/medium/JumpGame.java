@@ -11,7 +11,7 @@ public class JumpGame {
 
     public boolean solution() {
         int length = input.length;
-        int i = 0;
+        int i;
         int max = 0;
         for (i = 0; i < length; i++) {
             max = Math.max(input[i], max - 1);
