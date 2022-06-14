@@ -12,21 +12,19 @@ public class CheckIfOneStringSwapCanMakeStringsEqual {
     }
 
     public boolean solution() {
-        char[] s1Chars = new char[128];
-        int diff = 0;
+        int count = 0;
+        int[] indices = new int[2];
+        int p = 0;
         for (int i = 0; i < s1.length(); i++) {
-            char s1Char = s1.charAt(i);
-            if (s1Char != s2.charAt(i)) {
-                diff++;
-            }
-            s1Chars[s1Char] = 1;
-        }
-        for (int i = 0; i < s2.length(); i++) {
-            if (s1Chars[s2.charAt(i)] == 0) {
-                return false;
+            if (s1.charAt(i) != s2.charAt(i)) {
+                count++;
+                if (count > 2) {
+                    return false;
+                }
+                indices[p++] = i;
             }
         }
-        return diff == 0 || diff == 2;
+        return s1.charAt(indices[0]) == s2.charAt(indices[1]) && s1.charAt(indices[1]) == s2.charAt(indices[0]);
     }
 
 }
