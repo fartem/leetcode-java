@@ -15,7 +15,7 @@ public class IntersectionOfTwoArraysII {
     }
 
     public int[] solution() {
-        int[] nums = new int[1000];
+        int[] nums = new int[1001];
         for (int num : nums1) {
             nums[num] = nums[num] + 1;
         }
