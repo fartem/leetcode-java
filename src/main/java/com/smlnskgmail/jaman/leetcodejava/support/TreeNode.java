@@ -1,5 +1,9 @@
 package com.smlnskgmail.jaman.leetcodejava.support;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
 public class TreeNode {
 
     public static boolean areEqual(TreeNode n1, TreeNode n2) {
