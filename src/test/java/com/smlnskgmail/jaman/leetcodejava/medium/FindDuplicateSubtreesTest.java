@@ -41,7 +41,8 @@ public class FindDuplicateSubtreesTest {
         ).solution();
         assertEquals(correct.size(), solution.size());
         for (int i = 0; i < correct.size(); i++) {
-            assertTrue(TreeNode.areEqual(correct.get(i), solution.get(i)));
+            TreeNode solutionNode = solution.get(i);
+            assertTrue(correct.stream().anyMatch((treeNode -> TreeNode.areEqual(treeNode, solutionNode))));
         }
     }
 
