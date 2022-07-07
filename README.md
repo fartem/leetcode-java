@@ -10,4 +10,14 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem).
 
 ## Solutions
 
+### Easy
+
+Soon.
+
+### Medium
+
+Soon.
+
+### Hard
+
 Soon.
