@@ -2,9 +2,6 @@ package com.smlnskgmail.jaman.leetcodejava.medium;
 
 import com.smlnskgmail.jaman.leetcodejava.support.TreeNode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 // https://leetcode.com/problems/path-sum-iii/
 public class PathSumIII {
 
@@ -17,29 +14,28 @@ public class PathSumIII {
     }
 
     public int solution() {
-        Map<Integer, Integer> values = new HashMap<>();
-        values.put(0, 1);
-        return calculateCount(root, targetSum, 0, values);
+        return pathSum(root, targetSum);
     }
 
-    private int calculateCount(
-            TreeNode node,
-            int targetSum,
-            int sum,
-            Map<Integer, Integer> values
-    ) {
-        int result = 0;
+    public int pathSum(TreeNode root, int targetSum) {
+        if (root == null) {
+            return 0;
+        }
+        return traverse(root, targetSum)
+                + pathSum(root.left, targetSum)
+                + pathSum(root.right, targetSum);
+    }
+
+    private int traverse(TreeNode node, long targetSum) {
         if (node == null) {
-            return result;
+            return 0;
         }
-        sum += node.val;
-        if (values.containsKey(sum - targetSum)) {
-            result += values.get(sum - targetSum);
+        int result = 0;
+        if (targetSum == node.val) {
+            result++;
         }
-        values.put(sum, values.getOrDefault(sum, 0) + 1);
-        result += calculateCount(node.left, targetSum, sum, values);
-        result += calculateCount(node.right, targetSum, sum, values);
-        values.put(sum, values.getOrDefault(sum, 0) - 1);
+        result += traverse(node.left, targetSum - node.val)
+                + traverse(node.right, targetSum - node.val);
         return result;
     }
 
