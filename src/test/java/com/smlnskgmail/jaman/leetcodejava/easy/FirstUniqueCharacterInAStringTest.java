@@ -10,9 +10,7 @@ public class FirstUniqueCharacterInAStringTest {
     public void defaultTest() {
         assertEquals(
                 0,
-                new FirstUniqueCharacterInAString(
-                        "leetcode"
-                ).solution()
+                new FirstUniqueCharacterInAString("leetcode").solution()
         );
     }
 
