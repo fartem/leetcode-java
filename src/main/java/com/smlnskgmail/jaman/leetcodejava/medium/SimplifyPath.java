@@ -26,11 +26,11 @@ public class SimplifyPath {
         if (stack.isEmpty()) {
             return "/";
         }
-        var result = "";
+        StringBuilder result = new StringBuilder();
         while (!stack.isEmpty()) {
-            result = stack.pop() + result;
+            result.insert(0, stack.pop());
         }
-        return result;
+        return result.toString();
     }
 
 }
