@@ -9,14 +9,13 @@ Future<void> check(String readmePath) async {
     buildCache.createSync();
   }
   final cache = <String>{}..addAll(buildCache.readAsLinesSync());
-  var exitCode = 0;
   for (final line in readme.readAsLinesSync()) {
     if (line.startsWith('|')) {
-      if (line.contains('(')) {
-        final url = line.substring(line.indexOf('(') + 1, line.indexOf(')'));
-        if (!url.startsWith('https')) {
-          continue;
-        }
+      if (line.contains('https')) {
+        final url = line.substring(
+          line.indexOf('https'),
+          line.indexOf('/)'),
+        );
         if (cache.contains(url)) {
           continue;
         }
@@ -24,20 +23,19 @@ Future<void> check(String readmePath) async {
           final res = await get(Uri.parse(url));
           if (res.statusCode == HttpStatus.ok) {
             print('DONE: $url');
-            cache.add(url);
+            buildCache.writeAsStringSync(
+              '$url\n',
+              mode: FileMode.append,
+            );
           } else {
             print('ERROR: $url (${res.statusCode})');
-            exitCode = 1;
-            break;
+            exit(1);
           }
         } on Exception catch (e) {
           print('ERROR: $url WITH $e');
-          exitCode = 1;
-          break;
+          exit(1);
         }
       }
     }
   }
-  buildCache.writeAsStringSync(cache.map((e) => '$e\n').join());
-  exit(exitCode);
 }
