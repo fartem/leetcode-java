@@ -1,12 +1,12 @@
-package com.smlnskgmail.jaman.leetcodejava.easy;
+package com.smlnskgmail.jaman.leetcodejava.medium;
 
 // https://leetcode.com/problems/implement-strstr/
-public class ImplementStrStr {
+public class FindTheIndexOfTheFirstOccurrenceInAString {
 
     private final String haystack;
     private final String needle;
 
-    public ImplementStrStr(String haystack, String needle) {
+    public FindTheIndexOfTheFirstOccurrenceInAString(String haystack, String needle) {
         this.haystack = haystack;
         this.needle = needle;
     }
