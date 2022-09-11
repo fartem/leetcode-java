@@ -4,13 +4,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
-public class CheckIFNumbersAreAscendingInASentenceTest {
+public class UniqueNumberOfOccurrencesTest {
 
     @Test
     public void defaultTest() {
         assertTrue(
-                new CheckIFNumbersAreAscendingInASentence(
-                        "1 box has 3 blue 4 red 6 green and 12 yellow marbles"
+                new UniqueNumberOfOccurrences(
+                        new int[]{1, 2, 2, 1, 1, 3}
                 ).solution()
         );
     }

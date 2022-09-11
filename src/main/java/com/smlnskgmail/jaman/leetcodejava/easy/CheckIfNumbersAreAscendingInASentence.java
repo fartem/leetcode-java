@@ -1,11 +1,11 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 // https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/
-public class CheckIFNumbersAreAscendingInASentence {
+public class CheckIfNumbersAreAscendingInASentence {
 
     private final String input;
 
-    public CheckIFNumbersAreAscendingInASentence(String input) {
+    public CheckIfNumbersAreAscendingInASentence(String input) {
         this.input = input;
     }
 

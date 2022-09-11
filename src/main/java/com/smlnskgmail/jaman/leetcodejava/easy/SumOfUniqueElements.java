@@ -3,12 +3,12 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode.com/problems/sum-of-unique-elementsa/
-public class SumOfUniqueNumbers {
+// https://leetcode.com/problems/sum-of-unique-elements/
+public class SumOfUniqueElements {
 
     private final int[] input;
 
-    public SumOfUniqueNumbers(int[] input) {
+    public SumOfUniqueElements(int[] input) {
         this.input = input;
     }
 
