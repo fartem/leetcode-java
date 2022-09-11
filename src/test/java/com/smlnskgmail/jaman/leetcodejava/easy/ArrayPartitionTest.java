@@ -4,13 +4,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class ArrayPartitionITest {
+public class ArrayPartitionTest {
 
     @Test
     public void defaultTest() {
         assertEquals(
                 4,
-                new ArrayPartitionI(
+                new ArrayPartition(
                         new int[]{1, 2, 3, 4}
                 ).solution()
         );

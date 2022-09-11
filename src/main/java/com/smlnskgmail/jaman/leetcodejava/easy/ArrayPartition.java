@@ -3,11 +3,11 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import java.util.Arrays;
 
 // https://leetcode.com/problems/array-partition-i/
-public class ArrayPartitionI {
+public class ArrayPartition {
 
     private final int[] input;
 
-    public ArrayPartitionI(int[] input) {
+    public ArrayPartition(int[] input) {
         this.input = input;
     }
 

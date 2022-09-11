@@ -4,14 +4,14 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class ReplaceAllQuestionMarksAvoidConsecutiveRepeatingCharactersTest {
+public class SumOfUniqueElementsTest {
 
     @Test
     public void defaultTest() {
         assertEquals(
-                "azs",
-                new ReplaceAllQuestionMarksAvoidConsecutiveRepeatingCharacters(
-                        "?zs"
+                4,
+                new SumOfUniqueElements(
+                        new int[]{1, 2, 3, 2}
                 ).solution()
         );
     }

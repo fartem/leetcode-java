@@ -1,12 +1,12 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 // https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/
-public class CheckIfAll1AreAtLeastLengthKPlacesAway {
+public class CheckIfAll1sAreAtLeastLengthKPlacesAway {
 
     private final int[] nums;
     private final int k;
 
-    public CheckIfAll1AreAtLeastLengthKPlacesAway(int[] nums, int k) {
+    public CheckIfAll1sAreAtLeastLengthKPlacesAway(int[] nums, int k) {
         this.nums = nums;
         this.k = k;
     }

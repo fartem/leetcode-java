@@ -6,11 +6,11 @@ import java.util.Map;
 import java.util.Set;
 
 // https://leetcode.com/problems/unique-number-of-occurrences/
-public class UniqueNumbersOfOccurrences {
+public class UniqueNumberOfOccurrences {
 
     private final int[] input;
 
-    public UniqueNumbersOfOccurrences(int[] input) {
+    public UniqueNumberOfOccurrences(int[] input) {
         this.input = input;
     }
 

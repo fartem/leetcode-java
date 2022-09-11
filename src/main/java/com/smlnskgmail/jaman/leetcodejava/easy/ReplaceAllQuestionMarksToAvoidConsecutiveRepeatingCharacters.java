@@ -1,11 +1,11 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
 // https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/
-public class ReplaceAllQuestionMarksAvoidConsecutiveRepeatingCharacters {
+public class ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharacters {
 
     private final String input;
 
-    public ReplaceAllQuestionMarksAvoidConsecutiveRepeatingCharacters(String input) {
+    public ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharacters(String input) {
         this.input = input;
     }
 
