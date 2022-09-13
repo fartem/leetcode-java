@@ -15,34 +15,6 @@ public class MaximumRepeatingSubstringTest {
                         "ab"
                 ).solution()
         );
-        assertEquals(
-                3,
-                new MaximumRepeatingSubstring(
-                        "aaa",
-                        "a"
-                ).solution()
-        );
-        assertEquals(
-                1,
-                new MaximumRepeatingSubstring(
-                        "a",
-                        "a"
-                ).solution()
-        );
-        assertEquals(
-                5,
-                new MaximumRepeatingSubstring(
-                        "aaabaaaabaaabaaaabaaaabaaaabaaaaba",
-                        "aaaba"
-                ).solution()
-        );
-        assertEquals(
-                1,
-                new MaximumRepeatingSubstring(
-                        "bbba",
-                        "a"
-                ).solution()
-        );
     }
 
 }

@@ -10,9 +10,7 @@ public class KeyboardRowTest {
     public void defaultTest() {
         assertArrayEquals(
                 new String[]{"Alaska", "Dad"},
-                new KeyboardRow(
-                        new String[]{"Hello", "Alaska", "Dad", "Peace"}
-                ).solution()
+                new KeyboardRow(new String[]{"Hello", "Alaska", "Dad", "Peace"}).solution()
         );
     }
 

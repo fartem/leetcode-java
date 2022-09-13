@@ -3,6 +3,7 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
@@ -12,7 +13,7 @@ public class PascalsTriangleTest {
     public void defaultTest() {
         assertEquals(
                 Arrays.asList(
-                        Arrays.asList(1),
+                        List.of(1),
                         Arrays.asList(1, 1),
                         Arrays.asList(1, 2, 1),
                         Arrays.asList(1, 3, 3, 1),

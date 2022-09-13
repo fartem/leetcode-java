@@ -10,9 +10,7 @@ public class ReverseOnlyLettersTest {
     public void defaultTest() {
         assertEquals(
                 "dc-ba",
-                new ReverseOnlyLetters(
-                        "ab-cd"
-                ).solution()
+                new ReverseOnlyLetters("ab-cd").solution()
         );
     }
 

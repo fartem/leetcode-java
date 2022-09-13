@@ -10,9 +10,7 @@ public class MissingNumberTest {
     public void defaultTest() {
         assertEquals(
                 2,
-                new MissingNumber(
-                        new int[]{3, 0, 1}
-                ).solution()
+                new MissingNumber(new int[]{3, 0, 1}).solution()
         );
     }
 

@@ -10,9 +10,7 @@ public class SecondLargestDigitInAStringTest {
     public void defaultTest() {
         assertEquals(
                 2,
-                new SecondLargestDigitInAString(
-                        "dfa12321afd"
-                ).solution()
+                new SecondLargestDigitInAString("dfa12321afd").solution()
         );
     }
 

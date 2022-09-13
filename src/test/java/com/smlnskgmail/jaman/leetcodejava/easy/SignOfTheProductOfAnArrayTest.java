@@ -10,9 +10,7 @@ public class SignOfTheProductOfAnArrayTest {
     public void defaultTest() {
         assertEquals(
                 1,
-                new SignOfTheProductOfAnArray(
-                        new int[]{-1, -2, -3, -4, 3, 2, 1}
-                ).solution()
+                new SignOfTheProductOfAnArray(new int[]{-1, -2, -3, -4, 3, 2, 1}).solution()
         );
     }
 

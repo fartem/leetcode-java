@@ -8,11 +8,7 @@ public class DetermineIfStringHalvesAreAlikeTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new DetermineIfStringHalvesAreAlike(
-                        "book"
-                ).solution()
-        );
+        assertTrue(new DetermineIfStringHalvesAreAlike("book").solution());
     }
 
 }

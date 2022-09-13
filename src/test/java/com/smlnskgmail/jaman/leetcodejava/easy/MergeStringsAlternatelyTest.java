@@ -10,10 +10,7 @@ public class MergeStringsAlternatelyTest {
     public void defaultTest() {
         assertEquals(
                 "apbqrs",
-                new MergeStringsAlternately(
-                        "ab",
-                        "pqrs"
-                ).solution()
+                new MergeStringsAlternately("ab", "pqrs").solution()
         );
     }
 

@@ -10,10 +10,7 @@ public class DecodeXORedArrayTest {
     public void defaultTest() {
         assertArrayEquals(
                 new int[]{1, 0, 2, 1},
-                new DecodeXORedArray(
-                        new int[]{1, 2, 3},
-                        1
-                ).solution()
+                new DecodeXORedArray(new int[]{1, 2, 3}, 1).solution()
         );
     }
 

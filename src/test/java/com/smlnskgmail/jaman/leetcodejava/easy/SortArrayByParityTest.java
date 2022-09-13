@@ -10,9 +10,7 @@ public class SortArrayByParityTest {
     public void defaultTest() {
         assertArrayEquals(
                 new int[]{2, 4, 3, 1},
-                new SortArrayByParity(
-                        new int[]{3, 1, 2, 4}
-                ).solution()
+                new SortArrayByParity(new int[]{3, 1, 2, 4}).solution()
         );
     }
 

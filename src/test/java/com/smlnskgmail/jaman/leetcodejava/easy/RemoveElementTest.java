@@ -10,15 +10,9 @@ public class RemoveElementTest {
     public void defaultTest() {
         final int[] input = new int[]{3, 2, 2, 3};
         final int value = 3;
-        final int index = new RemoveElement(
-                input,
-                value
-        ).solution();
+        final int index = new RemoveElement(input, value).solution();
         for (int i = 0; i < index; i++) {
-            assertEquals(
-                    2,
-                    input[i]
-            );
+            assertEquals(2, input[i]);
         }
     }
 

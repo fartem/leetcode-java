@@ -13,12 +13,7 @@ public class ReverseLinkedListTest {
         ListNode reversedList = new ReverseLinkedList(
                 ListNode.fromNumbers(1, 2, 3, 4, 5)
         ).solution();
-        assertTrue(
-                ListNode.areEqual(
-                        validList,
-                        reversedList
-                )
-        );
+        assertTrue(ListNode.areEqual(validList, reversedList));
     }
 
 }

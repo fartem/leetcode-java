@@ -8,13 +8,7 @@ public class HammingDistanceTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                2,
-                new HammingDistance(
-                        1,
-                        4
-                ).solution()
-        );
+        assertEquals(2, new HammingDistance(1, 4).solution());
     }
 
 }

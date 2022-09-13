@@ -12,26 +12,12 @@ public class KthLargestElementInAStreamTest {
                 3,
                 new int[]{4, 5, 8, 2}
         );
-        assertEquals(
-                4,
-                kthLargestElementInAStream.add(3)
-        );
-        assertEquals(
-                5,
-                kthLargestElementInAStream.add(5)
-        );
-        assertEquals(
-                5,
-                kthLargestElementInAStream.add(10)
-        );
-        assertEquals(
-                8,
-                kthLargestElementInAStream.add(9)
-        );
-        assertEquals(
-                8,
-                kthLargestElementInAStream.add(4)
-        );
+
+        assertEquals(4, kthLargestElementInAStream.add(3));
+        assertEquals(5, kthLargestElementInAStream.add(5));
+        assertEquals(5, kthLargestElementInAStream.add(10));
+        assertEquals(8, kthLargestElementInAStream.add(9));
+        assertEquals(8, kthLargestElementInAStream.add(4));
     }
 
 }

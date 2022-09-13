@@ -10,9 +10,7 @@ public class LatestTimeByReplacingHiddenDigitsTest {
     public void defaultTest() {
         assertEquals(
                 "23:50",
-                new LatestTimeByReplacingHiddenDigits(
-                        "2?:?0"
-                ).solution()
+                new LatestTimeByReplacingHiddenDigits("2?:?0").solution()
         );
     }
 

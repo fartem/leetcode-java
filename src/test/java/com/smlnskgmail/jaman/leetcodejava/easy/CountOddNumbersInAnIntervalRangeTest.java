@@ -10,10 +10,7 @@ public class CountOddNumbersInAnIntervalRangeTest {
     public void defaultTest() {
         assertEquals(
                 3,
-                new CountOddNumbersInAnIntervalRange(
-                        3,
-                        7
-                ).solution()
+                new CountOddNumbersInAnIntervalRange(3, 7).solution()
         );
     }
 

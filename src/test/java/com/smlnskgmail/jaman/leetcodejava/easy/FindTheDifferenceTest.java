@@ -10,10 +10,7 @@ public class FindTheDifferenceTest {
     public void defaultTest() {
         assertEquals(
                 'e',
-                new FindTheDifference(
-                        "abcd",
-                        "abcde"
-                ).solution()
+                new FindTheDifference("abcd", "abcde").solution()
         );
     }
 

@@ -11,10 +11,7 @@ public class ReverseStringTest {
         char[] input = new char[]{'h', 'e', 'l', 'l', 'o'};
         ReverseString reverseString = new ReverseString(input);
         reverseString.solution();
-        assertArrayEquals(
-                new char[]{'o', 'l', 'l', 'e', 'h'},
-                input
-        );
+        assertArrayEquals(new char[]{'o', 'l', 'l', 'e', 'h'}, input);
     }
 
 }

@@ -13,9 +13,7 @@ public class PositionsOfLargeGroupsTest {
     public void defaultTest() {
         assertEquals(
                 List.of(Arrays.asList(3, 6)),
-                new PositionsOfLargeGroups(
-                        "abbxxxxzyy"
-                ).solution()
+                new PositionsOfLargeGroups("abbxxxxzyy").solution()
         );
     }
 

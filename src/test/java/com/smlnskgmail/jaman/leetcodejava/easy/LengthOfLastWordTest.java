@@ -10,9 +10,7 @@ public class LengthOfLastWordTest {
     public void defaultTest() {
         assertEquals(
                 5,
-                new LengthOfLastWord(
-                        "Hello World"
-                ).solution()
+                new LengthOfLastWord("Hello World").solution()
         );
     }
 

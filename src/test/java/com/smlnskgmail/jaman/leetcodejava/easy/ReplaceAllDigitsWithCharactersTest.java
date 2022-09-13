@@ -10,9 +10,7 @@ public class ReplaceAllDigitsWithCharactersTest {
     public void defaultTest() {
         assertEquals(
                 "abcdef",
-                new ReplaceAllDigitsWithCharacters(
-                        "a1c1e1"
-                ).solution()
+                new ReplaceAllDigitsWithCharacters("a1c1e1").solution()
         );
     }
 

@@ -8,12 +8,7 @@ public class RotateStringTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new RotateString(
-                        "abcde",
-                        "cdeab"
-                ).solution()
-        );
+        assertTrue(new RotateString("abcde", "cdeab").solution());
     }
 
 }

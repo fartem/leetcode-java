@@ -10,9 +10,7 @@ public class SumOfAllSubsetXORTotalsTest {
     public void defaultTest() {
         assertEquals(
                 6,
-                new SumOfAllSubsetXORTotals(
-                        new int[]{1, 3}
-                ).solution()
+                new SumOfAllSubsetXORTotals(new int[]{1, 3}).solution()
         );
     }
 

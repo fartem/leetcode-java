@@ -8,10 +8,7 @@ public class Base7Test {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                "202",
-                new Base7(100).solution()
-        );
+        assertEquals("202", new Base7(100).solution());
     }
 
 }

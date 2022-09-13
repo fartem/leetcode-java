@@ -10,9 +10,7 @@ public class MajorityElementTest {
     public void defaultTest() {
         assertEquals(
                 3,
-                new MajorityElement(
-                        new int[]{3, 2, 3}
-                ).solution()
+                new MajorityElement(new int[]{3, 2, 3}).solution()
         );
     }
 

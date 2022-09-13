@@ -8,13 +8,7 @@ public class AddBinaryTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                "100",
-                new AddBinary(
-                        "11",
-                        "1"
-                ).solution()
-        );
+        assertEquals("100", new AddBinary("11", "1").solution());
     }
 
 }

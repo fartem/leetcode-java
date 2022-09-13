@@ -11,12 +11,8 @@ public class FizzBuzzTest {
     @Test
     public void defaultTest() {
         assertEquals(
-                Collections.singletonList(
-                        "1"
-                ),
-                new FizzBuzz(
-                        1
-                ).solution()
+                Collections.singletonList("1"),
+                new FizzBuzz(1).solution()
         );
     }
 

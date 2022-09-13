@@ -10,9 +10,7 @@ public class ReformatTheStringTest {
     public void defaultTest() {
         assertEquals(
                 "0a1b2c",
-                new ReformatTheString(
-                        "0a1b2c"
-                ).solution()
+                new ReformatTheString("0a1b2c").solution()
         );
     }
 

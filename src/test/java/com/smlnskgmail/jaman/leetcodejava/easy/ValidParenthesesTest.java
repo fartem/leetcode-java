@@ -8,11 +8,7 @@ public class ValidParenthesesTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new ValidParentheses(
-                        "()"
-                ).solution()
-        );
+        assertTrue(new ValidParentheses("()").solution());
     }
 
 }

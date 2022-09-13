@@ -8,10 +8,7 @@ public class ClimbingStairsTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                2,
-                new ClimbingStairs(2).solution()
-        );
+        assertEquals(2, new ClimbingStairs(2).solution());
     }
 
 }

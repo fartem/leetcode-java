@@ -10,9 +10,7 @@ public class ConsecutiveCharactersTest {
     public void defaultTest() {
         assertEquals(
                 2,
-                new ConsecutiveCharacters(
-                        "leetcode"
-                ).solution()
+                new ConsecutiveCharacters("leetcode").solution()
         );
     }
 

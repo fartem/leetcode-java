@@ -10,9 +10,7 @@ public class NumberOfGoodPairsTest {
     public void defaultTest() {
         assertEquals(
                 4,
-                new NumberOfGoodPairs(
-                        new int[]{1, 2, 3, 1, 1, 3}
-                ).solution()
+                new NumberOfGoodPairs(new int[]{1, 2, 3, 1, 1, 3}).solution()
         );
     }
 

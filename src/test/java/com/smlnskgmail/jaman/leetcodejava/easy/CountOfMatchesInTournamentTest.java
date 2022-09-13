@@ -10,9 +10,7 @@ public class CountOfMatchesInTournamentTest {
     public void defaultTest() {
         assertEquals(
                 6,
-                new CountOfMatchesInTournament(
-                        7
-                ).solution()
+                new CountOfMatchesInTournament(7).solution()
         );
     }
 

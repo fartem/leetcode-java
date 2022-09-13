@@ -8,11 +8,7 @@ public class DetectCapitalTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new DetectCapital(
-                        "USA"
-                ).solution()
-        );
+        assertTrue(new DetectCapital("USA").solution());
     }
 
 }

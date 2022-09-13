@@ -32,10 +32,7 @@ public class FindACorrespondingNodeOfABinaryTreeInACloneOfThatTreeTest {
                 ),
                 target
         ).solution();
-        assertEquals(
-                correct,
-                solution
-        );
+        assertEquals(correct, solution);
     }
 
 }

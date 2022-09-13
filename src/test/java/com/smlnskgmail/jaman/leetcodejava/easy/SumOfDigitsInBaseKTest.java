@@ -10,10 +10,7 @@ public class SumOfDigitsInBaseKTest {
     public void defaultTest() {
         assertEquals(
                 9,
-                new SumOfDigitsInBaseK(
-                        34,
-                        6
-                ).solution()
+                new SumOfDigitsInBaseK(34, 6).solution()
         );
     }
 

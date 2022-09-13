@@ -8,14 +8,7 @@ public class BinaryGapTest {
 
     @Test
     public void defaultTest() {
-//        assertEquals(
-//                2,
-//                new BinaryGap(22).solution()
-//        );
-        assertEquals(
-                2,
-                new BinaryGap(13).solution()
-        );
+        assertEquals(2, new BinaryGap(22).solution());
     }
 
 }

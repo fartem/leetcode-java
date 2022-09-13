@@ -10,9 +10,7 @@ public class RemoveOutermostParenthesesTest {
     public void defaultTest() {
         assertEquals(
                 "()()()",
-                new RemoveOutermostParentheses(
-                        "(()())(())"
-                ).solution()
+                new RemoveOutermostParentheses("(()())(())").solution()
         );
     }
 

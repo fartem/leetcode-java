@@ -8,12 +8,7 @@ public class ArrayPartitionTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                4,
-                new ArrayPartition(
-                        new int[]{1, 2, 3, 4}
-                ).solution()
-        );
+        assertEquals(4, new ArrayPartition(new int[]{1, 2, 3, 4}).solution());
     }
 
 }

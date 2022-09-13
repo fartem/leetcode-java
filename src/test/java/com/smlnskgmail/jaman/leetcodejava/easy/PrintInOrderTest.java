@@ -16,10 +16,7 @@ public class PrintInOrderTest {
         printInOrder.first(first);
         printInOrder.second(second);
         printInOrder.third(third);
-        assertEquals(
-                "firstsecondthird",
-                output.toString()
-        );
+        assertEquals("firstsecondthird", output.toString());
     }
 
 }

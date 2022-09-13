@@ -10,10 +10,7 @@ public class LongestUncommonSubsequenceITest {
     public void defaultTest() {
         assertEquals(
                 3,
-                new LongestUncommonSubsequenceI(
-                        "aba",
-                        "cdc"
-                ).solution()
+                new LongestUncommonSubsequenceI("aba", "cdc").solution()
         );
     }
 

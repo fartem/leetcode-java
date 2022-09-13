@@ -8,12 +8,7 @@ public class LongPressedNameTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new LongPressedName(
-                        "alex",
-                        "aaleex"
-                ).solution()
-        );
+        assertTrue(new LongPressedName("alex", "aaleex").solution());
     }
 
 }

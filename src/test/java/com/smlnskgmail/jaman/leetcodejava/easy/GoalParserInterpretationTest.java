@@ -10,9 +10,7 @@ public class GoalParserInterpretationTest {
     public void defaultTest() {
         assertEquals(
                 "Goal",
-                new GoalParserInterpretation(
-                        "G()(al)"
-                ).solution()
+                new GoalParserInterpretation("G()(al)").solution()
         );
     }
 

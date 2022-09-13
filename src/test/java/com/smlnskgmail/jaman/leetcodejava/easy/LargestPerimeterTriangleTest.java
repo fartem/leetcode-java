@@ -10,9 +10,7 @@ public class LargestPerimeterTriangleTest {
     public void defaultTest() {
         assertEquals(
                 5,
-                new LargestPerimeterTriangle(
-                        new int[]{2, 1, 2}
-                ).solution()
+                new LargestPerimeterTriangle(new int[]{2, 1, 2}).solution()
         );
     }
 

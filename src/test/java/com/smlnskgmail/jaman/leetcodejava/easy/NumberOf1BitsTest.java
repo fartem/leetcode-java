@@ -10,9 +10,7 @@ public class NumberOf1BitsTest {
     public void defaultTest() {
         assertEquals(
                 3,
-                new NumberOf1Bits(
-                        0b00000000000000000000000000001011
-                ).solution()
+                new NumberOf1Bits(0b00000000000000000000000000001011).solution()
         );
     }
 

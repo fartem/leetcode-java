@@ -8,12 +8,7 @@ public class LongestPalindromeTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                7,
-                new LongestPalindrome(
-                        "abccccdd"
-                ).solution()
-        );
+        assertEquals(7, new LongestPalindrome("abccccdd").solution());
     }
 
 }

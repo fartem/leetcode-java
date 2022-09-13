@@ -8,11 +8,7 @@ public class ValidPalindromeIITest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new ValidPalindromeII(
-                        "aba"
-                ).solution()
-        );
+        assertTrue(new ValidPalindromeII("aba").solution());
     }
 
 }

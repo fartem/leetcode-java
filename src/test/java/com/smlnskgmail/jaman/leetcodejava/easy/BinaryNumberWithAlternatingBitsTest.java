@@ -8,9 +8,7 @@ public class BinaryNumberWithAlternatingBitsTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new BinaryNumberWithAlternatingBits(5).solution()
-        );
+        assertTrue(new BinaryNumberWithAlternatingBits(5).solution());
     }
 
 }

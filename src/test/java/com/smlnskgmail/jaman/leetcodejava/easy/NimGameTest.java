@@ -8,9 +8,7 @@ public class NimGameTest {
 
     @Test
     public void defaultTest() {
-        assertFalse(
-                new NimGame(4).solution()
-        );
+        assertFalse(new NimGame(4).solution());
     }
 
 }

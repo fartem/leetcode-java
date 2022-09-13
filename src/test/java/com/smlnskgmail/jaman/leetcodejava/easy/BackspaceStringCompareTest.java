@@ -8,12 +8,7 @@ public class BackspaceStringCompareTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new BackspaceStringCompare(
-                        "ab#c",
-                        "ad#c"
-                ).solution()
-        );
+        assertTrue(new BackspaceStringCompare("ab#c", "ad#c").solution());
     }
 
 }

@@ -8,11 +8,7 @@ public class RepeatedSubstringPatternTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new RepeatedSubstringPattern(
-                        "abab"
-                ).solution()
-        );
+        assertTrue(new RepeatedSubstringPattern("abab").solution());
     }
 
 }

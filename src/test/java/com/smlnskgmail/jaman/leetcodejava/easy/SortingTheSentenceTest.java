@@ -10,9 +10,7 @@ public class SortingTheSentenceTest {
     public void defaultTest() {
         assertEquals(
                 "This is a sentence",
-                new SortingTheSentence(
-                        "is2 sentence4 This1 a3"
-                ).solution()
+                new SortingTheSentence("is2 sentence4 This1 a3").solution()
         );
     }
 

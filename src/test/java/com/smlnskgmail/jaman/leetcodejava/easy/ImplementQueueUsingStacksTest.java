@@ -12,17 +12,10 @@ public class ImplementQueueUsingStacksTest {
         ImplementQueueUsingStacks implementQueueUsingStacks = new ImplementQueueUsingStacks();
         implementQueueUsingStacks.push(1);
         implementQueueUsingStacks.push(2);
-        assertEquals(
-                1,
-                implementQueueUsingStacks.peek()
-        );
-        assertEquals(
-                1,
-                implementQueueUsingStacks.pop()
-        );
-        assertFalse(
-                implementQueueUsingStacks.empty()
-        );
+
+        assertEquals(1, implementQueueUsingStacks.peek());
+        assertEquals(1, implementQueueUsingStacks.pop());
+        assertFalse(implementQueueUsingStacks.empty());
     }
 
 }
