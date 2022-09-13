@@ -45,19 +45,7 @@ public class MergeTwoBinaryTreesTest {
                 )
         );
         TreeNode solution = new MergeTwoBinaryTrees(root1, root2).solution();
-        assertTrue(check(correct, solution));
-    }
-
-    private boolean check(TreeNode left, TreeNode right) {
-        if (left != null && right != null) {
-            if (left.val != right.val) {
-                return false;
-            }
-            boolean lCorrect = check(left.left, right.left);
-            boolean rCorrect = check(left.right, right.right);
-            return lCorrect && rCorrect;
-        }
-        return left == null && right == null;
+        assertTrue(TreeNode.areEqual(correct, solution));
     }
 
 }

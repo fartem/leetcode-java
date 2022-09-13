@@ -8,12 +8,7 @@ public class IsomorphicStringsTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new IsomorphicStrings(
-                        "egg",
-                        "add"
-                ).solution()
-        );
+        assertTrue(new IsomorphicStrings("egg", "add").solution());
     }
 
 }

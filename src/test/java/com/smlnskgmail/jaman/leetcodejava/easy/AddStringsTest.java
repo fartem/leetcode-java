@@ -8,13 +8,7 @@ public class AddStringsTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                "134",
-                new AddStrings(
-                        "11",
-                        "123"
-                ).solution()
-        );
+        assertEquals("134", new AddStrings("11", "123").solution());
     }
 
 }

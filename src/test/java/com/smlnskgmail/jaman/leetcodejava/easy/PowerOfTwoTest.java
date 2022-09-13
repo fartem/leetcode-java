@@ -8,9 +8,7 @@ public class PowerOfTwoTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new PowerOfTwo(16).solution()
-        );
+        assertTrue(new PowerOfTwo(16).solution());
     }
 
 }

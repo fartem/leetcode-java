@@ -11,10 +11,7 @@ public class StringMatchingInAnArrayTest {
     @Test
     public void defaultTest() {
         assertEquals(
-                Arrays.asList(
-                        "as",
-                        "hero"
-                ),
+                Arrays.asList("as", "hero"),
                 new StringMatchingInAnArray(
                         Arrays.asList(
                                 "mass",

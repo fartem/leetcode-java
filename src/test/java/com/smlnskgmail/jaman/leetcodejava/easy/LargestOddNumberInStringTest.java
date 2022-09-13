@@ -10,9 +10,7 @@ public class LargestOddNumberInStringTest {
     public void defaultTest() {
         assertEquals(
                 "5",
-                new LargestOddNumberInString(
-                        "52"
-                ).solution()
+                new LargestOddNumberInString("52").solution()
         );
     }
 

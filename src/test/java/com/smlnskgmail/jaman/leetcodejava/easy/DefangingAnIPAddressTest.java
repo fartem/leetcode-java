@@ -10,9 +10,7 @@ public class DefangingAnIPAddressTest {
     public void defaultTest() {
         assertEquals(
                 "1[.]1[.]1[.]1",
-                new DefangingAnIPAddress(
-                        "1.1.1.1"
-                ).solution()
+                new DefangingAnIPAddress("1.1.1.1").solution()
         );
     }
 

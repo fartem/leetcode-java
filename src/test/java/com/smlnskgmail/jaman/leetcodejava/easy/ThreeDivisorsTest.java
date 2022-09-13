@@ -8,9 +8,7 @@ public class ThreeDivisorsTest {
 
     @Test
     public void defaultTest() {
-        assertFalse(
-                new ThreeDivisors(2).solution()
-        );
+        assertFalse(new ThreeDivisors(2).solution());
     }
 
 }

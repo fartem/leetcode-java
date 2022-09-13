@@ -8,11 +8,7 @@ public class LongerContiguousSegmentsOfOnesThanZerosTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new LongerContiguousSegmentsOfOnesThanZeros(
-                        "1101"
-                ).solution()
-        );
+        assertTrue(new LongerContiguousSegmentsOfOnesThanZeros("1101").solution());
     }
 
 }

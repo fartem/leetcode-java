@@ -8,10 +8,7 @@ public class AddTwoIntegersTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                17,
-                new AddTwoIntegers(12, 5).solution()
-        );
+        assertEquals(17, new AddTwoIntegers(12, 5).solution());
     }
 
 }

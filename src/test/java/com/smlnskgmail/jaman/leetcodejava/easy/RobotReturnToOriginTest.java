@@ -8,11 +8,7 @@ public class RobotReturnToOriginTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new RobotReturnToOrigin(
-                        "UD"
-                ).solution()
-        );
+        assertTrue(new RobotReturnToOrigin("UD").solution());
     }
 
 }

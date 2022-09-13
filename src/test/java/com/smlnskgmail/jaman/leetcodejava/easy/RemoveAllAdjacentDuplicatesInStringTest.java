@@ -10,9 +10,7 @@ public class RemoveAllAdjacentDuplicatesInStringTest {
     public void defaultTest() {
         assertEquals(
                 "ca",
-                new RemoveAllAdjacentDuplicatesInString(
-                        "abbaca"
-                ).solution()
+                new RemoveAllAdjacentDuplicatesInString("abbaca").solution()
         );
     }
 

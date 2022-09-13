@@ -8,9 +8,7 @@ public class DivisorGameTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new DivisorGame(2).solution()
-        );
+        assertTrue(new DivisorGame(2).solution());
     }
 
 }

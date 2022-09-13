@@ -10,9 +10,7 @@ public class ReverseBitsTest {
     public void defaultTest() {
         assertEquals(
                 964176192,
-                new ReverseBits(
-                        0b00000010100101000001111010011100
-                ).solution()
+                new ReverseBits(0b00000010100101000001111010011100).solution()
         );
     }
 

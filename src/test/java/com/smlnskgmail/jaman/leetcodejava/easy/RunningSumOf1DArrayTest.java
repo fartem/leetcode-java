@@ -10,9 +10,7 @@ public class RunningSumOf1DArrayTest {
     public void defaultTest() {
         assertArrayEquals(
                 new int[]{1, 3, 6, 10},
-                new RunningSumOf1DArray(
-                        new int[]{1, 2, 3, 4}
-                ).solution()
+                new RunningSumOf1DArray(new int[]{1, 2, 3, 4}).solution()
         );
     }
 

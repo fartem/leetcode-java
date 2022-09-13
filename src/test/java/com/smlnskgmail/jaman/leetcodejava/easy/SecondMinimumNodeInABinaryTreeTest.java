@@ -20,9 +20,7 @@ public class SecondMinimumNodeInABinaryTreeTest {
         );
         assertEquals(
                 5,
-                new SecondMinimumNodeInABinaryTree(
-                        root
-                ).solution()
+                new SecondMinimumNodeInABinaryTree(root).solution()
         );
     }
 

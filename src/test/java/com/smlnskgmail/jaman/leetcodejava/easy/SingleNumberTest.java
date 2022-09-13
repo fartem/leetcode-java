@@ -8,12 +8,7 @@ public class SingleNumberTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                1,
-                new SingleNumber(
-                        new int[]{2, 2, 1}
-                ).solution()
-        );
+        assertEquals(1, new SingleNumber(new int[]{2, 2, 1}).solution());
     }
 
 }

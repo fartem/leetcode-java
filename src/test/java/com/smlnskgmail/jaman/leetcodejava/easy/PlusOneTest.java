@@ -10,9 +10,7 @@ public class PlusOneTest {
     public void defaultTest() {
         assertArrayEquals(
                 new int[]{1, 2, 4},
-                new PlusOne(
-                        new int[]{1, 2, 3}
-                ).solution()
+                new PlusOne(new int[]{1, 2, 3}).solution()
         );
     }
 

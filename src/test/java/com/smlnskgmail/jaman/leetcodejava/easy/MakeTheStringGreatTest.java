@@ -10,9 +10,7 @@ public class MakeTheStringGreatTest {
     public void defaultTest() {
         assertEquals(
                 "leetcode",
-                new MakeTheStringGreat(
-                        "leEeetcode"
-                ).solution()
+                new MakeTheStringGreat("leEeetcode").solution()
         );
     }
 

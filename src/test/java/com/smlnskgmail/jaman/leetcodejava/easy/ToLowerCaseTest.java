@@ -8,12 +8,7 @@ public class ToLowerCaseTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                "hello",
-                new ToLowerCase(
-                        "Hello"
-                ).solution()
-        );
+        assertEquals("hello", new ToLowerCase("Hello").solution());
     }
 
 }

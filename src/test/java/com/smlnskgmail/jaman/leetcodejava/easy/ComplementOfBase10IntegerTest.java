@@ -10,9 +10,7 @@ public class ComplementOfBase10IntegerTest {
     public void defaultTest() {
         assertEquals(
                 2,
-                new ComplementOfBase10Integer(
-                        5
-                ).solution()
+                new ComplementOfBase10Integer(5).solution()
         );
     }
 

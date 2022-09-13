@@ -10,9 +10,7 @@ public class ReformatDateTest {
     public void defaultTest() {
         assertEquals(
                 "2052-10-20",
-                new ReformatDate(
-                        "20th Oct 2052"
-                ).solution()
+                new ReformatDate("20th Oct 2052").solution()
         );
     }
 

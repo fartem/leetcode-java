@@ -8,12 +8,7 @@ public class NumberComplementTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                2,
-                new NumberComplement(
-                        5
-                ).solution()
-        );
+        assertEquals(2, new NumberComplement(5).solution());
     }
 
 }

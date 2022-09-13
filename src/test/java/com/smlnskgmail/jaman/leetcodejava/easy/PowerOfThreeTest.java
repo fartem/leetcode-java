@@ -8,9 +8,7 @@ public class PowerOfThreeTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new PowerOfThree(27).solution()
-        );
+        assertTrue(new PowerOfThree(27).solution());
     }
 
 }

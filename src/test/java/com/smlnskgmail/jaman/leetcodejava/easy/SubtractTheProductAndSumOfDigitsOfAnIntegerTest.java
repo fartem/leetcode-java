@@ -10,9 +10,7 @@ public class SubtractTheProductAndSumOfDigitsOfAnIntegerTest {
     public void defaultTest() {
         assertEquals(
                 15,
-                new SubtractTheProductAndSumOfDigitsOfAnInteger(
-                        234
-                ).solution()
+                new SubtractTheProductAndSumOfDigitsOfAnInteger(234).solution()
         );
     }
 

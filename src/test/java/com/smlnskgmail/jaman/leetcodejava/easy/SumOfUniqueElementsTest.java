@@ -10,9 +10,7 @@ public class SumOfUniqueElementsTest {
     public void defaultTest() {
         assertEquals(
                 4,
-                new SumOfUniqueElements(
-                        new int[]{1, 2, 3, 2}
-                ).solution()
+                new SumOfUniqueElements(new int[]{1, 2, 3, 2}).solution()
         );
     }
 

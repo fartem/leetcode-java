@@ -10,9 +10,7 @@ public class CountVowelSubstringsOfAStringTest {
     public void defaultTest() {
         assertEquals(
                 2,
-                new CountVowelSubstringsOfAString(
-                        "aeiouu"
-                ).solution()
+                new CountVowelSubstringsOfAString("aeiouu").solution()
         );
     }
 

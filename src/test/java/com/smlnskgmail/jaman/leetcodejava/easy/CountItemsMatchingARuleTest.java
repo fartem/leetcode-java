@@ -14,15 +14,9 @@ public class CountItemsMatchingARuleTest {
                 1,
                 new CountItemsMatchingARule(
                         Arrays.asList(
-                                Arrays.asList(
-                                        "phone", "Blue", "pixel"
-                                ),
-                                Arrays.asList(
-                                        "computer", "silver", "lenovo"
-                                ),
-                                Arrays.asList(
-                                        "phone", "gold", "iphone"
-                                )
+                                Arrays.asList("phone", "Blue", "pixel"),
+                                Arrays.asList("computer", "silver", "lenovo"),
+                                Arrays.asList("phone", "gold", "iphone")
                         ),
                         "color",
                         "silver"

@@ -10,9 +10,7 @@ public class SetMismatchTest {
     public void defaultTest() {
         assertArrayEquals(
                 new int[]{2, 3},
-                new SetMismatch(
-                        new int[]{1, 2, 2, 4}
-                ).solution()
+                new SetMismatch(new int[]{1, 2, 2, 4}).solution()
         );
     }
 

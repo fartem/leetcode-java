@@ -8,11 +8,7 @@ public class DetermineColorOfAChessboardSquareTest {
 
     @Test
     public void defaultTest() {
-        assertFalse(
-                new DetermineColorOfAChessboardSquare(
-                        "a1"
-                ).solution()
-        );
+        assertFalse(new DetermineColorOfAChessboardSquare("a1").solution());
     }
 
 }

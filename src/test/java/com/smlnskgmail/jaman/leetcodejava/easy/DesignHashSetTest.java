@@ -12,10 +12,13 @@ public class DesignHashSetTest {
         DesignHashSet designHashSet = new DesignHashSet();
         designHashSet.add(1);
         designHashSet.add(2);
+
         assertTrue(designHashSet.contains(1));
         assertFalse(designHashSet.contains(3));
+
         designHashSet.add(2);
         assertTrue(designHashSet.contains(2));
+
         designHashSet.remove(2);
         assertFalse(designHashSet.contains(2));
     }

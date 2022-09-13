@@ -15,10 +15,7 @@ public class MergeSortedArrayTest {
                 new int[]{2, 5, 6},
                 3
         ).solution();
-        assertArrayEquals(
-                new int[]{1, 2, 2, 3, 5, 6},
-                nums1
-        );
+        assertArrayEquals(new int[]{1, 2, 2, 3, 5, 6}, nums1);
     }
 
 }

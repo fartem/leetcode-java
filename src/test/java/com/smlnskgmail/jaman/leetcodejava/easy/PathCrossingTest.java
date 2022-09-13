@@ -8,9 +8,7 @@ public class PathCrossingTest {
 
     @Test
     public void defaultTest() {
-        assertFalse(
-                new PathCrossing("NES").solution()
-        );
+        assertFalse(new PathCrossing("NES").solution());
     }
 
 }

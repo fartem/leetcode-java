@@ -8,12 +8,7 @@ public class AddDigitsTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                2,
-                new AddDigits(
-                        38
-                ).solution()
-        );
+        assertEquals(2, new AddDigits(38).solution());
     }
 
 }

@@ -10,10 +10,7 @@ public class ReversePrefixOfWordTest {
     public void defaultTest() {
         assertEquals(
                 "dcbafd",
-                new ReversePrefixOfWord(
-                        "abcdfd",
-                        'd'
-                ).solution()
+                new ReversePrefixOfWord("abcdfd", 'd').solution()
         );
     }
 

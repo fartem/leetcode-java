@@ -8,10 +8,7 @@ public class DayOfTheYearTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                9,
-                new DayOfTheYear("2019-01-09").solution()
-        );
+        assertEquals(9, new DayOfTheYear("2019-01-09").solution());
     }
 
 }

@@ -8,11 +8,7 @@ public class PalindromeNumberTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new PalindromeNumber(
-                        121
-                ).solution()
-        );
+        assertTrue(new PalindromeNumber(121).solution());
     }
 
 }

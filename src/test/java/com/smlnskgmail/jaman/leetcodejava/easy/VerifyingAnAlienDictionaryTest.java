@@ -2,7 +2,6 @@ package com.smlnskgmail.jaman.leetcodejava.easy;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class VerifyingAnAlienDictionaryTest {
@@ -13,12 +12,6 @@ public class VerifyingAnAlienDictionaryTest {
                 new VerifyingAnAlienDictionary(
                         new String[]{"hello", "leetcode"},
                         "hlabcdefgijkmnopqrstuvwxyz"
-                ).solution()
-        );
-        assertFalse(
-                new VerifyingAnAlienDictionary(
-                        new String[]{"apple", "app"},
-                        "abcdefghijklmnopqrstuvwxyz"
                 ).solution()
         );
     }

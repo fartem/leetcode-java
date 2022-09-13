@@ -10,9 +10,7 @@ public class ReformatPhoneNumberTest {
     public void defaultTest() {
         assertEquals(
                 "123-456",
-                new ReformatPhoneNumber(
-                        "1-23-45 6"
-                ).solution()
+                new ReformatPhoneNumber("1-23-45 6").solution()
         );
     }
 

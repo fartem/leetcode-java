@@ -8,12 +8,7 @@ public class IsSubsequenceTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new IsSubsequence(
-                        "abc",
-                        "ahbgdc"
-                ).solution()
-        );
+        assertTrue(new IsSubsequence("abc", "ahbgdc").solution());
     }
 
 }

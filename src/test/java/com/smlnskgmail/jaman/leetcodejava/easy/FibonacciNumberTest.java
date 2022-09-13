@@ -8,12 +8,7 @@ public class FibonacciNumberTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                1,
-                new FibonacciNumber(
-                        2
-                ).solution()
-        );
+        assertEquals(1, new FibonacciNumber(2).solution());
     }
 
 }

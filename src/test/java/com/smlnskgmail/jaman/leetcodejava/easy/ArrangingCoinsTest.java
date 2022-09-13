@@ -8,10 +8,7 @@ public class ArrangingCoinsTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                2,
-                new ArrangingCoins(5).solution()
-        );
+        assertEquals(2, new ArrangingCoins(5).solution());
     }
 
 }

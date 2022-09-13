@@ -10,9 +10,7 @@ public class ThirdMaximumNumberTest {
     public void defaultTest() {
         assertEquals(
                 1,
-                new ThirdMaximumNumber(
-                        new int[]{3, 2, 1}
-                ).solution()
+                new ThirdMaximumNumber(new int[]{3, 2, 1}).solution()
         );
     }
 

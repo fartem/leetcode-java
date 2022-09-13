@@ -12,10 +12,7 @@ public class BinaryTreePathsTest {
     @Test
     public void defaultTest() {
         assertEquals(
-                Arrays.asList(
-                        "1->2->5",
-                        "1->3"
-                ),
+                Arrays.asList("1->2->5", "1->3"),
                 new BinaryTreePaths(
                         new TreeNode(
                                 1,

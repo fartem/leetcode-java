@@ -8,10 +8,7 @@ public class SqrtXTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                2,
-                new SqrtX(4).solution()
-        );
+        assertEquals(2, new SqrtX(4).solution());
     }
 
 }

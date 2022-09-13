@@ -10,9 +10,7 @@ public class NumberOfStepsToReduceANumberToZeroTest {
     public void defaultTest() {
         assertEquals(
                 6,
-                new NumberOfStepsToReduceANumberToZero(
-                        14
-                ).solution()
+                new NumberOfStepsToReduceANumberToZero(14).solution()
         );
     }
 

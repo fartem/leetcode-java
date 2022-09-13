@@ -8,9 +8,7 @@ public class PowerOfFourTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new PowerOfFour(16).solution()
-        );
+        assertTrue(new PowerOfFour(16).solution());
     }
 
 }

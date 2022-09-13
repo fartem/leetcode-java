@@ -8,10 +8,7 @@ public class FirstBadVersionTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                4,
-                new FirstBadVersion(5).solution()
-        );
+        assertEquals(4, new FirstBadVersion(5).solution());
     }
 
 }

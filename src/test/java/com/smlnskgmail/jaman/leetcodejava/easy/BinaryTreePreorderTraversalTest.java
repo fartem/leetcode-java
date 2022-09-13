@@ -12,9 +12,7 @@ public class BinaryTreePreorderTraversalTest {
     @Test
     public void defaultTest() {
         assertEquals(
-                Arrays.asList(
-                        1, 2, 3
-                ),
+                Arrays.asList(1, 2, 3),
                 new BinaryTreePreorderTraversal(
                         new TreeNode(
                                 1,

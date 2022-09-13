@@ -10,10 +10,7 @@ public class XOROperationInAnArrayTest {
     public void defaultTest() {
         assertEquals(
                 8,
-                new XOROperationInAnArray(
-                        5,
-                        0
-                ).solution()
+                new XOROperationInAnArray(5, 0).solution()
         );
     }
 

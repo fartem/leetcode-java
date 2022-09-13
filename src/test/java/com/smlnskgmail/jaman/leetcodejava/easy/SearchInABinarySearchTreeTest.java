@@ -21,18 +21,10 @@ public class SearchInABinarySearchTreeTest {
                 ),
                 2
         ).solution();
-        assertEquals(
-                2,
-                solution.val
-        );
-        assertEquals(
-                1,
-                solution.left.val
-        );
-        assertEquals(
-                3,
-                solution.right.val
-        );
+
+        assertEquals(2, solution.val);
+        assertEquals(1, solution.left.val);
+        assertEquals(3, solution.right.val);
     }
 
 }

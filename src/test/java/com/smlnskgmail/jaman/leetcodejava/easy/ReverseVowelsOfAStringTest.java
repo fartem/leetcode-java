@@ -10,9 +10,7 @@ public class ReverseVowelsOfAStringTest {
     public void defaultTest() {
         assertEquals(
                 "holle",
-                new ReverseVowelsOfAString(
-                        "hello"
-                ).solution()
+                new ReverseVowelsOfAString("hello").solution()
         );
     }
 

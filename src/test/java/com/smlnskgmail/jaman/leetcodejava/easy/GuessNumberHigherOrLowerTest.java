@@ -10,10 +10,7 @@ public class GuessNumberHigherOrLowerTest {
     public void defaultTest() {
         assertEquals(
                 6,
-                new GuessNumberHigherOrLower(
-                        10,
-                        6
-                ).solution()
+                new GuessNumberHigherOrLower(10, 6).solution()
         );
     }
 

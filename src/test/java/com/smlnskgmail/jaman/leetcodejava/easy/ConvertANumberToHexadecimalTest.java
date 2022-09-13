@@ -10,9 +10,7 @@ public class ConvertANumberToHexadecimalTest {
     public void defaultTest() {
         assertEquals(
                 "1a",
-                new ConvertANumberToHexadecimal(
-                        26
-                ).solution()
+                new ConvertANumberToHexadecimal(26).solution()
         );
     }
 

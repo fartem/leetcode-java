@@ -8,9 +8,7 @@ public class RansomNoteTest {
 
     @Test
     public void defaultTest() {
-        assertFalse(
-                new RansomNote("a", "b").solution()
-        );
+        assertFalse(new RansomNote("a", "b").solution());
     }
 
 }

@@ -10,9 +10,7 @@ public class SmallestIndexWithEqualValueTest {
     public void defaultTest() {
         assertEquals(
                 0,
-                new SmallestIndexWithEqualValue(
-                        new int[]{0, 1, 2}
-                ).solution()
+                new SmallestIndexWithEqualValue(new int[]{0, 1, 2}).solution()
         );
     }
 
