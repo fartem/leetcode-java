@@ -10,9 +10,7 @@ public class NextGreaterElementIITest {
     public void defaultTest() {
         assertArrayEquals(
                 new int[]{2, -1, 2},
-                new NextGreaterElementII(
-                        new int[]{1, 2, 1}
-                ).solution()
+                new NextGreaterElementII(new int[]{1, 2, 1}).solution()
         );
     }
 

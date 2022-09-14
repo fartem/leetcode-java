@@ -15,10 +15,8 @@ public class InsertDeleteGetRandomO1Test {
 
         int random = insertDeleteGetRandomO1.getRandom();
         assertTrue(random == 1 || random == 2);
-
         assertTrue(insertDeleteGetRandomO1.remove(1));
         assertFalse(insertDeleteGetRandomO1.insert(2));
-
         assertEquals(2, insertDeleteGetRandomO1.getRandom());
     }
 

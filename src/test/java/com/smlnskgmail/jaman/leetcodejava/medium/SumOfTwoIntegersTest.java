@@ -8,10 +8,7 @@ public class SumOfTwoIntegersTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                3,
-                new SumOfTwoIntegers(1, 2).solution()
-        );
+        assertEquals(3, new SumOfTwoIntegers(1, 2).solution());
     }
 
 }

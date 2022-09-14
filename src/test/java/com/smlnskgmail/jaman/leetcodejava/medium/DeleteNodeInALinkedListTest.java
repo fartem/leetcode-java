@@ -13,12 +13,7 @@ public class DeleteNodeInALinkedListTest {
         ListNode validList = ListNode.fromNumbers(4, 1, 9);
 
         new DeleteNodeInALinkedList(head.next).solution();
-        assertTrue(
-                ListNode.areEqual(
-                        head,
-                        validList
-                )
-        );
+        assertTrue(ListNode.areEqual(head, validList));
     }
 
 }

@@ -11,18 +11,10 @@ public class LinkedListRandomNodeTest {
     public void defaultTest() {
         ListNode head = ListNode.fromNumbers(1, 2, 3);
         LinkedListRandomNode linkedListRandomNode = new LinkedListRandomNode(head);
-        assertNotEquals(
-                -1,
-                linkedListRandomNode.solution()
-        );
-        assertNotEquals(
-                -1,
-                linkedListRandomNode.solution()
-        );
-        assertNotEquals(
-                -1,
-                linkedListRandomNode.solution()
-        );
+
+        assertNotEquals(-1, linkedListRandomNode.solution());
+        assertNotEquals(-1, linkedListRandomNode.solution());
+        assertNotEquals(-1, linkedListRandomNode.solution());
     }
 
 }

@@ -8,10 +8,7 @@ public class ReverseIntegerTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                123,
-                new ReverseInteger(321).solution()
-        );
+        assertEquals(123, new ReverseInteger(321).solution());
     }
 
 }

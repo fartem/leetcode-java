@@ -8,10 +8,7 @@ public class TheKthFactorOfNTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                3,
-                new TheKthFactorOfN(12, 3).solution()
-        );
+        assertEquals(3, new TheKthFactorOfN(12, 3).solution());
     }
 
 }

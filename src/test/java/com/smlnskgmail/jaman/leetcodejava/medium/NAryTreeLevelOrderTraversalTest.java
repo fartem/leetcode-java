@@ -26,24 +26,12 @@ public class NAryTreeLevelOrderTraversalTest {
                                         new Node(
                                                 3,
                                                 Arrays.asList(
-                                                        new Node(
-                                                                5,
-                                                                Collections.emptyList()
-                                                        ),
-                                                        new Node(
-                                                                6,
-                                                                Collections.emptyList()
-                                                        )
+                                                        new Node(5, Collections.emptyList()),
+                                                        new Node(6, Collections.emptyList())
                                                 )
                                         ),
-                                        new Node(
-                                                2,
-                                                Collections.emptyList()
-                                        ),
-                                        new Node(
-                                                4,
-                                                Collections.emptyList()
-                                        )
+                                        new Node(2, Collections.emptyList()),
+                                        new Node(4, Collections.emptyList())
                                 )
                         )
                 ).solution()

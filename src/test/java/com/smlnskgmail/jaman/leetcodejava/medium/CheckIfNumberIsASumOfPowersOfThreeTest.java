@@ -8,9 +8,7 @@ public class CheckIfNumberIsASumOfPowersOfThreeTest {
 
     @Test
     public void defaultTest() {
-        assertTrue(
-                new CheckIfNumberIsASumOfPowersOfThree(12).solution()
-        );
+        assertTrue(new CheckIfNumberIsASumOfPowersOfThree(12).solution());
     }
 
 }

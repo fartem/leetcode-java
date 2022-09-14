@@ -11,6 +11,7 @@ public class SeatReservationManagerTest {
         var seatReservationManager = new SeatReservationManager(5);
         assertEquals(1, seatReservationManager.reserve());
         assertEquals(2, seatReservationManager.reserve());
+
         seatReservationManager.unreserve(2);
         assertEquals(2, seatReservationManager.reserve());
         assertEquals(3, seatReservationManager.reserve());
