@@ -14,10 +14,7 @@ public class LinkedListCycleIITest {
         loopStart.next = loopMiddle;
         loopMiddle.next = new ListNode(-4, loopStart);
         ListNode head = new ListNode(3, loopStart);
-        assertEquals(
-                loopStart,
-                new LinkedListCycleII(head).solution()
-        );
+        assertEquals(loopStart, new LinkedListCycleII(head).solution());
     }
 
 }

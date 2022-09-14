@@ -12,14 +12,9 @@ public class EncodeAndDecodeTinyURLTest {
         var encodeAndDecodeTinyURL = new EncodeAndDecodeTinyURL();
         var url = "https://leetcode.com/problems/design-tinyurl";
         var encodedUrl = encodeAndDecodeTinyURL.encode(url);
-        assertNotEquals(
-                url,
-                encodeAndDecodeTinyURL.encode(url)
-        );
-        assertEquals(
-                url,
-                encodeAndDecodeTinyURL.decode(encodedUrl)
-        );
+
+        assertNotEquals(url, encodeAndDecodeTinyURL.encode(url));
+        assertEquals(url, encodeAndDecodeTinyURL.decode(encodedUrl));
     }
 
 }

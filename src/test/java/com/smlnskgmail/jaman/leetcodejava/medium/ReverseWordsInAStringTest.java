@@ -10,9 +10,7 @@ public class ReverseWordsInAStringTest {
     public void defaultTest() {
         assertEquals(
                 "blue is sky the",
-                new ReverseWordsInAString(
-                        "the sky is blue"
-                ).solution()
+                new ReverseWordsInAString("the sky is blue").solution()
         );
     }
 

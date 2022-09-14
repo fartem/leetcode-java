@@ -8,10 +8,7 @@ public class UniqueBinarySearchTreesTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                5,
-                new UniqueBinarySearchTrees(3).solution()
-        );
+        assertEquals(5, new UniqueBinarySearchTrees(3).solution());
     }
 
 }

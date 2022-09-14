@@ -8,10 +8,7 @@ public class StringToIntegerAtoiTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                42,
-                new StringToIntegerAtoi("42").solution()
-        );
+        assertEquals(42, new StringToIntegerAtoi("42").solution());
     }
 
 }

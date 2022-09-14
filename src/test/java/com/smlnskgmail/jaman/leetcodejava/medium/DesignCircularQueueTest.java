@@ -13,17 +13,11 @@ public class DesignCircularQueueTest {
         assertTrue(designCircularQueue.enQueue(2));
         assertTrue(designCircularQueue.enQueue(3));
         assertFalse(designCircularQueue.enQueue(4));
-        assertEquals(
-                3,
-                designCircularQueue.Rear()
-        );
+        assertEquals(3, designCircularQueue.Rear());
         assertTrue(designCircularQueue.isFull());
         assertTrue(designCircularQueue.deQueue());
         assertTrue(designCircularQueue.enQueue(4));
-        assertEquals(
-                4,
-                designCircularQueue.Rear()
-        );
+        assertEquals(4, designCircularQueue.Rear());
     }
 
 }

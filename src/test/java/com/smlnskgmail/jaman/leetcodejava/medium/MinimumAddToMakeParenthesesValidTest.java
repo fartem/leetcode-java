@@ -10,9 +10,7 @@ public class MinimumAddToMakeParenthesesValidTest {
     public void defaultTest() {
         assertEquals(
                 1,
-                new MinimumAddToMakeParenthesesValid(
-                        "())"
-                ).solution()
+                new MinimumAddToMakeParenthesesValid("())").solution()
         );
     }
 

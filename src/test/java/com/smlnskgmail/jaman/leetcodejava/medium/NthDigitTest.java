@@ -8,10 +8,7 @@ public class NthDigitTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                3,
-                new NthDigit(3).solution()
-        );
+        assertEquals(3, new NthDigit(3).solution());
     }
 
 }

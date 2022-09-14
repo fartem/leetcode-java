@@ -14,10 +14,7 @@ public class KClosestPointsToOriginTest {
                 1
         ).solution();
         for (int i = 0; i < correct.length; i++) {
-            assertArrayEquals(
-                    correct[i],
-                    solution[i]
-            );
+            assertArrayEquals(correct[i], solution[i]);
         }
     }
 

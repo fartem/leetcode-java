@@ -10,9 +10,7 @@ public class SortCharactersByFrequencyTest {
     public void defaultTest() {
         assertEquals(
                 "eert",
-                new SortCharactersByFrequency(
-                        "tree"
-                ).solution()
+                new SortCharactersByFrequency("tree").solution()
         );
     }
 

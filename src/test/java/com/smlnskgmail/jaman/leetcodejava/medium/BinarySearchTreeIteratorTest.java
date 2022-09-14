@@ -20,29 +20,14 @@ public class BinarySearchTreeIteratorTest {
                         )
                 )
         );
-        assertEquals(
-                3,
-                binarySearchTreeIterator.next()
-        );
-        assertEquals(
-                7,
-                binarySearchTreeIterator.next()
-        );
+        assertEquals(3, binarySearchTreeIterator.next());
+        assertEquals(7, binarySearchTreeIterator.next());
         assertTrue(binarySearchTreeIterator.hasNext());
-        assertEquals(
-                9,
-                binarySearchTreeIterator.next()
-        );
+        assertEquals(9, binarySearchTreeIterator.next());
         assertTrue(binarySearchTreeIterator.hasNext());
-        assertEquals(
-                15,
-                binarySearchTreeIterator.next()
-        );
+        assertEquals(15, binarySearchTreeIterator.next());
         assertTrue(binarySearchTreeIterator.hasNext());
-        assertEquals(
-                20,
-                binarySearchTreeIterator.next()
-        );
+        assertEquals(20, binarySearchTreeIterator.next());
         assertFalse(binarySearchTreeIterator.hasNext());
     }
 

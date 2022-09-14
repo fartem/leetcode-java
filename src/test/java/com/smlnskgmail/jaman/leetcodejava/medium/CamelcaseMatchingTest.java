@@ -11,11 +11,11 @@ public class CamelcaseMatchingTest {
     @Test
     public void defaultTest() {
         assertEquals(
+                Arrays.asList(true, false, true, true, false),
                 new CamelcaseMatching(
                         new String[]{"FooBar", "FooBarTest", "FootBall", "FrameBuffer", "ForceFeedBack"},
                         "FB"
-                ).solution(),
-                Arrays.asList(true, false, true, true, false)
+                ).solution()
         );
     }
 

@@ -10,10 +10,7 @@ public class RotateArrayTest {
     public void defaultTest() {
         int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7};
         new RotateArray(nums, 3).solution();
-        assertArrayEquals(
-                new int[]{5, 6, 7, 1, 2, 3, 4},
-                nums
-        );
+        assertArrayEquals(new int[]{5, 6, 7, 1, 2, 3, 4}, nums);
     }
 
 }

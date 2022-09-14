@@ -26,20 +26,8 @@ public class MaximumBinaryTreeTest {
                         null
                 )
         );
-        TreeNode solution = new MaximumBinaryTree(
-                new int[]{3, 2, 1, 6, 0, 5}
-        ).solution();
-        assertTrue(assertNodes(correct, solution));
-    }
-
-    private boolean assertNodes(TreeNode n1, TreeNode n2) {
-        if (n1 != null && n2 != null) {
-            if (n1.val != n2.val) {
-                return false;
-            }
-            return assertNodes(n1.left, n2.left) && assertNodes(n1.right, n2.right);
-        }
-        return n1 == null && n2 == null;
+        TreeNode solution = new MaximumBinaryTree(new int[]{3, 2, 1, 6, 0, 5}).solution();
+        assertTrue(TreeNode.areEqual(correct, solution));
     }
 
 }

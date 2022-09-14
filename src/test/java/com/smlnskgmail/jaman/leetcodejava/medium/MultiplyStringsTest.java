@@ -10,10 +10,7 @@ public class MultiplyStringsTest {
     public void defaultTest() {
         assertEquals(
                 "6",
-                new MultiplyStrings(
-                        "2",
-                        "3"
-                ).solution()
+                new MultiplyStrings("2", "3").solution()
         );
     }
 

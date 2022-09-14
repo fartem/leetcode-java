@@ -13,17 +13,11 @@ public class DesignCircularDequeTest {
         assertTrue(designCircularDeque.insertLast(2));
         assertTrue(designCircularDeque.insertFront(3));
         assertFalse(designCircularDeque.insertFront(4));
-        assertEquals(
-                2,
-                designCircularDeque.getRear()
-        );
+        assertEquals(2, designCircularDeque.getRear());
         assertTrue(designCircularDeque.isFull());
         assertTrue(designCircularDeque.deleteLast());
         assertTrue(designCircularDeque.insertFront(4));
-        assertEquals(
-                4,
-                designCircularDeque.getFront()
-        );
+        assertEquals(4, designCircularDeque.getFront());
     }
 
 }

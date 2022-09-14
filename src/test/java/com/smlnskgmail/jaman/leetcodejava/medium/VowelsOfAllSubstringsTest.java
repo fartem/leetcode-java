@@ -8,10 +8,7 @@ public class VowelsOfAllSubstringsTest {
 
     @Test
     public void defaultTest() {
-        assertEquals(
-                6,
-                new VowelsOfAllSubstrings("aba").solution()
-        );
+        assertEquals(6, new VowelsOfAllSubstrings("aba").solution());
     }
 
 }
