@@ -26,9 +26,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: dart-lang/setup-dart@v1.3
-      - name: Go to reachable
-        run: cd readme/reachable
       - name: Install dependencies
+        working-directory: ./readme/reachable
         run: dart pub get
       - name: Run reachable
+        working-directory: ./readme/reachable
         run: dart ./bin/reachable.dart
