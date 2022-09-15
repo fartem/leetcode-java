@@ -27,6 +27,7 @@ Future<void> check(String readmePath) async {
               '$url\n',
               mode: FileMode.append,
             );
+            await Future.delayed(const Duration(seconds: 1));
           } else {
             print('ERROR: $url (${res.statusCode})');
             exit(1);
