@@ -29,6 +29,6 @@ jobs:
       - name: Go to reachable
         run: cd readme/reachable
       - name: Install dependencies
-        run: dart pub run
+        run: dart pub get
       - name: Run reachable
         run: dart ./bin/reachable.dart
