@@ -12,12 +12,12 @@ public class ThirdMaximumNumber {
     }
 
     public int solution() {
-        int n = input.length;
-        if (n < 3) {
-            return input[n - 1];
-        }
         Arrays.sort(input);
+        int n = input.length;
         int last = input[n - 1];
+        if (n < 3) {
+            return last;
+        }
         int target = last;
         int counter = 2;
         for (int i = n - 2; i >= 0; i--) {
