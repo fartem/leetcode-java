@@ -410,6 +410,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 2399. Check Distances Between Same Letters                               | [Link](https://leetcode.com/problems/check-distances-between-same-letters/)                               | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/CheckDistancesBetweenSameLetters.java)                             |
 | 2404. Most Frequent Even Element                                         | [Link](https://leetcode.com/problems/most-frequent-even-element/)                                         | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/MostFrequentEvenElement.java)                                      |
 | 2413. Smallest Even Multiple                                             | [Link](https://leetcode.com/problems/smallest-even-multiple/)                                             | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/SmallestEvenMultiple.java)                                         |
+| 2427. Number of Common Factors                                           | [Link](https://leetcode.com/problems/number-of-common-factors/)                                           | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/NumberOfCommonFactors.java)                                        |
 
 ### Medium
 
