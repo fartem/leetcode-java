@@ -416,6 +416,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 2413. Smallest Even Multiple                                             | [Link](https://leetcode.com/problems/smallest-even-multiple/)                                             | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/SmallestEvenMultiple.java)                                         |
 | 2423. Remove Letter To Equalize Frequency                                | [Link](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)                                | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/RemoveLetterToEqualizeFrequency.java)                              |
 | 2427. Number of Common Factors                                           | [Link](https://leetcode.com/problems/number-of-common-factors/)                                           | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/NumberOfCommonFactors.java)                                        |
+| 2441. Largest Positive Integer That Exists With Its Negative             | [Link](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)             | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/LargestPositiveIntegerThatExistsWithItsNegative.java)              |
 
 ### Medium
 
