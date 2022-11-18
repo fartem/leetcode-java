@@ -421,6 +421,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 2432. The Employee That Worked on the Longest Task                       | [Link](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)                       | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/TheEmployeeThatWorkedOnTheLongestTask.java)                        |
 | 2441. Largest Positive Integer That Exists With Its Negative             | [Link](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)             | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/LargestPositiveIntegerThatExistsWithItsNegative.java)              |
 | 2455. Average Value of Even Numbers That Are Divisible by Three          | [Link](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)          | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/AverageValueOfEvenNumbersThatAreDivisibleByThree.java)             |
+| 2469. Convert the Temperature                                            | [Link](https://leetcode.com/problems/convert-the-temperature/)                                            | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/ConvertTheTemperature.java)                                        |
 
 ### Medium
 
