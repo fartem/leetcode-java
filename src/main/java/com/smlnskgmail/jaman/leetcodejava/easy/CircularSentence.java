@@ -15,8 +15,8 @@ public class CircularSentence {
         char curr = first.charAt(first.length() - 1);
         for (int i = 1; i < words.length; i++) {
             String word = words[i];
-            char last = word.charAt(0);
-            if (curr != last) {
+            char f = word.charAt(0);
+            if (f != curr) {
                 return false;
             }
             curr = word.charAt(word.length() - 1);
