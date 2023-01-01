@@ -424,6 +424,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 2469. Convert the Temperature                                            | [Link](https://leetcode.com/problems/convert-the-temperature/)                                            | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/ConvertTheTemperature.java)                                        |
 | 2481. Minimum Cuts to Divide a Circle                                    | [Link](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/description/)                        | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/MinimumCutsToDivideACircle.java)                                   |
 | 2490. Circular Sentence                                                  | [Link](https://leetcode.com/problems/circular-sentence/description/)                                      | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/CircularSentence.java)                                             |
+| 2520. Count the Digits That Divide a Number                              | [Link](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)                              | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/CountTheDigitsThatDivideANumber.java)                              |
 
 ### Medium
 
