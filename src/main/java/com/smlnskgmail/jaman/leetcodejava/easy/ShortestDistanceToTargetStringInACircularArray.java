@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/description/
+// https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/
 public class ShortestDistanceToTargetStringInACircularArray {
 
     private final String[] words;
