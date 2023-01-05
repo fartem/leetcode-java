@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/circular-sentence/description/
+// https://leetcode.com/problems/circular-sentence/
 public class CircularSentence {
 
     private final String input;

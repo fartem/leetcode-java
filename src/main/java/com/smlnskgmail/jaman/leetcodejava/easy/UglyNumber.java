@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/ugly-number/description/
+// https://leetcode.com/problems/ugly-number/
 public class UglyNumber {
 
     private int input;

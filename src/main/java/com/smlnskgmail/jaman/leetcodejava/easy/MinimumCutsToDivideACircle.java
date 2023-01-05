@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.leetcodejava.easy;
 
-// https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/description/
+// https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/
 public class MinimumCutsToDivideACircle {
 
     private final int input;
