@@ -8,7 +8,7 @@ public class FindThePivotIntegerTest {
 
     @Test
     public void defaultTests() {
-        assertEquals(8, new FindThePivotInteger(6).solution());
+        assertEquals(6, new FindThePivotInteger(8).solution());
         assertEquals(1, new FindThePivotInteger(1).solution());
         assertEquals(-1, new FindThePivotInteger(4).solution());
     }
