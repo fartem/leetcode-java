@@ -432,6 +432,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 2506. Count Pairs Of Similar Strings                                     | [Link](https://leetcode.com/problems/count-pairs-of-similar-strings/)                                     | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/CountPairsOfSimilarStrings.java)                                   |
 | 2515. Shortest Distance to Target String in a Circular Array             | [Link](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)             | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/ShortestDistanceToTargetStringInACircularArray.java)               |
 | 2520. Count the Digits That Divide a Number                              | [Link](https://leetcode.com/problems/count-the-digits-that-divide-a-number/)                              | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/CountTheDigitsThatDivideANumber.java)                              |
+| 2529. Maximum Count of Positive Integer and Negative Integer             | [Link](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)             | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/MaximumCountOfPositiveIntegerAndNegativeInteger.java)              |
 
 ### Medium
 
