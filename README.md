@@ -742,6 +742,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 2326. Spiral Matrix IV                                                              | [Link](https://leetcode.com/problems/spiral-matrix-iv/)                                                              | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/medium/SpiralMatrixIV.java)                                                  |
 | 2375. Construct Smallest Number From DI String                                      | [Link](https://leetcode.com/problems/construct-smallest-number-from-di-string/)                                      | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/medium/ConstructSmallestNumberFromDIString.java)                             |
 | 2390. Removing Stars From a String                                                  | [Link](https://leetcode.com/problems/removing-stars-from-a-string/)                                                  | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/medium/RemovingStarsFromAString.java)                                        |
+| 2415. Reverse Odd Levels of Binary Tree                                             | [Link](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)                                             | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/medium/ReverseOddLevelsOfBinaryTree.java)                                    |
 
 ### Hard
 
