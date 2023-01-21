@@ -1,8 +1,7 @@
 package com.smlnskgmail.jaman.leetcodejava.support;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class TreeNode {
 
@@ -14,6 +13,26 @@ public class TreeNode {
             return areEqual(n1.left, n2.left) && areEqual(n1.right, n2.right);
         }
         return n1 == null && n2 == null;
+    }
+
+    public static TreeNode perfectFromArray(int... tree) {
+        if (tree.length == 0) return null;
+        TreeNode root = new TreeNode(tree[0]);
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        for (int i = 1; i < tree.length; i++) {
+            TreeNode node = q.peek();
+            assert node != null;
+            if (node.left == null) {
+                node.left = new TreeNode(tree[i]);
+                q.add(node.left);
+            } else if (node.right == null) {
+                node.right = new TreeNode(tree[i]);
+                q.add(node.right);
+                q.remove();
+            }
+        }
+        return root;
     }
 
     public int val;
