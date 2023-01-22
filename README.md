@@ -744,6 +744,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 2375. Construct Smallest Number From DI String                                      | [Link](https://leetcode.com/problems/construct-smallest-number-from-di-string/)                                      | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/medium/ConstructSmallestNumberFromDIString.java)                             |
 | 2390. Removing Stars From a String                                                  | [Link](https://leetcode.com/problems/removing-stars-from-a-string/)                                                  | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/medium/RemovingStarsFromAString.java)                                        |
 | 2415. Reverse Odd Levels of Binary Tree                                             | [Link](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)                                             | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/medium/ReverseOddLevelsOfBinaryTree.java)                                    |
+| 2487. Remove Nodes From Linked List                                                 | [Link](https://leetcode.com/problems/remove-nodes-from-linked-list/)                                                 | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/medium/RemoveNodesFromLinkedList.java)                                       |
 
 ### Hard
 
