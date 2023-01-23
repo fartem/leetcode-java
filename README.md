@@ -443,6 +443,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 2525. Categorize Box According to Criteria                               | [Link](https://leetcode.com/problems/categorize-box-according-to-criteria/)                                 | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/CategorizeBoxAccordingToCriteria.java)                             |
 | 2529. Maximum Count of Positive Integer and Negative Integer             | [Link](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)               | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/MaximumCountOfPositiveIntegerAndNegativeInteger.java)              |
 | 2535. Difference Between Element Sum and Digit Sum of an Array           | [Link](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/description/) | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)              |
+| 2540. Minimum Common Value                                               | [Link](https://leetcode.com/problems/minimum-common-value/)                                                 | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/MinimumCommonValue.java)                                           |
 
 ### Medium
 
