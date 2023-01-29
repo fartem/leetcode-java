@@ -449,6 +449,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 2535. Difference Between Element Sum and Digit Sum of an Array           | [Link](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)           | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/DifferenceBetweenElementSumAndDigitSumOfAnArray.java)              |
 | 2540. Minimum Common Value                                               | [Link](https://leetcode.com/problems/minimum-common-value/)                                               | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/MinimumCommonValue.java)                                           |
 | 2544. Alternating Digit Sum                                              | [Link](https://leetcode.com/problems/alternating-digit-sum/)                                              | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/AlternatingDigitSum.java)                                          |
+| 2549. Count Distinct Numbers on Board                                    | [Link](https://leetcode.com/problems/count-distinct-numbers-on-board/)                                    | [Link](./src/main/java/com/smlnskgmail/jaman/leetcodejava/easy/CountDistinctNumbersOnBoard.java)                                  |
 
 ### Medium
 
