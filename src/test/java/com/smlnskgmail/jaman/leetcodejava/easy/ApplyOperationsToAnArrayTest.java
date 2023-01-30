@@ -15,9 +15,9 @@ public class ApplyOperationsToAnArrayTest {
                 ).solution()
         );
         assertArrayEquals(
-                new int[]{0, 1},
+                new int[]{1, 0},
                 new ApplyOperationsToAnArray(
-                        new int[]{1, 0}
+                        new int[]{0, 1}
                 ).solution()
         );
     }
