@@ -18,7 +18,7 @@ module LCSP
 
       line = lines.first
 
-      lines[line.rindex('[Link]'), line.rindex(')')]
+      line[line.rindex('[Link]'), line.rindex(')')]
     end
   end
 end
