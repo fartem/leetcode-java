@@ -12,13 +12,13 @@ module LCSP
 
     # @return {String}
     def solution
-      lines = ::File.readlines("#{@path}/README.md").reject { |line| line.include?(@number) }
+      lines = ::File.readlines("#{@path}/README.md").select { |line| line.include?(@number) }
 
       return if lines.empty?
 
       line = lines.first
 
-      line[line.rindex('[Link]'), line.rindex(')')]
+      "#{@path}/#{line[line.rindex('[Link]') + 9...line.rindex(')')]}"
     end
   end
 end
